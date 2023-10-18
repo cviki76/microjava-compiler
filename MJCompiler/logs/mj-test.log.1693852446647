@@ -1,0 +1,47 @@
+INFO  20:33:30,397 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  20:33:30,406 - #2 program
+INFO  20:33:30,406 - #18 MJProgram
+INFO  20:33:30,406 - #3 const
+INFO  20:33:30,407 - #18 int
+INFO  20:33:30,407 - #18 u
+INFO  20:33:30,407 - #11 =
+INFO  20:33:30,407 - #17 23
+INFO  20:33:30,407 - #14 ,
+INFO  20:33:30,408 - #18 n
+INFO  20:33:30,408 - #11 =
+INFO  20:33:30,408 - #17 44
+INFO  20:33:30,408 - #6 ;
+INFO  20:33:30,408 - #3 const
+INFO  20:33:30,409 - #18 char
+INFO  20:33:30,409 - #18 k
+INFO  20:33:30,409 - #11 =
+INFO  20:33:30,409 - #20 a
+INFO  20:33:30,409 - #14 ,
+INFO  20:33:30,409 - #18 l
+INFO  20:33:30,409 - #11 =
+INFO  20:33:30,409 - #20 v
+INFO  20:33:30,409 - #6 ;
+INFO  20:33:30,410 - #18 int
+INFO  20:33:30,410 - #18 a
+INFO  20:33:30,410 - #10 [
+INFO  20:33:30,410 - #9 ]
+INFO  20:33:30,410 - #10 [
+INFO  20:33:30,410 - #9 ]
+INFO  20:33:30,410 - #14 ,
+INFO  20:33:30,410 - #18 b
+INFO  20:33:30,410 - #14 ,
+INFO  20:33:30,411 - #18 c
+INFO  20:33:30,411 - #10 [
+INFO  20:33:30,411 - #9 ]
+INFO  20:33:30,411 - #6 ;
+INFO  20:33:30,411 - #18 char
+INFO  20:33:30,411 - #18 x
+INFO  20:33:30,411 - #14 ,
+INFO  20:33:30,411 - #18 y
+INFO  20:33:30,412 - #6 ;
+INFO  20:33:30,412 - #4 {
+INFO  20:33:30,412 - #18 int
+INFO  20:33:30,412 - #18 xd
+ERROR 20:33:30,412 - 
+Sintaksna greska na liniji 7
+ERROR 20:33:30,412 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

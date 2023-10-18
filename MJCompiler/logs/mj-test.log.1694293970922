@@ -1,0 +1,130 @@
+INFO  23:10:27,442 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  23:10:27,466 - #2 program
+INFO  23:10:27,467 - #44 MJProgram
+INFO  23:10:27,467 - #44 int
+INFO  23:10:27,467 - #44 x
+INFO  23:10:27,468 - #6 ;
+INFO  23:10:27,468 - #4 {
+INFO  23:10:27,468 - #44 int
+INFO  23:10:27,469 - #44 main
+INFO  23:10:27,469 - #7 (
+INFO  23:10:27,469 - #8 )
+INFO  23:10:27,469 - #44 int
+INFO  23:10:27,469 - #44 arr
+INFO  23:10:27,469 - #10 [
+INFO  23:10:27,469 - #9 ]
+INFO  23:10:27,469 - #6 ;
+INFO  23:10:27,469 - #4 {
+INFO  23:10:27,470 - #44 arr
+INFO  23:10:27,470 - #10 [
+INFO  23:10:27,470 - #43 1
+INFO  23:10:27,470 - #9 ]
+INFO  23:10:27,470 - #11 =
+INFO  23:10:27,471 - #43 3
+INFO  23:10:27,472 - #6 ;
+INFO  23:10:27,472 - #12 return
+INFO  23:10:27,472 - #43 1
+INFO  23:10:27,472 - #6 ;
+INFO  23:10:27,472 - #5 }
+INFO  23:10:27,472 - #5 }
+INFO  23:10:27,480 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsArray(
+               arr
+              ) [IdentOptionsArray]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementOne(
+          StatementDesignator(
+            DesignatorStatementIs(
+              Designator(
+               arr
+                AddOns(
+                  NoAddOns(
+                  ) [NoAddOns]
+                  DesignatorAddOn(
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [DesignatorAddOn]
+                ) [AddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [DesignatorStatementIs]
+          ) [StatementDesignator]
+        ) [StatementOne]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  23:10:27,480 - ===================================
+INFO  23:10:27,483 - Hello Var x na liniji 2
+INFO  23:10:27,483 - Obradjuje se funckijamain na liniji 4
+INFO  23:10:27,483 - Hello Var arr na liniji 5
+INFO  23:10:27,484 - arr
+ERROR 23:10:27,484 - Greska: Tipovi nisu ekvivalentni !DesignatorStatementIs na liniji 9

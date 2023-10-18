@@ -1,0 +1,232 @@
+INFO  20:44:55,228 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  20:44:55,252 - #2 program
+INFO  20:44:55,252 - #42 MJProgram
+INFO  20:44:55,252 - #42 int
+INFO  20:44:55,252 - #42 a
+INFO  20:44:55,253 - #10 [
+INFO  20:44:55,253 - #9 ]
+INFO  20:44:55,253 - #10 [
+INFO  20:44:55,253 - #9 ]
+INFO  20:44:55,253 - #6 ;
+INFO  20:44:55,253 - #42 char
+INFO  20:44:55,254 - #42 b
+INFO  20:44:55,254 - #10 [
+INFO  20:44:55,254 - #9 ]
+INFO  20:44:55,254 - #6 ;
+INFO  20:44:55,254 - #3 const
+INFO  20:44:55,254 - #42 int
+INFO  20:44:55,254 - #42 c
+INFO  20:44:55,254 - #11 =
+INFO  20:44:55,254 - #41 6
+INFO  20:44:55,254 - #6 ;
+INFO  20:44:55,255 - #4 {
+INFO  20:44:55,255 - #42 int
+INFO  20:44:55,256 - #42 main
+INFO  20:44:55,256 - #7 (
+INFO  20:44:55,256 - #8 )
+INFO  20:44:55,256 - #42 int
+INFO  20:44:55,257 - #42 x
+INFO  20:44:55,257 - #15 ,
+INFO  20:44:55,257 - #42 y
+INFO  20:44:55,257 - #6 ;
+INFO  20:44:55,257 - #42 int
+INFO  20:44:55,257 - #42 z
+INFO  20:44:55,257 - #10 [
+INFO  20:44:55,257 - #9 ]
+INFO  20:44:55,257 - #6 ;
+INFO  20:44:55,257 - #42 int
+INFO  20:44:55,257 - #42 m
+INFO  20:44:55,257 - #10 [
+INFO  20:44:55,257 - #9 ]
+INFO  20:44:55,257 - #6 ;
+INFO  20:44:55,257 - #3 const
+INFO  20:44:55,257 - #42 int
+INFO  20:44:55,257 - #42 v
+INFO  20:44:55,257 - #11 =
+INFO  20:44:55,258 - #41 10
+INFO  20:44:55,258 - #6 ;
+INFO  20:44:55,258 - #4 {
+INFO  20:44:55,258 - #42 x
+INFO  20:44:55,258 - #11 =
+INFO  20:44:55,258 - #41 2
+INFO  20:44:55,258 - #6 ;
+INFO  20:44:55,259 - #12 return
+INFO  20:44:55,259 - #41 1
+INFO  20:44:55,259 - #6 ;
+INFO  20:44:55,259 - #5 }
+INFO  20:44:55,259 - #5 }
+INFO  20:44:55,266 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsMatrix(
+               a
+              ) [IdentOptionsMatrix]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          OneIdent(
+            IdentOptionsArray(
+             b
+            ) [IdentOptionsArray]
+          ) [OneIdent]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived2(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstIdentOne(
+          ConstIdent(
+           c
+            ConstValueNumber(
+             6
+            ) [ConstValueNumber]
+          ) [ConstIdent]
+        ) [ConstIdentOne]
+      ) [ConstDecl]
+    ) [OneDeclDerived2]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              OneDeclDerived1(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  IdentListOneOrMore(
+                    OneIdent(
+                      IdentOptionsElem(
+                       x
+                      ) [IdentOptionsElem]
+                    ) [OneIdent]
+                    IdentOptionsElem(
+                     y
+                    ) [IdentOptionsElem]
+                  ) [IdentListOneOrMore]
+                ) [VarDecl]
+              ) [OneDeclDerived1]
+            ) [DeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsArray(
+                   z
+                  ) [IdentOptionsArray]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsArray(
+                 m
+                ) [IdentOptionsArray]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstIdentOne(
+              ConstIdent(
+               v
+                ConstValueNumber(
+                 10
+                ) [ConstValueNumber]
+              ) [ConstIdent]
+            ) [ConstIdentOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementOne(
+          StatementDesignator(
+            DesignatorStatementIs(
+              Designator(
+               x
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [DesignatorStatementIs]
+          ) [StatementDesignator]
+        ) [StatementOne]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  20:44:55,267 - ===================================
+INFO  20:44:55,268 - Hello Vara na liniji 2
+INFO  20:44:55,268 - Hello Varb na liniji 3
+INFO  20:44:55,269 - Obradjuje se funckijamain na liniji 6
+INFO  20:44:55,269 - Hello Varx na liniji 7
+INFO  20:44:55,269 - Hello Vary na liniji 7
+INFO  20:44:55,269 - Hello Varz na liniji 8
+INFO  20:44:55,269 - Hello Varm na liniji 9
+INFO  20:44:55,269 - 1 na liniji 14
+INFO  20:44:55,269 - 1 na liniji 14
+INFO  20:44:55,269 - 1 na liniji 14
+INFO  20:44:55,270 - 1 na liniji 16

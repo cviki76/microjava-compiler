@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.OneIdent"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDecl"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SemanticPass"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.TabAdd"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.classfile.ConstantValue"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ConstValueBool"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.CondTerm"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SemanticPass.Argument"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.Designator"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VisitorAdaptor"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorChar"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Obj"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodTypeNameType"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FormParamsOne"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.SyntaxNode"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.VarCounter"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorDesignator"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementDecr"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ForEachBegin"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ForEachEnd"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.WhileCondition"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.IfBegin"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.IfCondition"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.IfElseCondition"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ElseBegin"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FindAndReplaceBegin"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.StatementPrint"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.StatementPrintWithConst"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ExprOneNeg"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementCount"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementMax"/>
+    <fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementBin"/>
+    <fullyQualifiedTypeName name="rs.etf.pp1.mj.runtime.Code"/>
+</qualifiedTypeNameHistroy>

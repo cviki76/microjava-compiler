@@ -1,0 +1,45 @@
+INFO  15:42:03,391 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  15:42:03,415 - #2 program
+INFO  15:42:03,415 - #44 MJProgram
+INFO  15:42:03,415 - #44 int
+INFO  15:42:03,416 - #44 x
+INFO  15:42:03,416 - #6 ;
+INFO  15:42:03,417 - #4 {
+INFO  15:42:03,417 - #17 void
+INFO  15:42:03,417 - #44 main
+INFO  15:42:03,417 - #7 (
+INFO  15:42:03,418 - #8 )
+INFO  15:42:03,418 - #44 int
+INFO  15:42:03,418 - #44 arr
+INFO  15:42:03,418 - #10 [
+INFO  15:42:03,418 - #9 ]
+INFO  15:42:03,418 - #6 ;
+INFO  15:42:03,418 - #44 int
+INFO  15:42:03,418 - #44 x
+INFO  15:42:03,418 - #6 ;
+INFO  15:42:03,418 - #44 int
+INFO  15:42:03,419 - #44 y
+INFO  15:42:03,419 - #6 ;
+INFO  15:42:03,419 - #44 bool
+INFO  15:42:03,419 - #44 y
+INFO  15:42:03,419 - #6 ;
+INFO  15:42:03,419 - #4 {
+INFO  15:42:03,419 - #44 x
+INFO  15:42:03,419 - #11 =
+INFO  15:42:03,420 - #43 3
+INFO  15:42:03,420 - #6 ;
+INFO  15:42:03,421 - #44 y
+INFO  15:42:03,421 - #11 =
+INFO  15:42:03,421 - #43 4
+INFO  15:42:03,421 - #6 ;
+INFO  15:42:03,421 - #33 while
+INFO  15:42:03,421 - #7 (
+INFO  15:42:03,421 - #44 x
+INFO  15:42:03,421 - #22 <
+INFO  15:42:03,422 - #43 4
+INFO  15:42:03,422 - #8 )
+INFO  15:42:03,422 - #4 {
+INFO  15:42:03,423 - #5 }
+ERROR 15:42:03,423 - 
+Sintaksna greska na liniji 17
+ERROR 15:42:03,423 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17

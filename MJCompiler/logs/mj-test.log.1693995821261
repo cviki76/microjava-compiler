@@ -1,0 +1,100 @@
+INFO  12:23:12,672 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  12:23:12,696 - #2 program
+INFO  12:23:12,696 - #42 MJProgram
+INFO  12:23:12,696 - #42 int
+INFO  12:23:12,697 - #42 a
+INFO  12:23:12,697 - #15 ,
+INFO  12:23:12,697 - #42 b
+INFO  12:23:12,697 - #6 ;
+INFO  12:23:12,697 - #4 {
+INFO  12:23:12,698 - #42 int
+INFO  12:23:12,698 - #42 main
+INFO  12:23:12,698 - #7 (
+INFO  12:23:12,698 - #8 )
+INFO  12:23:12,698 - #42 int
+INFO  12:23:12,699 - #42 x
+INFO  12:23:12,699 - #6 ;
+INFO  12:23:12,699 - #4 {
+INFO  12:23:12,699 - #42 x
+INFO  12:23:12,699 - #11 =
+INFO  12:23:12,699 - #41 2
+INFO  12:23:12,700 - #6 ;
+INFO  12:23:12,700 - #5 }
+INFO  12:23:12,700 - #5 }
+INFO  12:23:12,706 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           b
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  12:23:12,706 - ===================================
+INFO  12:23:12,708 - Hellors.ac.bg.etf.pp1.ast.Type@49097b5d na liniji 2
+INFO  12:23:12,708 - Hellors.ac.bg.etf.pp1.ast.Type@6e2c634b na liniji 5

@@ -1,0 +1,24 @@
+program MJProgram
+	int x;
+{
+
+	int func(){
+		return 1;
+	}
+
+	int main()
+	int arr[];
+	int x;
+	{
+		 	
+		read(x);
+	
+		print(x);
+		
+		print(x);
+	
+		return 1;
+	}
+	
+
+}

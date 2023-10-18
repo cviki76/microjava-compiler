@@ -1,0 +1,146 @@
+INFO  19:23:21,067 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  19:23:21,077 - #2 program
+INFO  19:23:21,077 - #18 MJProgram
+INFO  19:23:21,078 - #3 const
+INFO  19:23:21,078 - #18 int
+INFO  19:23:21,078 - #18 u
+INFO  19:23:21,078 - #11 =
+INFO  19:23:21,079 - #17 23
+INFO  19:23:21,079 - #14 ,
+INFO  19:23:21,079 - #18 n
+INFO  19:23:21,079 - #11 =
+INFO  19:23:21,079 - #17 44
+INFO  19:23:21,079 - #6 ;
+INFO  19:23:21,079 - #3 const
+INFO  19:23:21,080 - #18 char
+INFO  19:23:21,080 - #18 k
+INFO  19:23:21,080 - #11 =
+INFO  19:23:21,081 - #20 a
+INFO  19:23:21,081 - #14 ,
+INFO  19:23:21,081 - #18 l
+INFO  19:23:21,081 - #11 =
+INFO  19:23:21,081 - #20 v
+INFO  19:23:21,081 - #6 ;
+INFO  19:23:21,081 - #18 int
+INFO  19:23:21,081 - #18 a
+INFO  19:23:21,081 - #10 [
+INFO  19:23:21,081 - #9 ]
+INFO  19:23:21,082 - #10 [
+INFO  19:23:21,082 - #9 ]
+INFO  19:23:21,082 - #14 ,
+INFO  19:23:21,082 - #18 b
+INFO  19:23:21,082 - #14 ,
+INFO  19:23:21,082 - #18 c
+INFO  19:23:21,082 - #10 [
+INFO  19:23:21,082 - #9 ]
+INFO  19:23:21,082 - #6 ;
+INFO  19:23:21,082 - #18 char
+INFO  19:23:21,083 - #18 x
+INFO  19:23:21,083 - #14 ,
+INFO  19:23:21,083 - #18 y
+INFO  19:23:21,083 - #6 ;
+INFO  19:23:21,083 - #4 {
+INFO  19:23:21,083 - #18 Hello
+INFO  19:23:21,083 - #5 }
+INFO  19:23:21,085 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdentDerived1(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdentDerived1]
+                ) [ConstIdentOne]
+                ConstIdentDerived1(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdentDerived1(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentOne]
+              ConstIdentDerived1(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdentDerived1]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             x
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclList(
+   Hello
+  ) [MethodDeclList]
+) [Program]
+INFO  19:23:21,085 - ===================================

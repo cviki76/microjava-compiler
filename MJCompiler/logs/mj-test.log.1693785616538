@@ -1,0 +1,11 @@
+INFO  02:00:05,563 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  02:00:05,566 - #2 program
+INFO  02:00:05,566 - #17 MJProgram
+INFO  02:00:05,566 - #17 int
+INFO  02:00:05,566 - #17 a
+INFO  02:00:05,566 - #3 {
+INFO  02:00:05,567 - #4 }
+INFO  02:00:05,567 - #5 ;
+INFO  02:00:05,567 - #3 {
+INFO  02:00:05,567 - #17 Hello
+INFO  02:00:05,567 - #4 }

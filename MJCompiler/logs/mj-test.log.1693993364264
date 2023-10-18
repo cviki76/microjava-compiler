@@ -1,0 +1,81 @@
+INFO  11:42:25,952 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  11:42:25,976 - #2 program
+INFO  11:42:25,976 - #42 MJProgram
+INFO  11:42:25,976 - #42 int
+INFO  11:42:25,977 - #42 a
+INFO  11:42:25,977 - #15 ,
+INFO  11:42:25,977 - #42 b
+INFO  11:42:25,977 - #6 ;
+INFO  11:42:25,977 - #4 {
+INFO  11:42:25,978 - #42 int
+INFO  11:42:25,978 - #42 main
+INFO  11:42:25,978 - #7 (
+INFO  11:42:25,978 - #8 )
+INFO  11:42:25,979 - #4 {
+INFO  11:42:25,979 - #42 x
+INFO  11:42:25,979 - #11 =
+INFO  11:42:25,979 - #41 2
+INFO  11:42:25,979 - #6 ;
+INFO  11:42:25,980 - #5 }
+INFO  11:42:25,980 - #5 }
+INFO  11:42:25,987 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           b
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  11:42:25,987 - ===================================
