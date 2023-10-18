@@ -1,0 +1,767 @@
+package rs.ac.bg.etf.pp1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.log4j.Logger;
+
+import com.sun.org.apache.bcel.internal.classfile.ConstantValue;
+
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.*;
+import rs.etf.pp1.symboltable.concepts.*;
+
+class SemanticPass extends VisitorAdaptor{
+//	int printCallCount = 0;
+//	int varDeclCount = 0;
+	boolean errorDetected = false;
+	Obj currentMethod = null;
+	String currentFunctionCall = null;
+	Struct currentType = null;
+	List<Struct> currentPassedParameters = new ArrayList<Struct>();
+	boolean desAdd = false;
+	boolean hasRet;
+	int retKind;
+	int nVars;
+	
+	int numberOfVars = 0;
+	boolean inWhile = false;
+	boolean inForEach = false;
+	List<Function> functions = null;
+	Function currentFunction = null;
+	 public class Argument {
+	        private String name;
+	        private Struct type;
+
+	        public Argument(String name, Struct type) {
+	            this.name = name;
+	            this.type = type;
+	        }
+
+	        public String getName() {
+	            return name;
+	        }
+
+	        public void setName(String name) {
+	            this.name = name;
+	        }
+
+	        public Struct getType() {
+	            return type;
+	        }
+
+	        public void setType(Struct type) {
+	            this.type = type;
+	        }
+	    }
+	
+	
+	public class Function {
+	    private String functionName;
+	    private List<Argument> arguments;
+
+	    public Function(String functionName) {
+	        this.functionName = functionName;
+	        this.arguments = new ArrayList<>();
+	    }
+
+	    public String getFunctionName() {
+	        return functionName;
+	    }
+
+	    public void setFunctionName(String functionName) {
+	        this.functionName = functionName;
+	    }
+
+	    public List<Argument> getArguments() {
+	        return arguments;
+	    }
+
+	    public void setArguments(List<Argument> arguments) {
+	        this.arguments = arguments;
+	    }
+
+	    public void addArgument(String argumentName, Struct argumentType) {
+	        Argument argument = new Argument(argumentName, argumentType);
+	        arguments.add(argument);
+	    }   
+	}
+	
+    public void printFunctions() {
+    	if (!functions.isEmpty()) {
+    	for (Function function : functions) {
+            System.out.println("Function Name: " + function.getFunctionName());
+            System.out.println("Arguments:");
+            for (Argument argument : function.getArguments()) {
+                System.out.println("  Name: " + argument.getName());
+                System.out.println("  Type: " + argument.getType().getKind());
+            }
+            System.out.println();
+        }	   
+    }
+    }
+    
+	public int getParamCount(String methodName) {
+		int count = 0;
+    	if (!functions.isEmpty()) {
+    	for (Function function : functions) {
+    		if (function.getFunctionName().equals(methodName))
+             count = function.getArguments().size();
+        }	   
+    }
+	return count;	
+	}
+    
+    public void printPassedParametersTypes() {
+    	
+    	for (Struct param: currentPassedParameters) {
+    		System.out.println("Param kind: " + param.getKind());
+    	}
+    }
+    
+	public static final Struct boolType = new Struct(Struct.Bool);
+	
+	Logger log = Logger.getLogger(getClass());
+	
+	public void report_error(String message, SyntaxNode info) {
+		errorDetected = true;
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0 : info.getLine();
+		if (line != 0)
+			msg.append(" na liniji ").append(line);
+		log.error(msg.toString());
+	}
+
+	public void report_info(String message, SyntaxNode info) {
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0 : info.getLine();
+		if (line != 0)
+			msg.append(" na liniji ").append(line);
+		log.info(msg.toString());
+	}
+	
+	public void visit(ProgName progName){
+		functions = new ArrayList<Function>();
+		progName.obj = Tab.insert(Obj.Prog,progName.getProgName(),Tab.noType);
+		Tab.openScope();
+	}
+	
+	public void visit(Program program) {
+		//check if main is defined
+		boolean mainNotDefined = true;
+		for(Function func:functions) {
+			if (func.getFunctionName().equals("main"))
+				mainNotDefined = false;
+		}
+		if (mainNotDefined) {
+			report_error("Main ne postoji!", program);	
+		}
+		else {
+			nVars = Tab.currentScope.getnVars();
+			Tab.chainLocalSymbols(program.getProgName().obj);
+			Tab.closeScope();
+		}
+	
+	}
+	
+	public void visit(MethodTypeName methodTypeName) {
+		//methodTypeName.obj = currentMethod;
+	}
+	
+	public void visit(MethodTypeNameType methodTypeNameType) {		
+		numberOfVars = 0;
+		currentMethod = Tab.insert(Obj.Meth,methodTypeNameType.getMethodName(),methodTypeNameType.getType().struct);
+		methodTypeNameType.obj = currentMethod;
+		Tab.openScope();
+		hasRet = false;
+		retKind = 0;
+		currentFunction = new Function(methodTypeNameType.getMethodName());
+		report_info("Obradjuje se funckija" + methodTypeNameType.getMethodName(), methodTypeNameType);
+	}
+	
+	public void visit(MethodTypeNameVoid methodTypeNameVoid) {		
+		numberOfVars = 0;
+		currentMethod = Tab.insert(Obj.Meth,methodTypeNameVoid.getMethodName(),Tab.noType);
+		methodTypeNameVoid.obj = currentMethod;
+		Tab.openScope();
+		retKind = 0;
+		currentFunction = new Function(methodTypeNameVoid.getMethodName());
+		report_info("Obradjuje se funckija" + methodTypeNameVoid.getMethodName(), methodTypeNameVoid);
+	}
+	
+	public void visit(MethodDecl methodDecl) {
+		currentMethod.setLevel(numberOfVars);
+		
+		if (currentMethod.getType().getKind() != 0 && hasRet == false) {
+			//!void bez return
+			report_error("Nije pronadjena return naredba", methodDecl);	
+		}
+		else {
+			if(retKind == currentMethod.getType().getKind()) {
+			Tab.chainLocalSymbols(currentMethod);
+			functions.add(currentFunction);
+			Tab.closeScope();
+			currentMethod = null;
+		}else {
+			report_error("Pogresna povratna vrednost!", methodDecl);
+		}
+		}
+		
+	}
+	
+	public void visit(FormParElem formParElem){
+		report_info("Hello Var " + formParElem.getPar(), formParElem);
+		numberOfVars++;
+		Tab.insert(Obj.Var, formParElem.getPar(), currentType);
+		currentFunction.addArgument(formParElem.getPar(), currentType);
+	}
+	
+	public void visit(FormParArray formParArray){
+		report_info("Hello Var " + formParArray.getPar(), formParArray);
+		numberOfVars++;
+		Tab.insert(Obj.Var, formParArray.getPar(), new Struct(Struct.Array,currentType));
+		currentFunction.addArgument(formParArray.getPar(), new Struct(Struct.Array,currentType));
+	}
+	
+	public void visit(FormParMatrix formParMatrix){
+		report_info("Hello Var " + formParMatrix.getPar(), formParMatrix);
+		numberOfVars++;
+		Tab.insert(Obj.Var, formParMatrix.getPar(),new Struct(Struct.Array,new Struct(Struct.Array,currentType)));
+		currentFunction.addArgument(formParMatrix.getPar(), new Struct(Struct.Array,new Struct(Struct.Array,currentType)));
+	}
+	
+//	public void visit(ActPars actPars) {
+//		report_info("usao actPars",actPars);
+//		String.valueOf(actPars.get)
+//	}
+	
+	public void visit(ActParsAddOnMany actParsAddOnMany) {	
+		report_info("usao actParsAddOnMany",actParsAddOnMany);
+		report_info(String.valueOf(actParsAddOnMany.getExpr().struct.getKind()),actParsAddOnMany);
+		
+		currentPassedParameters.add(actParsAddOnMany.getExpr().struct);
+	}
+	
+	public void visit(ActParsNone actParsNone) {
+		report_info("usao ActParsNone",actParsNone);
+		
+	}
+	
+	public void visit(ActParsHas actParsHas) {
+		report_info("usao ActParsHas",actParsHas);
+		report_info(String.valueOf(actParsHas.getExpr().struct.getKind()),actParsHas);
+		
+		currentPassedParameters.add(actParsHas.getExpr().struct);
+	}
+	
+	public void visit(FactorDesActPar factorDAP){
+		Obj obj = Tab.find(factorDAP.getDesignator().getName());
+		if (obj == Tab.noObj) {
+			report_error("Greska: Ne postoji! FactorDesActPar",factorDAP);
+		}
+		// check if method
+		if (obj.getKind() == 3) {
+//			report_info("usao FactorDesActPar",factorDAP);
+			
+			if(currentPassedParameters.size() != 0) {
+			
+			Struct lastType = currentPassedParameters.get(currentPassedParameters.size()-1);
+			currentPassedParameters.remove(currentPassedParameters.size() - 1);
+			currentPassedParameters.add(0, lastType);
+			
+			printPassedParametersTypes();
+			}
+			
+			for(Function func:functions) {
+				
+				if (func.getFunctionName().equals(factorDAP.getDesignator().getName())) {
+					if (currentPassedParameters.size() != func.getArguments().size())
+					{
+						report_error("Greska: Lose prosledjeni parametri! dsAct",factorDAP);
+					}				
+					else {
+						int counter = 0;
+						for(Argument argument: func.getArguments()) {
+							if(argument.getType().getKind() != currentPassedParameters.get(counter).getKind()) {
+								report_error("Greska: Lose prosledjeni parametri! dsAct",factorDAP);
+							}
+							counter++;
+						}
+					}					
+				}
+			}
+			currentPassedParameters.clear();
+			
+			factorDAP.struct = obj.getType();
+//			currentFunctionCall = obj.getName();
+		}
+		else {
+			report_error("Greska: Nije funkcija! dsAct",factorDAP);
+			factorDAP.struct = factorDAP.getDesignator().obj.getType();
+		}
+	}
+	
+	public void visit(FactorDesignator factorDesignator) {
+		factorDesignator.struct = factorDesignator.getDesignator().obj.getType();
+		
+	}
+	
+	public void visit(DesignatorStatementAct dsAct) {
+//		report_info("RADIIIIIII",dsAct);
+//		Obj obj = Tab.find(dsAct.getDesignator().getName());
+//		if (obj == Tab.noObj) {
+//			report_error("Greska: Ne postoji! dsAct",dsAct);
+//		}
+//		// check if method
+//		if (obj.getKind() == 3) {
+//			//dsAct.obj = dsAct;
+//			}
+//		else {
+//			report_error("Greska: Nije funkcija! dsAct",dsAct);
+//		}
+	}
+	
+	public void visit(Type type) {
+		//report_info("Hello" + type.getTypeName(), type);
+		Obj typeNode = Tab.find(type.getTypeName());
+		if (typeNode == Tab.noObj) {
+			report_error("Nije pronadjen tip " + type.getTypeName() + " u tabeli simbola!", null);
+			type.struct = Tab.noType;
+		}else {
+			if(Obj.Type == typeNode.getKind()) {
+				currentType = typeNode.getType();
+				type.struct = currentType;
+			}else
+			{
+				report_error("Greska: Ime " + type.getTypeName() + " ne predstavlja tip!",type);
+				type.struct = Tab.noType;
+			}
+		}
+	}
+	
+	public void visit(VarDecl varDecl) {
+		//report_info("Hello" + varDecl.getType().getTypeName(), varDecl);
+	}
+	public void visit(IdentOptions identOption) {
+		numberOfVars++;
+	}
+	public void visit(IdentOptionsElem identOptionsElem) {
+		report_info("Hello Var " + identOptionsElem.getVarName(), identOptionsElem);
+		numberOfVars++;
+		Tab.insert(Obj.Var, identOptionsElem.getVarName(), currentType);
+	}
+	
+	public void visit(IdentOptionsArray identArray) {
+		report_info("Hello Var " + identArray.getVarName(), identArray);
+		numberOfVars++;
+		Tab.insert(Obj.Var, identArray.getVarName(), new Struct(Struct.Array,currentType));
+	}
+	
+	public void visit(IdentOptionsMatrix identMatrix) {
+		report_info("Hello Var" + identMatrix.getVarName(), identMatrix);
+		numberOfVars++;
+		Tab.insert(Obj.Var, identMatrix.getVarName(), new Struct(Struct.Array,new Struct(Struct.Array,currentType)));
+	}
+	
+	public void visit(ConstIdent constIdent) {
+		Obj tempObj = constIdent.getConstValue().obj;
+		
+		if(currentType.getKind() == Integer.parseInt(tempObj.getName())) {
+			Tab.insert(tempObj.getKind(), constIdent.getConstName(), tempObj.getType()).setAdr(tempObj.getAdr());
+		}
+		else {
+			report_error("Greska: Tipovi nisu ekvivalentni !",constIdent);
+		}	
+	}
+	
+	public void visit(ConstValueNumber constValueNumber) {
+		constValueNumber.obj = new Obj(Obj.Con, "1", currentType,constValueNumber.getN(),0);
+	}
+	
+	public void visit(ConstValueChar constValueChar) {
+		constValueChar.obj = new Obj(Obj.Con, "2", currentType,constValueChar.getC(),0);
+	}
+	
+	public void visit(ConstValueBool constValueBool) {
+		int adr = 0;
+		if (constValueBool.getB() == true)
+			adr = 1;
+		
+		constValueBool.obj = new Obj(Obj.Con, "5", currentType,adr,0);
+	}
+	
+	public void visit(FactorNumber factorNumber) {
+		factorNumber.struct = new Struct(1);
+	}
+	
+	public void visit(FactorChar factorChar) {
+		factorChar.struct = new Struct(2);
+	}
+	
+	public void visit(FactorBool factorBool) {
+		factorBool.struct = new Struct(5);
+	}
+	
+
+	
+	public void visit(FactorNew factorNew) {
+		
+		if (factorNew.getExpr().struct.getKind() == 1) {
+			factorNew.struct = factorNew.getExpr().struct;
+		}
+		else
+		{
+			report_error("Greska: Expr nije celobrojan! FactorNew",factorNew);
+		}
+		
+	}
+	public void visit(FactorNewExpr factorNewExpr) {
+		factorNewExpr.struct = new Struct(Struct.Array,Tab.find(factorNewExpr.getType().getTypeName()).getType());
+
+	}
+	
+	public void visit(FactorParen factorParen){
+		factorParen.struct = factorParen.getExpr().struct;
+	}
+	
+	public void visit(TermOne termOne) {
+			termOne.struct = termOne.getFactor().struct;	
+	}
+	
+	public void visit(TermMany termMany) {
+		int factorKindToCheck = 1;
+		
+		
+		
+		if (termMany.getFactor().struct.getKind() == 3) {
+			factorKindToCheck = termMany.getFactor().struct.getElemType().getKind();
+		}
+		
+		if(factorKindToCheck != 1 || termMany.getFactor().struct.getKind() != 1) {
+			report_error("Greska: Term ili Factor nije celobrojan! termMany",termMany);
+		}
+		else {		
+		
+		if(factorKindToCheck == termMany.getTerm().struct.getKind()) {
+			termMany.struct = termMany.getFactor().struct;
+		}
+		else {
+			report_error("Greska: Tipovi nisu ekvivalentni !TermMany",termMany);
+		}
+		}
+	}
+	
+	public void visit(ExprOne exprOne) {
+		exprOne.struct = exprOne.getTerm().struct;		
+	}
+	
+	public void visit(ExprMany exprMany) {
+		
+		Struct tempTerm = exprMany.getTerm().struct;	
+		Struct tempExprList = exprMany.getExprList().struct;	
+		
+		int tempTermKindToCheck = exprMany.getTerm().struct.getKind();
+		if(tempTermKindToCheck == 3) {
+			tempTermKindToCheck = tempTerm.getElemType().getKind();
+		}
+		
+		
+		int tempExprListKindToCheck = exprMany.getExprList().struct.getKind();
+		if(tempExprListKindToCheck == 3) {
+			tempExprListKindToCheck = tempExprList.getElemType().getKind();
+		}
+		
+		
+		report_info(String.valueOf(exprMany.getTerm().struct.getKind()),null);
+		report_info(String.valueOf(exprMany.getExprList().struct.getKind()),null);
+		
+		if(tempTermKindToCheck != 1 || tempExprListKindToCheck != 1) {
+			report_error("Greska: Term ili ExprList nije celobrojan! exprMany",exprMany);
+		}
+		else {
+			if(tempTermKindToCheck == tempExprListKindToCheck) {
+				exprMany.struct = exprMany.getTerm().struct;
+			}
+			else {
+				report_error("Greska: Tipovi nisu ekvivalentni !exprMany", exprMany);
+			}
+		}
+	}
+	
+	public void visit(ExprMinus exprMinus) {
+		if (exprMinus.getExprList().struct.getKind() != 1) {
+			report_error("Greska: Expr nije celobrojan !exprMinus", exprMinus);
+		}
+		else {
+			exprMinus.struct = exprMinus.getExprList().struct;
+		}
+		
+	}
+	
+	public void visit(ExprNormal exprNormal) {
+		exprNormal.struct = exprNormal.getExprList().struct;		
+	}
+	
+	public void visit(CondFactOne condFactOne) {
+		report_info(String.valueOf(condFactOne.getExpr().struct.getKind()),condFactOne);
+		condFactOne.struct = condFactOne.getExpr().struct;
+	}
+	
+	public void visit(CondFactTwo condFactTwo) {
+		if (condFactTwo.getExpr().struct.getKind() != condFactTwo.getExpr1().struct.getKind()) {
+			report_error("Greska: Tipovi nisu jednaki!CondFactTwo", condFactTwo);
+		}
+		else {
+			condFactTwo.struct = condFactTwo.getExpr().struct;
+		}
+		
+	}
+	
+	public void visit(CondTermMany condTermMany) {
+		report_info("usaoCondTermMany",condTermMany);
+		report_info(String.valueOf(condTermMany.getCondTerm().struct.getKind()),condTermMany);
+		report_info(String.valueOf(condTermMany.getCondFact().struct.getKind()),condTermMany);
+		if (condTermMany.getCondFact().struct.getKind() != condTermMany.getCondTerm().struct.getKind()) {
+			report_error("Greska: Tipovi nisu jednaki!CondTermMany", condTermMany);
+		}
+		else {
+			condTermMany.struct = condTermMany.getCondTerm().struct;
+		}
+	}
+	
+	public void visit(CondTermOne condTermOne) {
+		report_info("usao condTermOne",condTermOne);
+		condTermOne.struct = condTermOne.getCondFact().struct;
+		report_info(String.valueOf(condTermOne.getCondFact().struct.getKind()),condTermOne);
+	}
+	
+	
+	public void visit(Condition condition) {
+		report_info(String.valueOf(condition.struct.getKind()),condition);
+	}
+	
+	public void visit(ConditionOne condOne) {
+		report_info("usao condOne",condOne);
+		report_info(String.valueOf(condOne.getCondTerm().struct.getKind()),condOne);
+		
+		condOne.struct = condOne.getCondTerm().struct;
+	}
+	
+	public void visit(ConditionMany condMany) {
+		
+		report_info(String.valueOf(condMany.getCondTerm().struct.getKind()),condMany);
+		report_info(String.valueOf(condMany.getCondition().struct.getKind()),condMany);
+		if (condMany.getCondTerm().struct.getKind() != condMany.getCondition().struct.getKind()) {
+			report_error("Greska: Tipovi nisu jednaki!ConditionMany", condMany);
+		}
+		else {
+			condMany.struct = condMany.getCondTerm().struct;
+		}
+	}
+	
+
+
+	public void visit (StatementIf sIF) {
+		if (sIF.getCondition().struct.getKind() != 5) {
+			report_error("Greska: Nije bool!StatementIf", sIF);
+		}
+	}
+	
+	public void visit(WhileBegin whileBegin) {
+		report_info("usaoWhile",whileBegin);
+		inWhile = true;
+	}
+	
+	public void visit(StatementWhile sWhile) {
+		report_info("izaasaoWhile",sWhile);
+		if (sWhile.getCondition().struct.getKind() != 5) {
+			report_error("Greska: Nije bool!StatementIf", sWhile);
+		}
+		
+		inWhile = false;
+	}
+	
+	public void visit(ForEachBegin forEachBegin) {
+		report_info("usaoForeach",forEachBegin);
+		inForEach = true;
+	}
+	
+	public void visit(StatementForEach sForEach) {
+		report_info("izasaoForEach",sForEach);
+		
+		if (sForEach.getDesignator().obj.getType().getKind() != 3) {
+			report_error("Greska: Designator nije array tipa!StatementForEach", sForEach);
+		}
+		
+		Obj obj = Tab.find(sForEach.getIdent());
+		if (obj== Tab.noObj) {
+			report_error("Greska: Ident nije deklarisan!StatementForEach", sForEach);
+		}
+		if (obj.getType().getKind() != sForEach.getDesignator().obj.getType().getElemType().getKind()) {
+			report_error("Greska: Ident se ne poklapa se elementima niza!StatementForEach", sForEach);
+		}
+		
+		
+//		if (sForEach.getCondition().struct.getKind() != 5) {
+//			report_error("Greska: Nije bool!StatementIf", sWhile);
+//		}
+		inForEach = false;
+	}
+	
+	public void visit(StatementReturnNoExpr retNoExpr) {
+//		if (currentMethod == null) {
+//			report_error("Greska: Nedozvoljeno mesto return naredbe !",retNoExpr);
+//		}
+		hasRet = true;
+		retKind = 0; 
+	}
+	
+	public void visit(StatementReturnExpr retExpr) {
+//		if (currentMethod == null) {
+//			report_error("Greska: Nedozvoljeno mesto return naredbe !",retExpr);
+//		}
+		hasRet = true;
+		retKind = retExpr.getExpr().struct.getKind();
+	}
+	
+	public void visit(StatementBreak sBreak) {
+		if (!inWhile && !inForEach) {
+			report_error("Greska: Nismo u Foreach ili While!StatementBreak", sBreak);
+		}
+	}
+	
+	public void visit(StatementContinue sContinue) {
+		if (!inWhile && !inForEach) {
+			report_error("Greska: Nismo u Foreach ili While!StatementContinue", sContinue);
+		}
+	}	
+	
+	public void visit(StatementRead sRead) {
+		
+		
+	}
+	
+	public void visit(StatementPrint sPrint) {
+		//sPrint.getExpr().struct mora biti char ili int dodati proveru
+	}
+	
+	public void visit(Designator designator) {
+		Obj des = Tab.find(designator.getName());
+		
+		if (des == Tab.noObj) {
+			report_error("Greska: Nije deklarisana promenljiva!Designator", designator);
+		}
+		else {
+			if (desAdd == true) {
+				report_info(designator.getName(),null);
+				//designator.obj = new Obj(des.getKind(),des.getName(),des.getType().getElemType(),des.getAdr(),des.getLevel());
+				//designator.obj = new Obj(des.getKind(),des.getName(),des.getType(),des.getAdr(),des.getLevel());
+				desAdd = false;
+				designator.obj = des;
+			}
+			
+			else {
+				designator.obj = des;
+			}
+			
+		}
+	}
+	
+	public void visit(DesignatorAddOn desAddOn) {
+		desAddOn.struct = desAddOn.getExpr().struct;
+		//desAddOn.struct = new Struct(3);
+		
+		desAdd = true;
+		if(desAddOn.getExpr().struct == null) {
+			report_error("Greska: Tip nije celobrojan! desAddOn", desAddOn);
+		}		
+		else if (desAddOn.getExpr().struct.getKind() != 1) {
+			report_error("Greska: Tip nije celobrojan! desAddOn", desAddOn);
+		}
+		
+	}
+//	public void visit(AddOns addOn) {
+//		addOn.struct = addOn.getDesignatorAddOn().struct;
+//	}
+	
+	public void visit(DesignatorStatementIs dsIS) {
+
+			
+		Struct tempDis = dsIS.getDesignator().obj.getType();
+		int tempDisKindToCheck = dsIS.getDesignator().obj.getType().getKind();
+		if(tempDis.getKind() == 3) {
+			tempDisKindToCheck = tempDis.getElemType().getKind();
+		}
+		
+		Struct tempExpr = dsIS.getExpr().struct;	
+		int tempExprKindToCheck = dsIS.getExpr().struct.getKind();
+		if(tempExprKindToCheck == 3) {
+			tempExprKindToCheck = tempExpr.getElemType().getKind();
+		}
+		
+		if (tempDisKindToCheck != tempExprKindToCheck) {
+			report_error("Greska: Tipovi nisu ekvivalentni 1!DesignatorStatementIs", dsIS);
+		}
+		else if (tempDisKindToCheck == 3 && tempExpr.getKind() == 3 && tempDis.getElemType().getKind() != tempExpr.getElemType().getKind()) {
+			report_error("Greska: Tipovi nisu ekvivalentni 2!DesignatorStatementIs", dsIS);
+		}
+		else if(dsIS.getDesignator().obj.getKind() == 0) {
+			report_error("Greska: Identifikator je const!DesignatorStatementIs", dsIS);			
+		}
+		else {
+			dsIS.obj = dsIS.getDesignator().obj;
+		}
+	}
+	
+
+	
+	public void visit(DesignatorStatementIncr dsINCR) {
+
+		if (dsINCR.getDesignator().obj.getType().getKind() != 1) {
+			report_error("Greska: Tip nije celobrojan !DesignatorStatementIncr", dsINCR);
+		}
+		else {
+			dsINCR.obj = dsINCR.getDesignator().obj;
+		}
+	}
+	
+	public void visit(DesignatorStatementDecr dsDECR) {
+		
+		if (dsDECR.getDesignator().obj.getType().getKind() != 1) {
+			report_error("Greska: Tip nije celobrojan !DesignatorStatementDecr", dsDECR);
+		}
+		else {
+			dsDECR.obj = dsDECR.getDesignator().obj;
+		}
+	}
+	
+	public void visit(DesignatorStatementFindAny dsFindAny) {
+		if (dsFindAny.getDesignator1().obj.getType().getKind() != 3) {
+			report_error("Greska: Tip desno od znaka jednakosti nije niz !DesignatorStatementFindAny", dsFindAny);
+		}
+		else if (dsFindAny.getDesignator().obj.getType().getKind() != 5){
+			report_error("Greska: Tip levo od znaka jednakosti nije bool !DesignatorStatementFindAny", dsFindAny);
+		}
+	}
+	
+	public void visit(DesignatorStatementFindAndReplace dsFindReplace) {
+		Obj obj = Tab.find(dsFindReplace.getI5());
+		if(obj == Tab.noObj || obj.getKind() == 3) {
+			report_error("Greska: Parameter nije deklarisan !DesignatorStatementFindAndReplace", dsFindReplace);
+		}
+		else {
+			if (dsFindReplace.getDesignator1().obj.getType().getKind() != 3) {
+				report_error("Greska: Tip desno od znaka jednakosti nije niz !DesignatorStatementFindAndReplace", dsFindReplace);
+			}
+			else if(dsFindReplace.getDesignator1().obj.getType().getElemType().getKind() != obj.getType().getKind()){		
+				report_error("Greska: Tipovi nisu jednaki !DesignatorStatementFindAndReplace", dsFindReplace);
+			}
+			else if(dsFindReplace.getDesignator().obj.getType().getKind() != 3) {
+				report_error("Greska: Tip levo od znaka jednakosti nije niz !DesignatorStatementFindAny", dsFindReplace);
+			}
+		}
+	}
+	
+	
+}

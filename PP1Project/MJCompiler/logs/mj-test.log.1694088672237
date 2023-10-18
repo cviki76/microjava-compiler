@@ -1,0 +1,91 @@
+INFO  14:10:16,912 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  14:10:16,937 - #2 program
+INFO  14:10:16,937 - #42 MJProgram
+INFO  14:10:16,937 - #42 char
+INFO  14:10:16,937 - #42 y
+INFO  14:10:16,938 - #6 ;
+INFO  14:10:16,938 - #4 {
+INFO  14:10:16,939 - #17 void
+INFO  14:10:16,939 - #42 main
+INFO  14:10:16,939 - #7 (
+INFO  14:10:16,939 - #8 )
+INFO  14:10:16,940 - #42 int
+INFO  14:10:16,940 - #42 x
+INFO  14:10:16,940 - #6 ;
+INFO  14:10:16,940 - #4 {
+INFO  14:10:16,942 - #42 x
+INFO  14:10:16,942 - #11 =
+INFO  14:10:16,943 - #41 2
+INFO  14:10:16,943 - #6 ;
+INFO  14:10:16,944 - #5 }
+INFO  14:10:16,944 - #5 }
+INFO  14:10:16,954 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  14:10:16,955 - ===================================
+INFO  14:10:16,957 - Hello Var y na liniji 2
+INFO  14:10:16,957 - Obradjuje se funckijamain na liniji 4
+INFO  14:10:16,957 - Hello Var x na liniji 5

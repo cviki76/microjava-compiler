@@ -1,0 +1,111 @@
+INFO  02:22:16,476 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  02:22:16,484 - #2 program
+INFO  02:22:16,484 - #18 MJProgram
+INFO  02:22:16,484 - #3 const
+INFO  02:22:16,485 - #18 char
+INFO  02:22:16,485 - #18 u
+INFO  02:22:16,485 - #11 =
+INFO  02:22:16,485 - #20 c
+INFO  02:22:16,485 - #14 ,
+INFO  02:22:16,486 - #18 n
+INFO  02:22:16,486 - #11 =
+INFO  02:22:16,486 - #20 a
+INFO  02:22:16,486 - #6 ;
+INFO  02:22:16,486 - #18 int
+INFO  02:22:16,487 - #18 a
+INFO  02:22:16,487 - #10 [
+INFO  02:22:16,487 - #9 ]
+INFO  02:22:16,487 - #10 [
+INFO  02:22:16,487 - #9 ]
+INFO  02:22:16,487 - #14 ,
+INFO  02:22:16,487 - #18 b
+INFO  02:22:16,488 - #14 ,
+INFO  02:22:16,488 - #18 c
+INFO  02:22:16,488 - #10 [
+INFO  02:22:16,502 - #9 ]
+INFO  02:22:16,502 - #6 ;
+INFO  02:22:16,502 - #18 char
+INFO  02:22:16,503 - #18 x
+INFO  02:22:16,503 - #14 ,
+INFO  02:22:16,503 - #18 y
+INFO  02:22:16,503 - #6 ;
+INFO  02:22:16,503 - #4 {
+INFO  02:22:16,503 - #18 Hello
+INFO  02:22:16,503 - #5 }
+INFO  02:22:16,504 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdentDerived1(
+                 u
+                  ConstValueDerived2(
+                   c
+                  ) [ConstValueDerived2]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentOne]
+              ConstIdentDerived1(
+               n
+                ConstValueDerived2(
+                 a
+                ) [ConstValueDerived2]
+              ) [ConstIdentDerived1]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             x
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclList(
+   Hello
+  ) [MethodDeclList]
+) [Program]
+INFO  02:22:16,505 - ===================================

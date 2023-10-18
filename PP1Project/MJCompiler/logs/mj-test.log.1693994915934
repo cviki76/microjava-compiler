@@ -1,0 +1,98 @@
+INFO  12:07:25,185 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  12:07:25,210 - #2 program
+INFO  12:07:25,210 - #42 MJProgram
+INFO  12:07:25,211 - #42 int
+INFO  12:07:25,211 - #42 a
+INFO  12:07:25,212 - #15 ,
+INFO  12:07:25,212 - #42 b
+INFO  12:07:25,212 - #6 ;
+INFO  12:07:25,212 - #4 {
+INFO  12:07:25,213 - #42 int
+INFO  12:07:25,213 - #42 main
+INFO  12:07:25,213 - #7 (
+INFO  12:07:25,213 - #8 )
+INFO  12:07:25,213 - #42 int
+INFO  12:07:25,213 - #42 x
+INFO  12:07:25,213 - #6 ;
+INFO  12:07:25,214 - #4 {
+INFO  12:07:25,214 - #42 x
+INFO  12:07:25,214 - #11 =
+INFO  12:07:25,215 - #41 2
+INFO  12:07:25,215 - #6 ;
+INFO  12:07:25,215 - #5 }
+INFO  12:07:25,215 - #5 }
+INFO  12:07:25,221 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           b
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  12:07:25,222 - ===================================

@@ -1,0 +1,284 @@
+INFO  21:27:22,915 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  21:27:22,940 - #2 program
+INFO  21:27:22,940 - #44 MJProgram
+INFO  21:27:22,940 - #4 {
+INFO  21:27:22,941 - #44 int
+INFO  21:27:22,941 - #44 main
+INFO  21:27:22,942 - #7 (
+INFO  21:27:22,942 - #8 )
+INFO  21:27:22,943 - #44 int
+INFO  21:27:22,943 - #44 arr
+INFO  21:27:22,943 - #10 [
+INFO  21:27:22,943 - #9 ]
+INFO  21:27:22,943 - #6 ;
+INFO  21:27:22,944 - #44 int
+INFO  21:27:22,945 - #44 y
+INFO  21:27:22,945 - #6 ;
+INFO  21:27:22,945 - #44 int
+INFO  21:27:22,945 - #44 x
+INFO  21:27:22,945 - #6 ;
+INFO  21:27:22,946 - #4 {
+INFO  21:27:22,946 - #44 y
+INFO  21:27:22,946 - #11 =
+INFO  21:27:22,947 - #43 2
+INFO  21:27:22,947 - #6 ;
+INFO  21:27:22,948 - #44 arr
+INFO  21:27:22,948 - #11 =
+INFO  21:27:22,948 - #19 new
+INFO  21:27:22,948 - #44 int
+INFO  21:27:22,948 - #10 [
+INFO  21:27:22,948 - #43 20
+INFO  21:27:22,948 - #9 ]
+INFO  21:27:22,948 - #6 ;
+INFO  21:27:22,949 - #44 arr
+INFO  21:27:22,949 - #10 [
+INFO  21:27:22,949 - #43 1
+INFO  21:27:22,949 - #9 ]
+INFO  21:27:22,949 - #11 =
+INFO  21:27:22,950 - #43 3
+INFO  21:27:22,950 - #6 ;
+INFO  21:27:22,950 - #44 x
+INFO  21:27:22,950 - #11 =
+INFO  21:27:22,950 - #44 y
+INFO  21:27:22,950 - #13 +
+INFO  21:27:22,950 - #43 2
+INFO  21:27:22,950 - #6 ;
+INFO  21:27:22,951 - #16 print
+INFO  21:27:22,951 - #7 (
+INFO  21:27:22,951 - #44 y
+INFO  21:27:22,951 - #8 )
+INFO  21:27:22,951 - #6 ;
+INFO  21:27:22,951 - #5 }
+INFO  21:27:22,951 - #5 }
+INFO  21:27:22,959 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsArray(
+                   arr
+                  ) [IdentOptionsArray]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 y
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementsMany(
+            StatementsMany(
+              StatementOne(
+                StatementDesignator(
+                  DesignatorStatementIs(
+                    Designator(
+                     y
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [DesignatorStatementIs]
+                ) [StatementDesignator]
+              ) [StatementOne]
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   arr
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          FactorNew(
+                            ExprNormal(
+                              ExprOne(
+                                TermOne(
+                                  FactorNumber(
+                                   20
+                                  ) [FactorNumber]
+                                ) [TermOne]
+                              ) [ExprOne]
+                            ) [ExprNormal]
+                          ) [FactorNew]
+                        ) [FactorNewExpr]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementsMany]
+            StatementDesignator(
+              DesignatorStatementIs(
+                Designator(
+                 arr
+                  AddOns(
+                    NoAddOns(
+                    ) [NoAddOns]
+                    DesignatorAddOn(
+                      ExprNormal(
+                        ExprOne(
+                          TermOne(
+                            FactorNumber(
+                             1
+                            ) [FactorNumber]
+                          ) [TermOne]
+                        ) [ExprOne]
+                      ) [ExprNormal]
+                    ) [DesignatorAddOn]
+                  ) [AddOns]
+                ) [Designator]
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [DesignatorStatementIs]
+            ) [StatementDesignator]
+          ) [StatementsMany]
+          StatementDesignator(
+            DesignatorStatementIs(
+              Designator(
+               x
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprMany(
+                  ExprOne(
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         y
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                  ) [ExprOne]
+                  AddopP(
+                  ) [AddopP]
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprMany]
+              ) [ExprNormal]
+            ) [DesignatorStatementIs]
+          ) [StatementDesignator]
+        ) [StatementsMany]
+        StatementPrint(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorDesignator(
+                  Designator(
+                   y
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                ) [FactorDesignator]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+          NumConstOptNone(
+          ) [NumConstOptNone]
+        ) [StatementPrint]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  21:27:22,960 - ===================================
+INFO  21:27:22,962 - Obradjuje se funckijamain na liniji 3
+INFO  21:27:22,962 - Hello Var arr na liniji 4
+INFO  21:27:22,963 - Hello Var y na liniji 5
+INFO  21:27:22,963 - Hello Var x na liniji 6
+INFO  21:27:22,963 - arr
+ERROR 21:27:22,963 - Nije pronadjena return naredba na liniji 3
+ERROR 21:27:22,963 - Main ne postoji! na liniji 1
+INFO  21:27:22,966 - Usao na liniji 3
+INFO  21:27:22,966 - 0
+INFO  21:27:22,966 - 0
+INFO  21:27:22,966 - RRRRRRRRRRRRRRR
+INFO  21:27:22,966 - y
+INFO  21:27:22,966 - 1
+INFO  21:27:22,966 - RRRRRRRRRRRRRRRR
+INFO  21:27:22,966 - RRRRRRRRRRRRRRR
+INFO  21:27:22,966 - arr
+INFO  21:27:22,966 - 3
+INFO  21:27:22,966 - RRRRRRRRRRRRRRRR
+INFO  21:27:22,966 - RRRRRRRRRRRRRRR
+INFO  21:27:22,966 - arr
+INFO  21:27:22,967 - 3
+INFO  21:27:22,967 - RRRRRRRRRRRRRRRR
+INFO  21:27:22,967 - yxd
+INFO  21:27:22,967 - 1
+INFO  21:27:22,967 - RRRRRRRRRRRRRRR
+INFO  21:27:22,967 - x
+INFO  21:27:22,967 - 1
+INFO  21:27:22,967 - RRRRRRRRRRRRRRRR
+INFO  21:27:22,967 - yxd
+INFO  21:27:22,967 - 1

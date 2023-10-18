@@ -1,0 +1,2850 @@
+INFO  21:10:00,041 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  21:10:00,066 - #2 program
+INFO  21:10:00,066 - #44 test302
+INFO  21:10:00,066 - #3 const
+INFO  21:10:00,067 - #44 int
+INFO  21:10:00,067 - #44 jedan
+INFO  21:10:00,068 - #11 =
+INFO  21:10:00,068 - #43 1
+INFO  21:10:00,068 - #6 ;
+INFO  21:10:00,068 - #44 int
+INFO  21:10:00,069 - #44 i
+INFO  21:10:00,069 - #6 ;
+INFO  21:10:00,069 - #44 bool
+INFO  21:10:00,070 - #44 ibool
+INFO  21:10:00,070 - #6 ;
+INFO  21:10:00,070 - #44 int
+INFO  21:10:00,070 - #44 niz2
+INFO  21:10:00,070 - #10 [
+INFO  21:10:00,070 - #9 ]
+INFO  21:10:00,070 - #6 ;
+INFO  21:10:00,070 - #44 int
+INFO  21:10:00,070 - #44 niz
+INFO  21:10:00,070 - #10 [
+INFO  21:10:00,071 - #9 ]
+INFO  21:10:00,071 - #6 ;
+INFO  21:10:00,071 - #44 int
+INFO  21:10:00,071 - #44 a
+INFO  21:10:00,071 - #15 ,
+INFO  21:10:00,071 - #44 curr
+INFO  21:10:00,071 - #6 ;
+INFO  21:10:00,071 - #4 {
+INFO  21:10:00,071 - #44 int
+INFO  21:10:00,071 - #44 sum
+INFO  21:10:00,071 - #7 (
+INFO  21:10:00,071 - #44 int
+INFO  21:10:00,071 - #44 z
+INFO  21:10:00,071 - #15 ,
+INFO  21:10:00,072 - #44 int
+INFO  21:10:00,072 - #44 d
+INFO  21:10:00,072 - #8 )
+INFO  21:10:00,072 - #4 {
+INFO  21:10:00,072 - #12 return
+INFO  21:10:00,072 - #44 z
+INFO  21:10:00,072 - #13 +
+INFO  21:10:00,073 - #44 d
+INFO  21:10:00,073 - #6 ;
+INFO  21:10:00,074 - #5 }
+INFO  21:10:00,074 - #44 int
+INFO  21:10:00,074 - #44 inkrement
+INFO  21:10:00,075 - #7 (
+INFO  21:10:00,075 - #44 int
+INFO  21:10:00,075 - #44 a
+INFO  21:10:00,075 - #15 ,
+INFO  21:10:00,075 - #44 int
+INFO  21:10:00,075 - #44 inc
+INFO  21:10:00,075 - #8 )
+INFO  21:10:00,075 - #44 int
+INFO  21:10:00,075 - #44 pom
+INFO  21:10:00,075 - #6 ;
+INFO  21:10:00,075 - #4 {
+INFO  21:10:00,075 - #26 if
+INFO  21:10:00,075 - #7 (
+INFO  21:10:00,075 - #44 inc
+INFO  21:10:00,076 - #35 ==
+INFO  21:10:00,076 - #44 jedan
+INFO  21:10:00,076 - #8 )
+INFO  21:10:00,077 - #44 pom
+INFO  21:10:00,077 - #11 =
+INFO  21:10:00,077 - #43 1
+INFO  21:10:00,078 - #6 ;
+INFO  21:10:00,078 - #27 else
+INFO  21:10:00,078 - #26 if
+INFO  21:10:00,078 - #7 (
+INFO  21:10:00,078 - #44 inc
+INFO  21:10:00,079 - #35 ==
+INFO  21:10:00,079 - #43 2
+INFO  21:10:00,079 - #8 )
+INFO  21:10:00,079 - #44 pom
+INFO  21:10:00,079 - #11 =
+INFO  21:10:00,079 - #44 a
+INFO  21:10:00,079 - #6 ;
+INFO  21:10:00,079 - #12 return
+INFO  21:10:00,080 - #44 sum
+INFO  21:10:00,080 - #7 (
+INFO  21:10:00,080 - #44 a
+INFO  21:10:00,080 - #15 ,
+INFO  21:10:00,080 - #44 pom
+INFO  21:10:00,080 - #8 )
+INFO  21:10:00,081 - #6 ;
+INFO  21:10:00,081 - #5 }
+INFO  21:10:00,081 - #44 bool
+INFO  21:10:00,081 - #44 verify
+INFO  21:10:00,081 - #7 (
+INFO  21:10:00,081 - #8 )
+INFO  21:10:00,082 - #4 {
+INFO  21:10:00,082 - #16 print
+INFO  21:10:00,082 - #7 (
+INFO  21:10:00,082 - #46 v
+INFO  21:10:00,082 - #8 )
+INFO  21:10:00,082 - #6 ;
+INFO  21:10:00,082 - #12 return
+INFO  21:10:00,083 - #45 false
+INFO  21:10:00,083 - #6 ;
+INFO  21:10:00,083 - #5 }
+INFO  21:10:00,083 - #17 void
+INFO  21:10:00,083 - #44 main
+INFO  21:10:00,083 - #7 (
+INFO  21:10:00,083 - #8 )
+INFO  21:10:00,083 - #4 {
+INFO  21:10:00,083 - #26 if
+INFO  21:10:00,083 - #7 (
+INFO  21:10:00,083 - #43 1
+INFO  21:10:00,083 - #34 !=
+INFO  21:10:00,083 - #43 1
+INFO  21:10:00,084 - #8 )
+INFO  21:10:00,084 - #16 print
+INFO  21:10:00,084 - #7 (
+INFO  21:10:00,084 - #14 -
+INFO  21:10:00,084 - #43 6
+INFO  21:10:00,084 - #8 )
+INFO  21:10:00,084 - #6 ;
+INFO  21:10:00,084 - #27 else
+INFO  21:10:00,084 - #16 print
+INFO  21:10:00,084 - #7 (
+INFO  21:10:00,084 - #43 0
+INFO  21:10:00,084 - #8 )
+INFO  21:10:00,084 - #6 ;
+INFO  21:10:00,084 - #44 ibool
+INFO  21:10:00,084 - #11 =
+INFO  21:10:00,084 - #45 false
+INFO  21:10:00,084 - #6 ;
+INFO  21:10:00,084 - #44 i
+INFO  21:10:00,084 - #11 =
+INFO  21:10:00,084 - #43 0
+INFO  21:10:00,084 - #6 ;
+INFO  21:10:00,084 - #33 while
+INFO  21:10:00,085 - #7 (
+INFO  21:10:00,085 - #44 i
+INFO  21:10:00,085 - #22 <
+INFO  21:10:00,085 - #43 5
+INFO  21:10:00,085 - #8 )
+INFO  21:10:00,086 - #4 {
+INFO  21:10:00,086 - #26 if
+INFO  21:10:00,086 - #7 (
+INFO  21:10:00,086 - #44 i
+INFO  21:10:00,086 - #35 ==
+INFO  21:10:00,086 - #43 2
+INFO  21:10:00,086 - #8 )
+INFO  21:10:00,086 - #44 ibool
+INFO  21:10:00,086 - #11 =
+INFO  21:10:00,086 - #45 true
+INFO  21:10:00,086 - #6 ;
+INFO  21:10:00,086 - #44 i
+INFO  21:10:00,086 - #40 ++
+INFO  21:10:00,086 - #6 ;
+INFO  21:10:00,086 - #5 }
+INFO  21:10:00,086 - #26 if
+INFO  21:10:00,087 - #7 (
+INFO  21:10:00,087 - #44 ibool
+INFO  21:10:00,087 - #8 )
+INFO  21:10:00,087 - #26 if
+INFO  21:10:00,087 - #7 (
+INFO  21:10:00,087 - #44 i
+INFO  21:10:00,087 - #35 ==
+INFO  21:10:00,087 - #43 5
+INFO  21:10:00,087 - #8 )
+INFO  21:10:00,087 - #16 print
+INFO  21:10:00,087 - #7 (
+INFO  21:10:00,087 - #43 1
+INFO  21:10:00,087 - #8 )
+INFO  21:10:00,087 - #6 ;
+INFO  21:10:00,087 - #27 else
+INFO  21:10:00,087 - #16 print
+INFO  21:10:00,087 - #7 (
+INFO  21:10:00,087 - #14 -
+INFO  21:10:00,087 - #43 1
+INFO  21:10:00,088 - #8 )
+INFO  21:10:00,088 - #6 ;
+INFO  21:10:00,088 - #44 a
+INFO  21:10:00,088 - #11 =
+INFO  21:10:00,088 - #43 2
+INFO  21:10:00,088 - #6 ;
+INFO  21:10:00,088 - #44 niz
+INFO  21:10:00,088 - #11 =
+INFO  21:10:00,088 - #19 new
+INFO  21:10:00,088 - #44 int
+INFO  21:10:00,088 - #10 [
+INFO  21:10:00,088 - #43 3
+INFO  21:10:00,088 - #9 ]
+INFO  21:10:00,088 - #6 ;
+INFO  21:10:00,088 - #44 niz
+INFO  21:10:00,089 - #10 [
+INFO  21:10:00,089 - #43 0
+INFO  21:10:00,089 - #9 ]
+INFO  21:10:00,089 - #11 =
+INFO  21:10:00,089 - #43 1
+INFO  21:10:00,089 - #38 *
+INFO  21:10:00,089 - #44 a
+INFO  21:10:00,090 - #6 ;
+INFO  21:10:00,090 - #44 niz
+INFO  21:10:00,090 - #10 [
+INFO  21:10:00,090 - #43 1
+INFO  21:10:00,090 - #9 ]
+INFO  21:10:00,090 - #11 =
+INFO  21:10:00,090 - #43 2
+INFO  21:10:00,090 - #38 *
+INFO  21:10:00,090 - #44 a
+INFO  21:10:00,090 - #6 ;
+INFO  21:10:00,090 - #44 niz
+INFO  21:10:00,090 - #10 [
+INFO  21:10:00,090 - #43 2
+INFO  21:10:00,090 - #9 ]
+INFO  21:10:00,090 - #11 =
+INFO  21:10:00,090 - #44 sum
+INFO  21:10:00,090 - #7 (
+INFO  21:10:00,090 - #44 niz
+INFO  21:10:00,090 - #10 [
+INFO  21:10:00,090 - #43 1
+INFO  21:10:00,090 - #9 ]
+INFO  21:10:00,090 - #15 ,
+INFO  21:10:00,091 - #44 niz
+INFO  21:10:00,091 - #10 [
+INFO  21:10:00,091 - #43 0
+INFO  21:10:00,091 - #9 ]
+INFO  21:10:00,091 - #8 )
+INFO  21:10:00,091 - #38 *
+INFO  21:10:00,091 - #44 a
+INFO  21:10:00,091 - #13 +
+INFO  21:10:00,091 - #43 1
+INFO  21:10:00,091 - #6 ;
+INFO  21:10:00,091 - #26 if
+INFO  21:10:00,091 - #7 (
+INFO  21:10:00,091 - #44 verify
+INFO  21:10:00,091 - #7 (
+INFO  21:10:00,091 - #8 )
+INFO  21:10:00,091 - #32 ||
+INFO  21:10:00,091 - #44 niz
+INFO  21:10:00,091 - #10 [
+INFO  21:10:00,091 - #43 2
+INFO  21:10:00,091 - #9 ]
+INFO  21:10:00,091 - #35 ==
+INFO  21:10:00,091 - #43 4
+INFO  21:10:00,092 - #8 )
+INFO  21:10:00,092 - #16 print
+INFO  21:10:00,092 - #7 (
+INFO  21:10:00,092 - #44 ord
+INFO  21:10:00,092 - #7 (
+INFO  21:10:00,092 - #46 A
+INFO  21:10:00,092 - #8 )
+INFO  21:10:00,092 - #8 )
+INFO  21:10:00,092 - #6 ;
+INFO  21:10:00,092 - #27 else
+INFO  21:10:00,092 - #16 print
+INFO  21:10:00,092 - #7 (
+INFO  21:10:00,092 - #44 ord
+INFO  21:10:00,092 - #7 (
+INFO  21:10:00,092 - #46 a
+INFO  21:10:00,092 - #8 )
+INFO  21:10:00,092 - #8 )
+INFO  21:10:00,093 - #6 ;
+INFO  21:10:00,093 - #16 print
+INFO  21:10:00,093 - #7 (
+INFO  21:10:00,093 - #44 eol
+INFO  21:10:00,093 - #8 )
+INFO  21:10:00,093 - #6 ;
+INFO  21:10:00,093 - #44 i
+INFO  21:10:00,093 - #11 =
+INFO  21:10:00,093 - #43 0
+INFO  21:10:00,093 - #6 ;
+INFO  21:10:00,093 - #33 while
+INFO  21:10:00,093 - #7 (
+INFO  21:10:00,093 - #44 i
+INFO  21:10:00,093 - #22 <
+INFO  21:10:00,093 - #43 10
+INFO  21:10:00,093 - #8 )
+INFO  21:10:00,093 - #4 {
+INFO  21:10:00,093 - #26 if
+INFO  21:10:00,093 - #7 (
+INFO  21:10:00,093 - #44 i
+INFO  21:10:00,093 - #35 ==
+INFO  21:10:00,093 - #43 3
+INFO  21:10:00,093 - #8 )
+INFO  21:10:00,093 - #4 {
+INFO  21:10:00,093 - #44 i
+INFO  21:10:00,093 - #40 ++
+INFO  21:10:00,093 - #6 ;
+INFO  21:10:00,093 - #28 continue
+INFO  21:10:00,093 - #6 ;
+INFO  21:10:00,094 - #5 }
+INFO  21:10:00,094 - #26 if
+INFO  21:10:00,094 - #7 (
+INFO  21:10:00,094 - #44 i
+INFO  21:10:00,094 - #35 ==
+INFO  21:10:00,094 - #43 4
+INFO  21:10:00,094 - #8 )
+INFO  21:10:00,094 - #30 break
+INFO  21:10:00,094 - #6 ;
+INFO  21:10:00,094 - #44 i
+INFO  21:10:00,094 - #11 =
+INFO  21:10:00,094 - #44 inkrement
+INFO  21:10:00,094 - #7 (
+INFO  21:10:00,095 - #44 i
+INFO  21:10:00,095 - #15 ,
+INFO  21:10:00,095 - #43 1
+INFO  21:10:00,095 - #8 )
+INFO  21:10:00,095 - #6 ;
+INFO  21:10:00,095 - #5 }
+INFO  21:10:00,095 - #26 if
+INFO  21:10:00,095 - #7 (
+INFO  21:10:00,095 - #44 i
+INFO  21:10:00,095 - #35 ==
+INFO  21:10:00,095 - #43 3
+INFO  21:10:00,095 - #31 &&
+INFO  21:10:00,095 - #44 verify
+INFO  21:10:00,095 - #7 (
+INFO  21:10:00,095 - #8 )
+INFO  21:10:00,095 - #8 )
+INFO  21:10:00,095 - #16 print
+INFO  21:10:00,095 - #7 (
+INFO  21:10:00,095 - #14 -
+INFO  21:10:00,095 - #43 4
+INFO  21:10:00,095 - #8 )
+INFO  21:10:00,095 - #6 ;
+INFO  21:10:00,095 - #27 else
+INFO  21:10:00,095 - #16 print
+INFO  21:10:00,095 - #7 (
+INFO  21:10:00,095 - #43 4
+INFO  21:10:00,095 - #8 )
+INFO  21:10:00,095 - #6 ;
+INFO  21:10:00,095 - #36 read
+INFO  21:10:00,096 - #7 (
+INFO  21:10:00,096 - #44 niz
+INFO  21:10:00,096 - #10 [
+INFO  21:10:00,096 - #43 0
+INFO  21:10:00,096 - #9 ]
+INFO  21:10:00,096 - #8 )
+INFO  21:10:00,096 - #6 ;
+INFO  21:10:00,096 - #36 read
+INFO  21:10:00,096 - #7 (
+INFO  21:10:00,096 - #44 niz
+INFO  21:10:00,096 - #10 [
+INFO  21:10:00,096 - #43 1
+INFO  21:10:00,096 - #9 ]
+INFO  21:10:00,096 - #8 )
+INFO  21:10:00,096 - #6 ;
+INFO  21:10:00,096 - #36 read
+INFO  21:10:00,096 - #7 (
+INFO  21:10:00,096 - #44 niz
+INFO  21:10:00,096 - #10 [
+INFO  21:10:00,096 - #43 2
+INFO  21:10:00,096 - #9 ]
+INFO  21:10:00,096 - #8 )
+INFO  21:10:00,096 - #6 ;
+INFO  21:10:00,096 - #16 print
+INFO  21:10:00,096 - #7 (
+INFO  21:10:00,096 - #44 eol
+INFO  21:10:00,096 - #8 )
+INFO  21:10:00,096 - #6 ;
+INFO  21:10:00,096 - #16 print
+INFO  21:10:00,096 - #7 (
+INFO  21:10:00,096 - #44 niz
+INFO  21:10:00,096 - #10 [
+INFO  21:10:00,096 - #43 0
+INFO  21:10:00,096 - #9 ]
+INFO  21:10:00,096 - #8 )
+INFO  21:10:00,096 - #6 ;
+INFO  21:10:00,096 - #16 print
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 niz
+INFO  21:10:00,097 - #10 [
+INFO  21:10:00,097 - #43 1
+INFO  21:10:00,097 - #9 ]
+INFO  21:10:00,097 - #8 )
+INFO  21:10:00,097 - #6 ;
+INFO  21:10:00,097 - #16 print
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 niz
+INFO  21:10:00,097 - #10 [
+INFO  21:10:00,097 - #43 2
+INFO  21:10:00,097 - #9 ]
+INFO  21:10:00,097 - #8 )
+INFO  21:10:00,097 - #6 ;
+INFO  21:10:00,097 - #16 print
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 eol
+INFO  21:10:00,097 - #8 )
+INFO  21:10:00,097 - #6 ;
+INFO  21:10:00,097 - #16 print
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 sum
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 sum
+INFO  21:10:00,097 - #7 (
+INFO  21:10:00,097 - #44 niz
+INFO  21:10:00,097 - #10 [
+INFO  21:10:00,097 - #43 0
+INFO  21:10:00,097 - #9 ]
+INFO  21:10:00,097 - #15 ,
+INFO  21:10:00,097 - #44 niz
+INFO  21:10:00,097 - #10 [
+INFO  21:10:00,097 - #43 1
+INFO  21:10:00,097 - #9 ]
+INFO  21:10:00,097 - #8 )
+INFO  21:10:00,097 - #15 ,
+INFO  21:10:00,098 - #44 niz
+INFO  21:10:00,098 - #10 [
+INFO  21:10:00,098 - #43 2
+INFO  21:10:00,098 - #9 ]
+INFO  21:10:00,098 - #8 )
+INFO  21:10:00,098 - #8 )
+INFO  21:10:00,098 - #6 ;
+INFO  21:10:00,098 - #16 print
+INFO  21:10:00,098 - #7 (
+INFO  21:10:00,098 - #44 eol
+INFO  21:10:00,098 - #8 )
+INFO  21:10:00,098 - #6 ;
+INFO  21:10:00,098 - #16 print
+INFO  21:10:00,098 - #7 (
+INFO  21:10:00,098 - #44 inkrement
+INFO  21:10:00,098 - #7 (
+INFO  21:10:00,098 - #44 niz
+INFO  21:10:00,098 - #10 [
+INFO  21:10:00,098 - #43 2
+INFO  21:10:00,098 - #9 ]
+INFO  21:10:00,098 - #15 ,
+INFO  21:10:00,098 - #43 2
+INFO  21:10:00,098 - #8 )
+INFO  21:10:00,098 - #8 )
+INFO  21:10:00,098 - #6 ;
+INFO  21:10:00,098 - #44 a
+INFO  21:10:00,098 - #11 =
+INFO  21:10:00,098 - #43 3
+INFO  21:10:00,098 - #6 ;
+INFO  21:10:00,099 - #44 i
+INFO  21:10:00,099 - #11 =
+INFO  21:10:00,099 - #43 0
+INFO  21:10:00,099 - #6 ;
+INFO  21:10:00,099 - #33 while
+INFO  21:10:00,099 - #7 (
+INFO  21:10:00,099 - #44 i
+INFO  21:10:00,099 - #22 <
+INFO  21:10:00,099 - #43 3
+INFO  21:10:00,099 - #8 )
+INFO  21:10:00,099 - #4 {
+INFO  21:10:00,099 - #44 niz
+INFO  21:10:00,099 - #10 [
+INFO  21:10:00,099 - #44 i
+INFO  21:10:00,099 - #9 ]
+INFO  21:10:00,099 - #11 =
+INFO  21:10:00,099 - #44 niz
+INFO  21:10:00,099 - #10 [
+INFO  21:10:00,099 - #44 i
+INFO  21:10:00,099 - #9 ]
+INFO  21:10:00,099 - #38 *
+INFO  21:10:00,099 - #43 2
+INFO  21:10:00,099 - #38 *
+INFO  21:10:00,099 - #44 a
+INFO  21:10:00,099 - #6 ;
+INFO  21:10:00,099 - #44 i
+INFO  21:10:00,099 - #40 ++
+INFO  21:10:00,099 - #6 ;
+INFO  21:10:00,099 - #5 }
+INFO  21:10:00,099 - #44 niz
+INFO  21:10:00,099 - #10 [
+INFO  21:10:00,099 - #43 1
+INFO  21:10:00,099 - #9 ]
+INFO  21:10:00,099 - #11 =
+INFO  21:10:00,099 - #43 6
+INFO  21:10:00,099 - #6 ;
+INFO  21:10:00,100 - #44 niz
+INFO  21:10:00,100 - #18 .
+INFO  21:10:00,100 - #29 foreach
+INFO  21:10:00,100 - #7 (
+INFO  21:10:00,100 - #44 curr
+INFO  21:10:00,100 - #20 =>
+INFO  21:10:00,100 - #16 print
+INFO  21:10:00,100 - #7 (
+INFO  21:10:00,100 - #44 curr
+INFO  21:10:00,100 - #8 )
+INFO  21:10:00,100 - #6 ;
+INFO  21:10:00,100 - #8 )
+INFO  21:10:00,100 - #6 ;
+INFO  21:10:00,101 - #44 niz2
+INFO  21:10:00,101 - #11 =
+INFO  21:10:00,101 - #44 niz
+INFO  21:10:00,101 - #18 .
+INFO  21:10:00,101 - #42 findAndReplace
+INFO  21:10:00,101 - #7 (
+INFO  21:10:00,101 - #44 jedan
+INFO  21:10:00,101 - #13 +
+INFO  21:10:00,101 - #43 5
+INFO  21:10:00,101 - #15 ,
+INFO  21:10:00,101 - #44 curr
+INFO  21:10:00,101 - #20 =>
+INFO  21:10:00,101 - #44 curr
+INFO  21:10:00,101 - #38 *
+INFO  21:10:00,101 - #43 3
+INFO  21:10:00,101 - #8 )
+INFO  21:10:00,101 - #6 ;
+INFO  21:10:00,102 - #44 niz2
+INFO  21:10:00,102 - #18 .
+INFO  21:10:00,102 - #29 foreach
+INFO  21:10:00,102 - #7 (
+INFO  21:10:00,102 - #44 curr
+INFO  21:10:00,102 - #20 =>
+INFO  21:10:00,102 - #16 print
+INFO  21:10:00,102 - #7 (
+INFO  21:10:00,102 - #44 curr
+INFO  21:10:00,102 - #8 )
+INFO  21:10:00,102 - #6 ;
+INFO  21:10:00,102 - #8 )
+INFO  21:10:00,102 - #6 ;
+INFO  21:10:00,102 - #5 }
+INFO  21:10:00,102 - #5 }
+INFO  21:10:00,120 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              OneDeclDerived2(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstIdentOne(
+                    ConstIdent(
+                     jedan
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [ConstIdent]
+                  ) [ConstIdentOne]
+                ) [ConstDecl]
+              ) [OneDeclDerived2]
+            ) [DeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsElem(
+                   i
+                  ) [IdentOptionsElem]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               bool
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 ibool
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsArray(
+               niz2
+              ) [IdentOptionsArray]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          OneIdent(
+            IdentOptionsArray(
+             niz
+            ) [IdentOptionsArray]
+          ) [OneIdent]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           curr
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListMany(
+    MethodDeclListMany(
+      MethodDeclListMany(
+        MethodDeclListOne(
+          MethodDecl(
+            MethodTypeNameType(
+              Type(
+               int
+              ) [Type]
+             sum
+            ) [MethodTypeNameType]
+            FormParamsMany(
+              FormParamsOne(
+                FormParElem(
+                  Type(
+                   int
+                  ) [Type]
+                 z
+                ) [FormParElem]
+              ) [FormParamsOne]
+              FormParElem(
+                Type(
+                 int
+                ) [Type]
+               d
+              ) [FormParElem]
+            ) [FormParamsMany]
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            StatementOne(
+              StatementReturnExpr(
+                ExprNormal(
+                  ExprMany(
+                    ExprOne(
+                      TermOne(
+                        FactorDesignator(
+                          Designator(
+                           z
+                            NoAddOns(
+                            ) [NoAddOns]
+                          ) [Designator]
+                        ) [FactorDesignator]
+                      ) [TermOne]
+                    ) [ExprOne]
+                    AddopP(
+                    ) [AddopP]
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         d
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                  ) [ExprMany]
+                ) [ExprNormal]
+              ) [StatementReturnExpr]
+            ) [StatementOne]
+          ) [MethodDecl]
+        ) [MethodDeclListOne]
+        MethodDecl(
+          MethodTypeNameType(
+            Type(
+             int
+            ) [Type]
+           inkrement
+          ) [MethodTypeNameType]
+          FormParamsMany(
+            FormParamsOne(
+              FormParElem(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormParElem]
+            ) [FormParamsOne]
+            FormParElem(
+              Type(
+               int
+              ) [Type]
+             inc
+            ) [FormParElem]
+          ) [FormParamsMany]
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsElem(
+                   pom
+                  ) [IdentOptionsElem]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          StatementsMany(
+            StatementOne(
+              StatementElse(
+                IfBegin(
+                ) [IfBegin]
+                IfCondition(
+                  ConditionOne(
+                    CondTermOne(
+                      CondFactTwo(
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorDesignator(
+                                Designator(
+                                 inc
+                                  NoAddOns(
+                                  ) [NoAddOns]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                        RelopE(
+                        ) [RelopE]
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorDesignator(
+                                Designator(
+                                 jedan
+                                  NoAddOns(
+                                  ) [NoAddOns]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                      ) [CondFactTwo]
+                    ) [CondTermOne]
+                  ) [ConditionOne]
+                ) [IfCondition]
+                StatementDesignator(
+                  DesignatorStatementIs(
+                    Designator(
+                     pom
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [DesignatorStatementIs]
+                ) [StatementDesignator]
+                ElseBegin(
+                ) [ElseBegin]
+                StatementIf(
+                  IfBegin(
+                  ) [IfBegin]
+                  IfCondition(
+                    ConditionOne(
+                      CondTermOne(
+                        CondFactTwo(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorDesignator(
+                                  Designator(
+                                   inc
+                                    NoAddOns(
+                                    ) [NoAddOns]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                          RelopE(
+                          ) [RelopE]
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorNumber(
+                                 2
+                                ) [FactorNumber]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [CondFactTwo]
+                      ) [CondTermOne]
+                    ) [ConditionOne]
+                  ) [IfCondition]
+                  StatementDesignator(
+                    DesignatorStatementIs(
+                      Designator(
+                       pom
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                      ExprNormal(
+                        ExprOne(
+                          TermOne(
+                            FactorDesignator(
+                              Designator(
+                               a
+                                NoAddOns(
+                                ) [NoAddOns]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [TermOne]
+                        ) [ExprOne]
+                      ) [ExprNormal]
+                    ) [DesignatorStatementIs]
+                  ) [StatementDesignator]
+                  IfEnd(
+                  ) [IfEnd]
+                ) [StatementIf]
+                IfElseEnd(
+                ) [IfElseEnd]
+              ) [StatementElse]
+            ) [StatementOne]
+            StatementReturnExpr(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorDesActPar(
+                      Designator(
+                       sum
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                      OptActPars(
+                        ActParsHas(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorDesignator(
+                                  Designator(
+                                   a
+                                    NoAddOns(
+                                    ) [NoAddOns]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                          ActParsAddOnMany(
+                            ActParsAddOnNone(
+                            ) [ActParsAddOnNone]
+                            ExprNormal(
+                              ExprOne(
+                                TermOne(
+                                  FactorDesignator(
+                                    Designator(
+                                     pom
+                                      NoAddOns(
+                                      ) [NoAddOns]
+                                    ) [Designator]
+                                  ) [FactorDesignator]
+                                ) [TermOne]
+                              ) [ExprOne]
+                            ) [ExprNormal]
+                          ) [ActParsAddOnMany]
+                        ) [ActParsHas]
+                      ) [OptActPars]
+                    ) [FactorDesActPar]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [StatementReturnExpr]
+          ) [StatementsMany]
+        ) [MethodDecl]
+      ) [MethodDeclListMany]
+      MethodDecl(
+        MethodTypeNameType(
+          Type(
+           bool
+          ) [Type]
+         verify
+        ) [MethodTypeNameType]
+        FormParamsNone(
+        ) [FormParamsNone]
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        StatementsMany(
+          StatementOne(
+            StatementPrint(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorChar(
+                     v
+                    ) [FactorChar]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [StatementPrint]
+          ) [StatementOne]
+          StatementReturnExpr(
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorBool(
+                   false
+                  ) [FactorBool]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [StatementReturnExpr]
+        ) [StatementsMany]
+      ) [MethodDecl]
+    ) [MethodDeclListMany]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsNone(
+      ) [FormParamsNone]
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementsMany(
+            StatementsMany(
+              StatementsMany(
+                StatementsMany(
+                  StatementsMany(
+                    StatementsMany(
+                      StatementsMany(
+                        StatementsMany(
+                          StatementsMany(
+                            StatementsMany(
+                              StatementsMany(
+                                StatementsMany(
+                                  StatementsMany(
+                                    StatementsMany(
+                                      StatementsMany(
+                                        StatementsMany(
+                                          StatementsMany(
+                                            StatementsMany(
+                                              StatementsMany(
+                                                StatementsMany(
+                                                  StatementsMany(
+                                                    StatementsMany(
+                                                      StatementsMany(
+                                                        StatementsMany(
+                                                          StatementsMany(
+                                                            StatementsMany(
+                                                              StatementsMany(
+                                                                StatementsMany(
+                                                                  StatementsMany(
+                                                                    StatementsMany(
+                                                                      StatementOne(
+                                                                        StatementElse(
+                                                                          IfBegin(
+                                                                          ) [IfBegin]
+                                                                          IfCondition(
+                                                                            ConditionOne(
+                                                                              CondTermOne(
+                                                                                CondFactTwo(
+                                                                                  ExprNormal(
+                                                                                    ExprOne(
+                                                                                      TermOne(
+                                                                                        FactorNumber(
+                                                                                         1
+                                                                                        ) [FactorNumber]
+                                                                                      ) [TermOne]
+                                                                                    ) [ExprOne]
+                                                                                  ) [ExprNormal]
+                                                                                  RelopNE(
+                                                                                  ) [RelopNE]
+                                                                                  ExprNormal(
+                                                                                    ExprOne(
+                                                                                      TermOne(
+                                                                                        FactorNumber(
+                                                                                         1
+                                                                                        ) [FactorNumber]
+                                                                                      ) [TermOne]
+                                                                                    ) [ExprOne]
+                                                                                  ) [ExprNormal]
+                                                                                ) [CondFactTwo]
+                                                                              ) [CondTermOne]
+                                                                            ) [ConditionOne]
+                                                                          ) [IfCondition]
+                                                                          StatementPrint(
+                                                                            ExprMinus(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorNumber(
+                                                                                   6
+                                                                                  ) [FactorNumber]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprMinus]
+                                                                          ) [StatementPrint]
+                                                                          ElseBegin(
+                                                                          ) [ElseBegin]
+                                                                          StatementPrint(
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorNumber(
+                                                                                   0
+                                                                                  ) [FactorNumber]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                          ) [StatementPrint]
+                                                                          IfElseEnd(
+                                                                          ) [IfElseEnd]
+                                                                        ) [StatementElse]
+                                                                      ) [StatementOne]
+                                                                      StatementDesignator(
+                                                                        DesignatorStatementIs(
+                                                                          Designator(
+                                                                           ibool
+                                                                            NoAddOns(
+                                                                            ) [NoAddOns]
+                                                                          ) [Designator]
+                                                                          ExprNormal(
+                                                                            ExprOne(
+                                                                              TermOne(
+                                                                                FactorBool(
+                                                                                 false
+                                                                                ) [FactorBool]
+                                                                              ) [TermOne]
+                                                                            ) [ExprOne]
+                                                                          ) [ExprNormal]
+                                                                        ) [DesignatorStatementIs]
+                                                                      ) [StatementDesignator]
+                                                                    ) [StatementsMany]
+                                                                    StatementDesignator(
+                                                                      DesignatorStatementIs(
+                                                                        Designator(
+                                                                         i
+                                                                          NoAddOns(
+                                                                          ) [NoAddOns]
+                                                                        ) [Designator]
+                                                                        ExprNormal(
+                                                                          ExprOne(
+                                                                            TermOne(
+                                                                              FactorNumber(
+                                                                               0
+                                                                              ) [FactorNumber]
+                                                                            ) [TermOne]
+                                                                          ) [ExprOne]
+                                                                        ) [ExprNormal]
+                                                                      ) [DesignatorStatementIs]
+                                                                    ) [StatementDesignator]
+                                                                  ) [StatementsMany]
+                                                                  StatementWhile(
+                                                                    WhileBegin(
+                                                                    ) [WhileBegin]
+                                                                    WhileCondition(
+                                                                      ConditionOne(
+                                                                        CondTermOne(
+                                                                          CondFactTwo(
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     i
+                                                                                      NoAddOns(
+                                                                                      ) [NoAddOns]
+                                                                                    ) [Designator]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                            RelopLT(
+                                                                            ) [RelopLT]
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorNumber(
+                                                                                   5
+                                                                                  ) [FactorNumber]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                          ) [CondFactTwo]
+                                                                        ) [CondTermOne]
+                                                                      ) [ConditionOne]
+                                                                    ) [WhileCondition]
+                                                                    StatementStatement(
+                                                                      StatementsMany(
+                                                                        StatementOne(
+                                                                          StatementIf(
+                                                                            IfBegin(
+                                                                            ) [IfBegin]
+                                                                            IfCondition(
+                                                                              ConditionOne(
+                                                                                CondTermOne(
+                                                                                  CondFactTwo(
+                                                                                    ExprNormal(
+                                                                                      ExprOne(
+                                                                                        TermOne(
+                                                                                          FactorDesignator(
+                                                                                            Designator(
+                                                                                             i
+                                                                                              NoAddOns(
+                                                                                              ) [NoAddOns]
+                                                                                            ) [Designator]
+                                                                                          ) [FactorDesignator]
+                                                                                        ) [TermOne]
+                                                                                      ) [ExprOne]
+                                                                                    ) [ExprNormal]
+                                                                                    RelopE(
+                                                                                    ) [RelopE]
+                                                                                    ExprNormal(
+                                                                                      ExprOne(
+                                                                                        TermOne(
+                                                                                          FactorNumber(
+                                                                                           2
+                                                                                          ) [FactorNumber]
+                                                                                        ) [TermOne]
+                                                                                      ) [ExprOne]
+                                                                                    ) [ExprNormal]
+                                                                                  ) [CondFactTwo]
+                                                                                ) [CondTermOne]
+                                                                              ) [ConditionOne]
+                                                                            ) [IfCondition]
+                                                                            StatementDesignator(
+                                                                              DesignatorStatementIs(
+                                                                                Designator(
+                                                                                 ibool
+                                                                                  NoAddOns(
+                                                                                  ) [NoAddOns]
+                                                                                ) [Designator]
+                                                                                ExprNormal(
+                                                                                  ExprOne(
+                                                                                    TermOne(
+                                                                                      FactorBool(
+                                                                                       true
+                                                                                      ) [FactorBool]
+                                                                                    ) [TermOne]
+                                                                                  ) [ExprOne]
+                                                                                ) [ExprNormal]
+                                                                              ) [DesignatorStatementIs]
+                                                                            ) [StatementDesignator]
+                                                                            IfEnd(
+                                                                            ) [IfEnd]
+                                                                          ) [StatementIf]
+                                                                        ) [StatementOne]
+                                                                        StatementDesignator(
+                                                                          DesignatorStatementIncr(
+                                                                            Designator(
+                                                                             i
+                                                                              NoAddOns(
+                                                                              ) [NoAddOns]
+                                                                            ) [Designator]
+                                                                          ) [DesignatorStatementIncr]
+                                                                        ) [StatementDesignator]
+                                                                      ) [StatementsMany]
+                                                                    ) [StatementStatement]
+                                                                    WhileEnd(
+                                                                    ) [WhileEnd]
+                                                                  ) [StatementWhile]
+                                                                ) [StatementsMany]
+                                                                StatementIf(
+                                                                  IfBegin(
+                                                                  ) [IfBegin]
+                                                                  IfCondition(
+                                                                    ConditionOne(
+                                                                      CondTermOne(
+                                                                        CondFactOne(
+                                                                          ExprNormal(
+                                                                            ExprOne(
+                                                                              TermOne(
+                                                                                FactorDesignator(
+                                                                                  Designator(
+                                                                                   ibool
+                                                                                    NoAddOns(
+                                                                                    ) [NoAddOns]
+                                                                                  ) [Designator]
+                                                                                ) [FactorDesignator]
+                                                                              ) [TermOne]
+                                                                            ) [ExprOne]
+                                                                          ) [ExprNormal]
+                                                                        ) [CondFactOne]
+                                                                      ) [CondTermOne]
+                                                                    ) [ConditionOne]
+                                                                  ) [IfCondition]
+                                                                  StatementElse(
+                                                                    IfBegin(
+                                                                    ) [IfBegin]
+                                                                    IfCondition(
+                                                                      ConditionOne(
+                                                                        CondTermOne(
+                                                                          CondFactTwo(
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     i
+                                                                                      NoAddOns(
+                                                                                      ) [NoAddOns]
+                                                                                    ) [Designator]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                            RelopE(
+                                                                            ) [RelopE]
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorNumber(
+                                                                                   5
+                                                                                  ) [FactorNumber]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                          ) [CondFactTwo]
+                                                                        ) [CondTermOne]
+                                                                      ) [ConditionOne]
+                                                                    ) [IfCondition]
+                                                                    StatementPrint(
+                                                                      ExprNormal(
+                                                                        ExprOne(
+                                                                          TermOne(
+                                                                            FactorNumber(
+                                                                             1
+                                                                            ) [FactorNumber]
+                                                                          ) [TermOne]
+                                                                        ) [ExprOne]
+                                                                      ) [ExprNormal]
+                                                                    ) [StatementPrint]
+                                                                    ElseBegin(
+                                                                    ) [ElseBegin]
+                                                                    StatementPrint(
+                                                                      ExprMinus(
+                                                                        ExprOne(
+                                                                          TermOne(
+                                                                            FactorNumber(
+                                                                             1
+                                                                            ) [FactorNumber]
+                                                                          ) [TermOne]
+                                                                        ) [ExprOne]
+                                                                      ) [ExprMinus]
+                                                                    ) [StatementPrint]
+                                                                    IfElseEnd(
+                                                                    ) [IfElseEnd]
+                                                                  ) [StatementElse]
+                                                                  IfEnd(
+                                                                  ) [IfEnd]
+                                                                ) [StatementIf]
+                                                              ) [StatementsMany]
+                                                              StatementDesignator(
+                                                                DesignatorStatementIs(
+                                                                  Designator(
+                                                                   a
+                                                                    NoAddOns(
+                                                                    ) [NoAddOns]
+                                                                  ) [Designator]
+                                                                  ExprNormal(
+                                                                    ExprOne(
+                                                                      TermOne(
+                                                                        FactorNumber(
+                                                                         2
+                                                                        ) [FactorNumber]
+                                                                      ) [TermOne]
+                                                                    ) [ExprOne]
+                                                                  ) [ExprNormal]
+                                                                ) [DesignatorStatementIs]
+                                                              ) [StatementDesignator]
+                                                            ) [StatementsMany]
+                                                            StatementDesignator(
+                                                              DesignatorStatementIs(
+                                                                Designator(
+                                                                 niz
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorNewExpr(
+                                                                        Type(
+                                                                         int
+                                                                        ) [Type]
+                                                                        FactorNew(
+                                                                          ExprNormal(
+                                                                            ExprOne(
+                                                                              TermOne(
+                                                                                FactorNumber(
+                                                                                 3
+                                                                                ) [FactorNumber]
+                                                                              ) [TermOne]
+                                                                            ) [ExprOne]
+                                                                          ) [ExprNormal]
+                                                                        ) [FactorNew]
+                                                                      ) [FactorNewExpr]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                              ) [DesignatorStatementIs]
+                                                            ) [StatementDesignator]
+                                                          ) [StatementsMany]
+                                                          StatementDesignator(
+                                                            DesignatorStatementIs(
+                                                              Designator(
+                                                               niz
+                                                                AddOns(
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                  DesignatorAddOn(
+                                                                    ExprNormal(
+                                                                      ExprOne(
+                                                                        TermOne(
+                                                                          FactorNumber(
+                                                                           0
+                                                                          ) [FactorNumber]
+                                                                        ) [TermOne]
+                                                                      ) [ExprOne]
+                                                                    ) [ExprNormal]
+                                                                  ) [DesignatorAddOn]
+                                                                ) [AddOns]
+                                                              ) [Designator]
+                                                              ExprNormal(
+                                                                ExprOne(
+                                                                  TermMany(
+                                                                    TermOne(
+                                                                      FactorNumber(
+                                                                       1
+                                                                      ) [FactorNumber]
+                                                                    ) [TermOne]
+                                                                    MulopM(
+                                                                    ) [MulopM]
+                                                                    FactorDesignator(
+                                                                      Designator(
+                                                                       a
+                                                                        NoAddOns(
+                                                                        ) [NoAddOns]
+                                                                      ) [Designator]
+                                                                    ) [FactorDesignator]
+                                                                  ) [TermMany]
+                                                                ) [ExprOne]
+                                                              ) [ExprNormal]
+                                                            ) [DesignatorStatementIs]
+                                                          ) [StatementDesignator]
+                                                        ) [StatementsMany]
+                                                        StatementDesignator(
+                                                          DesignatorStatementIs(
+                                                            Designator(
+                                                             niz
+                                                              AddOns(
+                                                                NoAddOns(
+                                                                ) [NoAddOns]
+                                                                DesignatorAddOn(
+                                                                  ExprNormal(
+                                                                    ExprOne(
+                                                                      TermOne(
+                                                                        FactorNumber(
+                                                                         1
+                                                                        ) [FactorNumber]
+                                                                      ) [TermOne]
+                                                                    ) [ExprOne]
+                                                                  ) [ExprNormal]
+                                                                ) [DesignatorAddOn]
+                                                              ) [AddOns]
+                                                            ) [Designator]
+                                                            ExprNormal(
+                                                              ExprOne(
+                                                                TermMany(
+                                                                  TermOne(
+                                                                    FactorNumber(
+                                                                     2
+                                                                    ) [FactorNumber]
+                                                                  ) [TermOne]
+                                                                  MulopM(
+                                                                  ) [MulopM]
+                                                                  FactorDesignator(
+                                                                    Designator(
+                                                                     a
+                                                                      NoAddOns(
+                                                                      ) [NoAddOns]
+                                                                    ) [Designator]
+                                                                  ) [FactorDesignator]
+                                                                ) [TermMany]
+                                                              ) [ExprOne]
+                                                            ) [ExprNormal]
+                                                          ) [DesignatorStatementIs]
+                                                        ) [StatementDesignator]
+                                                      ) [StatementsMany]
+                                                      StatementDesignator(
+                                                        DesignatorStatementIs(
+                                                          Designator(
+                                                           niz
+                                                            AddOns(
+                                                              NoAddOns(
+                                                              ) [NoAddOns]
+                                                              DesignatorAddOn(
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorNumber(
+                                                                       2
+                                                                      ) [FactorNumber]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                              ) [DesignatorAddOn]
+                                                            ) [AddOns]
+                                                          ) [Designator]
+                                                          ExprNormal(
+                                                            ExprMany(
+                                                              ExprOne(
+                                                                TermMany(
+                                                                  TermOne(
+                                                                    FactorDesActPar(
+                                                                      Designator(
+                                                                       sum
+                                                                        NoAddOns(
+                                                                        ) [NoAddOns]
+                                                                      ) [Designator]
+                                                                      OptActPars(
+                                                                        ActParsHas(
+                                                                          ExprNormal(
+                                                                            ExprOne(
+                                                                              TermOne(
+                                                                                FactorDesignator(
+                                                                                  Designator(
+                                                                                   niz
+                                                                                    AddOns(
+                                                                                      NoAddOns(
+                                                                                      ) [NoAddOns]
+                                                                                      DesignatorAddOn(
+                                                                                        ExprNormal(
+                                                                                          ExprOne(
+                                                                                            TermOne(
+                                                                                              FactorNumber(
+                                                                                               1
+                                                                                              ) [FactorNumber]
+                                                                                            ) [TermOne]
+                                                                                          ) [ExprOne]
+                                                                                        ) [ExprNormal]
+                                                                                      ) [DesignatorAddOn]
+                                                                                    ) [AddOns]
+                                                                                  ) [Designator]
+                                                                                ) [FactorDesignator]
+                                                                              ) [TermOne]
+                                                                            ) [ExprOne]
+                                                                          ) [ExprNormal]
+                                                                          ActParsAddOnMany(
+                                                                            ActParsAddOnNone(
+                                                                            ) [ActParsAddOnNone]
+                                                                            ExprNormal(
+                                                                              ExprOne(
+                                                                                TermOne(
+                                                                                  FactorDesignator(
+                                                                                    Designator(
+                                                                                     niz
+                                                                                      AddOns(
+                                                                                        NoAddOns(
+                                                                                        ) [NoAddOns]
+                                                                                        DesignatorAddOn(
+                                                                                          ExprNormal(
+                                                                                            ExprOne(
+                                                                                              TermOne(
+                                                                                                FactorNumber(
+                                                                                                 0
+                                                                                                ) [FactorNumber]
+                                                                                              ) [TermOne]
+                                                                                            ) [ExprOne]
+                                                                                          ) [ExprNormal]
+                                                                                        ) [DesignatorAddOn]
+                                                                                      ) [AddOns]
+                                                                                    ) [Designator]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [TermOne]
+                                                                              ) [ExprOne]
+                                                                            ) [ExprNormal]
+                                                                          ) [ActParsAddOnMany]
+                                                                        ) [ActParsHas]
+                                                                      ) [OptActPars]
+                                                                    ) [FactorDesActPar]
+                                                                  ) [TermOne]
+                                                                  MulopM(
+                                                                  ) [MulopM]
+                                                                  FactorDesignator(
+                                                                    Designator(
+                                                                     a
+                                                                      NoAddOns(
+                                                                      ) [NoAddOns]
+                                                                    ) [Designator]
+                                                                  ) [FactorDesignator]
+                                                                ) [TermMany]
+                                                              ) [ExprOne]
+                                                              AddopP(
+                                                              ) [AddopP]
+                                                              TermOne(
+                                                                FactorNumber(
+                                                                 1
+                                                                ) [FactorNumber]
+                                                              ) [TermOne]
+                                                            ) [ExprMany]
+                                                          ) [ExprNormal]
+                                                        ) [DesignatorStatementIs]
+                                                      ) [StatementDesignator]
+                                                    ) [StatementsMany]
+                                                    StatementElse(
+                                                      IfBegin(
+                                                      ) [IfBegin]
+                                                      IfCondition(
+                                                        ConditionMany(
+                                                          CondTermOne(
+                                                            CondFactOne(
+                                                              ExprNormal(
+                                                                ExprOne(
+                                                                  TermOne(
+                                                                    FactorDesActPar(
+                                                                      Designator(
+                                                                       verify
+                                                                        NoAddOns(
+                                                                        ) [NoAddOns]
+                                                                      ) [Designator]
+                                                                      OptActPars(
+                                                                        ActParsNone(
+                                                                        ) [ActParsNone]
+                                                                      ) [OptActPars]
+                                                                    ) [FactorDesActPar]
+                                                                  ) [TermOne]
+                                                                ) [ExprOne]
+                                                              ) [ExprNormal]
+                                                            ) [CondFactOne]
+                                                          ) [CondTermOne]
+                                                          ConditionOne(
+                                                            CondTermOne(
+                                                              CondFactTwo(
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorDesignator(
+                                                                        Designator(
+                                                                         niz
+                                                                          AddOns(
+                                                                            NoAddOns(
+                                                                            ) [NoAddOns]
+                                                                            DesignatorAddOn(
+                                                                              ExprNormal(
+                                                                                ExprOne(
+                                                                                  TermOne(
+                                                                                    FactorNumber(
+                                                                                     2
+                                                                                    ) [FactorNumber]
+                                                                                  ) [TermOne]
+                                                                                ) [ExprOne]
+                                                                              ) [ExprNormal]
+                                                                            ) [DesignatorAddOn]
+                                                                          ) [AddOns]
+                                                                        ) [Designator]
+                                                                      ) [FactorDesignator]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                                RelopE(
+                                                                ) [RelopE]
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorNumber(
+                                                                       4
+                                                                      ) [FactorNumber]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                              ) [CondFactTwo]
+                                                            ) [CondTermOne]
+                                                          ) [ConditionOne]
+                                                        ) [ConditionMany]
+                                                      ) [IfCondition]
+                                                      StatementPrint(
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorDesActPar(
+                                                                Designator(
+                                                                 ord
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                                OptActPars(
+                                                                  ActParsHas(
+                                                                    ExprNormal(
+                                                                      ExprOne(
+                                                                        TermOne(
+                                                                          FactorChar(
+                                                                           A
+                                                                          ) [FactorChar]
+                                                                        ) [TermOne]
+                                                                      ) [ExprOne]
+                                                                    ) [ExprNormal]
+                                                                    ActParsAddOnNone(
+                                                                    ) [ActParsAddOnNone]
+                                                                  ) [ActParsHas]
+                                                                ) [OptActPars]
+                                                              ) [FactorDesActPar]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [StatementPrint]
+                                                      ElseBegin(
+                                                      ) [ElseBegin]
+                                                      StatementPrint(
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorDesActPar(
+                                                                Designator(
+                                                                 ord
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                                OptActPars(
+                                                                  ActParsHas(
+                                                                    ExprNormal(
+                                                                      ExprOne(
+                                                                        TermOne(
+                                                                          FactorChar(
+                                                                           a
+                                                                          ) [FactorChar]
+                                                                        ) [TermOne]
+                                                                      ) [ExprOne]
+                                                                    ) [ExprNormal]
+                                                                    ActParsAddOnNone(
+                                                                    ) [ActParsAddOnNone]
+                                                                  ) [ActParsHas]
+                                                                ) [OptActPars]
+                                                              ) [FactorDesActPar]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [StatementPrint]
+                                                      IfElseEnd(
+                                                      ) [IfElseEnd]
+                                                    ) [StatementElse]
+                                                  ) [StatementsMany]
+                                                  StatementPrint(
+                                                    ExprNormal(
+                                                      ExprOne(
+                                                        TermOne(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             eol
+                                                              NoAddOns(
+                                                              ) [NoAddOns]
+                                                            ) [Designator]
+                                                          ) [FactorDesignator]
+                                                        ) [TermOne]
+                                                      ) [ExprOne]
+                                                    ) [ExprNormal]
+                                                  ) [StatementPrint]
+                                                ) [StatementsMany]
+                                                StatementDesignator(
+                                                  DesignatorStatementIs(
+                                                    Designator(
+                                                     i
+                                                      NoAddOns(
+                                                      ) [NoAddOns]
+                                                    ) [Designator]
+                                                    ExprNormal(
+                                                      ExprOne(
+                                                        TermOne(
+                                                          FactorNumber(
+                                                           0
+                                                          ) [FactorNumber]
+                                                        ) [TermOne]
+                                                      ) [ExprOne]
+                                                    ) [ExprNormal]
+                                                  ) [DesignatorStatementIs]
+                                                ) [StatementDesignator]
+                                              ) [StatementsMany]
+                                              StatementWhile(
+                                                WhileBegin(
+                                                ) [WhileBegin]
+                                                WhileCondition(
+                                                  ConditionOne(
+                                                    CondTermOne(
+                                                      CondFactTwo(
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorDesignator(
+                                                                Designator(
+                                                                 i
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                              ) [FactorDesignator]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                        RelopLT(
+                                                        ) [RelopLT]
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorNumber(
+                                                               10
+                                                              ) [FactorNumber]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [CondFactTwo]
+                                                    ) [CondTermOne]
+                                                  ) [ConditionOne]
+                                                ) [WhileCondition]
+                                                StatementStatement(
+                                                  StatementsMany(
+                                                    StatementsMany(
+                                                      StatementOne(
+                                                        StatementIf(
+                                                          IfBegin(
+                                                          ) [IfBegin]
+                                                          IfCondition(
+                                                            ConditionOne(
+                                                              CondTermOne(
+                                                                CondFactTwo(
+                                                                  ExprNormal(
+                                                                    ExprOne(
+                                                                      TermOne(
+                                                                        FactorDesignator(
+                                                                          Designator(
+                                                                           i
+                                                                            NoAddOns(
+                                                                            ) [NoAddOns]
+                                                                          ) [Designator]
+                                                                        ) [FactorDesignator]
+                                                                      ) [TermOne]
+                                                                    ) [ExprOne]
+                                                                  ) [ExprNormal]
+                                                                  RelopE(
+                                                                  ) [RelopE]
+                                                                  ExprNormal(
+                                                                    ExprOne(
+                                                                      TermOne(
+                                                                        FactorNumber(
+                                                                         3
+                                                                        ) [FactorNumber]
+                                                                      ) [TermOne]
+                                                                    ) [ExprOne]
+                                                                  ) [ExprNormal]
+                                                                ) [CondFactTwo]
+                                                              ) [CondTermOne]
+                                                            ) [ConditionOne]
+                                                          ) [IfCondition]
+                                                          StatementStatement(
+                                                            StatementsMany(
+                                                              StatementOne(
+                                                                StatementDesignator(
+                                                                  DesignatorStatementIncr(
+                                                                    Designator(
+                                                                     i
+                                                                      NoAddOns(
+                                                                      ) [NoAddOns]
+                                                                    ) [Designator]
+                                                                  ) [DesignatorStatementIncr]
+                                                                ) [StatementDesignator]
+                                                              ) [StatementOne]
+                                                              StatementContinue(
+                                                              ) [StatementContinue]
+                                                            ) [StatementsMany]
+                                                          ) [StatementStatement]
+                                                          IfEnd(
+                                                          ) [IfEnd]
+                                                        ) [StatementIf]
+                                                      ) [StatementOne]
+                                                      StatementIf(
+                                                        IfBegin(
+                                                        ) [IfBegin]
+                                                        IfCondition(
+                                                          ConditionOne(
+                                                            CondTermOne(
+                                                              CondFactTwo(
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorDesignator(
+                                                                        Designator(
+                                                                         i
+                                                                          NoAddOns(
+                                                                          ) [NoAddOns]
+                                                                        ) [Designator]
+                                                                      ) [FactorDesignator]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                                RelopE(
+                                                                ) [RelopE]
+                                                                ExprNormal(
+                                                                  ExprOne(
+                                                                    TermOne(
+                                                                      FactorNumber(
+                                                                       4
+                                                                      ) [FactorNumber]
+                                                                    ) [TermOne]
+                                                                  ) [ExprOne]
+                                                                ) [ExprNormal]
+                                                              ) [CondFactTwo]
+                                                            ) [CondTermOne]
+                                                          ) [ConditionOne]
+                                                        ) [IfCondition]
+                                                        StatementBreak(
+                                                        ) [StatementBreak]
+                                                        IfEnd(
+                                                        ) [IfEnd]
+                                                      ) [StatementIf]
+                                                    ) [StatementsMany]
+                                                    StatementDesignator(
+                                                      DesignatorStatementIs(
+                                                        Designator(
+                                                         i
+                                                          NoAddOns(
+                                                          ) [NoAddOns]
+                                                        ) [Designator]
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorDesActPar(
+                                                                Designator(
+                                                                 inkrement
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                                OptActPars(
+                                                                  ActParsHas(
+                                                                    ExprNormal(
+                                                                      ExprOne(
+                                                                        TermOne(
+                                                                          FactorDesignator(
+                                                                            Designator(
+                                                                             i
+                                                                              NoAddOns(
+                                                                              ) [NoAddOns]
+                                                                            ) [Designator]
+                                                                          ) [FactorDesignator]
+                                                                        ) [TermOne]
+                                                                      ) [ExprOne]
+                                                                    ) [ExprNormal]
+                                                                    ActParsAddOnMany(
+                                                                      ActParsAddOnNone(
+                                                                      ) [ActParsAddOnNone]
+                                                                      ExprNormal(
+                                                                        ExprOne(
+                                                                          TermOne(
+                                                                            FactorNumber(
+                                                                             1
+                                                                            ) [FactorNumber]
+                                                                          ) [TermOne]
+                                                                        ) [ExprOne]
+                                                                      ) [ExprNormal]
+                                                                    ) [ActParsAddOnMany]
+                                                                  ) [ActParsHas]
+                                                                ) [OptActPars]
+                                                              ) [FactorDesActPar]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [DesignatorStatementIs]
+                                                    ) [StatementDesignator]
+                                                  ) [StatementsMany]
+                                                ) [StatementStatement]
+                                                WhileEnd(
+                                                ) [WhileEnd]
+                                              ) [StatementWhile]
+                                            ) [StatementsMany]
+                                            StatementElse(
+                                              IfBegin(
+                                              ) [IfBegin]
+                                              IfCondition(
+                                                ConditionOne(
+                                                  CondTermMany(
+                                                    CondFactTwo(
+                                                      ExprNormal(
+                                                        ExprOne(
+                                                          TermOne(
+                                                            FactorDesignator(
+                                                              Designator(
+                                                               i
+                                                                NoAddOns(
+                                                                ) [NoAddOns]
+                                                              ) [Designator]
+                                                            ) [FactorDesignator]
+                                                          ) [TermOne]
+                                                        ) [ExprOne]
+                                                      ) [ExprNormal]
+                                                      RelopE(
+                                                      ) [RelopE]
+                                                      ExprNormal(
+                                                        ExprOne(
+                                                          TermOne(
+                                                            FactorNumber(
+                                                             3
+                                                            ) [FactorNumber]
+                                                          ) [TermOne]
+                                                        ) [ExprOne]
+                                                      ) [ExprNormal]
+                                                    ) [CondFactTwo]
+                                                    CondTermOne(
+                                                      CondFactOne(
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorDesActPar(
+                                                                Designator(
+                                                                 verify
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                ) [Designator]
+                                                                OptActPars(
+                                                                  ActParsNone(
+                                                                  ) [ActParsNone]
+                                                                ) [OptActPars]
+                                                              ) [FactorDesActPar]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [CondFactOne]
+                                                    ) [CondTermOne]
+                                                  ) [CondTermMany]
+                                                ) [ConditionOne]
+                                              ) [IfCondition]
+                                              StatementPrint(
+                                                ExprMinus(
+                                                  ExprOne(
+                                                    TermOne(
+                                                      FactorNumber(
+                                                       4
+                                                      ) [FactorNumber]
+                                                    ) [TermOne]
+                                                  ) [ExprOne]
+                                                ) [ExprMinus]
+                                              ) [StatementPrint]
+                                              ElseBegin(
+                                              ) [ElseBegin]
+                                              StatementPrint(
+                                                ExprNormal(
+                                                  ExprOne(
+                                                    TermOne(
+                                                      FactorNumber(
+                                                       4
+                                                      ) [FactorNumber]
+                                                    ) [TermOne]
+                                                  ) [ExprOne]
+                                                ) [ExprNormal]
+                                              ) [StatementPrint]
+                                              IfElseEnd(
+                                              ) [IfElseEnd]
+                                            ) [StatementElse]
+                                          ) [StatementsMany]
+                                          StatementRead(
+                                            Designator(
+                                             niz
+                                              AddOns(
+                                                NoAddOns(
+                                                ) [NoAddOns]
+                                                DesignatorAddOn(
+                                                  ExprNormal(
+                                                    ExprOne(
+                                                      TermOne(
+                                                        FactorNumber(
+                                                         0
+                                                        ) [FactorNumber]
+                                                      ) [TermOne]
+                                                    ) [ExprOne]
+                                                  ) [ExprNormal]
+                                                ) [DesignatorAddOn]
+                                              ) [AddOns]
+                                            ) [Designator]
+                                          ) [StatementRead]
+                                        ) [StatementsMany]
+                                        StatementRead(
+                                          Designator(
+                                           niz
+                                            AddOns(
+                                              NoAddOns(
+                                              ) [NoAddOns]
+                                              DesignatorAddOn(
+                                                ExprNormal(
+                                                  ExprOne(
+                                                    TermOne(
+                                                      FactorNumber(
+                                                       1
+                                                      ) [FactorNumber]
+                                                    ) [TermOne]
+                                                  ) [ExprOne]
+                                                ) [ExprNormal]
+                                              ) [DesignatorAddOn]
+                                            ) [AddOns]
+                                          ) [Designator]
+                                        ) [StatementRead]
+                                      ) [StatementsMany]
+                                      StatementRead(
+                                        Designator(
+                                         niz
+                                          AddOns(
+                                            NoAddOns(
+                                            ) [NoAddOns]
+                                            DesignatorAddOn(
+                                              ExprNormal(
+                                                ExprOne(
+                                                  TermOne(
+                                                    FactorNumber(
+                                                     2
+                                                    ) [FactorNumber]
+                                                  ) [TermOne]
+                                                ) [ExprOne]
+                                              ) [ExprNormal]
+                                            ) [DesignatorAddOn]
+                                          ) [AddOns]
+                                        ) [Designator]
+                                      ) [StatementRead]
+                                    ) [StatementsMany]
+                                    StatementPrint(
+                                      ExprNormal(
+                                        ExprOne(
+                                          TermOne(
+                                            FactorDesignator(
+                                              Designator(
+                                               eol
+                                                NoAddOns(
+                                                ) [NoAddOns]
+                                              ) [Designator]
+                                            ) [FactorDesignator]
+                                          ) [TermOne]
+                                        ) [ExprOne]
+                                      ) [ExprNormal]
+                                    ) [StatementPrint]
+                                  ) [StatementsMany]
+                                  StatementPrint(
+                                    ExprNormal(
+                                      ExprOne(
+                                        TermOne(
+                                          FactorDesignator(
+                                            Designator(
+                                             niz
+                                              AddOns(
+                                                NoAddOns(
+                                                ) [NoAddOns]
+                                                DesignatorAddOn(
+                                                  ExprNormal(
+                                                    ExprOne(
+                                                      TermOne(
+                                                        FactorNumber(
+                                                         0
+                                                        ) [FactorNumber]
+                                                      ) [TermOne]
+                                                    ) [ExprOne]
+                                                  ) [ExprNormal]
+                                                ) [DesignatorAddOn]
+                                              ) [AddOns]
+                                            ) [Designator]
+                                          ) [FactorDesignator]
+                                        ) [TermOne]
+                                      ) [ExprOne]
+                                    ) [ExprNormal]
+                                  ) [StatementPrint]
+                                ) [StatementsMany]
+                                StatementPrint(
+                                  ExprNormal(
+                                    ExprOne(
+                                      TermOne(
+                                        FactorDesignator(
+                                          Designator(
+                                           niz
+                                            AddOns(
+                                              NoAddOns(
+                                              ) [NoAddOns]
+                                              DesignatorAddOn(
+                                                ExprNormal(
+                                                  ExprOne(
+                                                    TermOne(
+                                                      FactorNumber(
+                                                       1
+                                                      ) [FactorNumber]
+                                                    ) [TermOne]
+                                                  ) [ExprOne]
+                                                ) [ExprNormal]
+                                              ) [DesignatorAddOn]
+                                            ) [AddOns]
+                                          ) [Designator]
+                                        ) [FactorDesignator]
+                                      ) [TermOne]
+                                    ) [ExprOne]
+                                  ) [ExprNormal]
+                                ) [StatementPrint]
+                              ) [StatementsMany]
+                              StatementPrint(
+                                ExprNormal(
+                                  ExprOne(
+                                    TermOne(
+                                      FactorDesignator(
+                                        Designator(
+                                         niz
+                                          AddOns(
+                                            NoAddOns(
+                                            ) [NoAddOns]
+                                            DesignatorAddOn(
+                                              ExprNormal(
+                                                ExprOne(
+                                                  TermOne(
+                                                    FactorNumber(
+                                                     2
+                                                    ) [FactorNumber]
+                                                  ) [TermOne]
+                                                ) [ExprOne]
+                                              ) [ExprNormal]
+                                            ) [DesignatorAddOn]
+                                          ) [AddOns]
+                                        ) [Designator]
+                                      ) [FactorDesignator]
+                                    ) [TermOne]
+                                  ) [ExprOne]
+                                ) [ExprNormal]
+                              ) [StatementPrint]
+                            ) [StatementsMany]
+                            StatementPrint(
+                              ExprNormal(
+                                ExprOne(
+                                  TermOne(
+                                    FactorDesignator(
+                                      Designator(
+                                       eol
+                                        NoAddOns(
+                                        ) [NoAddOns]
+                                      ) [Designator]
+                                    ) [FactorDesignator]
+                                  ) [TermOne]
+                                ) [ExprOne]
+                              ) [ExprNormal]
+                            ) [StatementPrint]
+                          ) [StatementsMany]
+                          StatementPrint(
+                            ExprNormal(
+                              ExprOne(
+                                TermOne(
+                                  FactorDesActPar(
+                                    Designator(
+                                     sum
+                                      NoAddOns(
+                                      ) [NoAddOns]
+                                    ) [Designator]
+                                    OptActPars(
+                                      ActParsHas(
+                                        ExprNormal(
+                                          ExprOne(
+                                            TermOne(
+                                              FactorDesActPar(
+                                                Designator(
+                                                 sum
+                                                  NoAddOns(
+                                                  ) [NoAddOns]
+                                                ) [Designator]
+                                                OptActPars(
+                                                  ActParsHas(
+                                                    ExprNormal(
+                                                      ExprOne(
+                                                        TermOne(
+                                                          FactorDesignator(
+                                                            Designator(
+                                                             niz
+                                                              AddOns(
+                                                                NoAddOns(
+                                                                ) [NoAddOns]
+                                                                DesignatorAddOn(
+                                                                  ExprNormal(
+                                                                    ExprOne(
+                                                                      TermOne(
+                                                                        FactorNumber(
+                                                                         0
+                                                                        ) [FactorNumber]
+                                                                      ) [TermOne]
+                                                                    ) [ExprOne]
+                                                                  ) [ExprNormal]
+                                                                ) [DesignatorAddOn]
+                                                              ) [AddOns]
+                                                            ) [Designator]
+                                                          ) [FactorDesignator]
+                                                        ) [TermOne]
+                                                      ) [ExprOne]
+                                                    ) [ExprNormal]
+                                                    ActParsAddOnMany(
+                                                      ActParsAddOnNone(
+                                                      ) [ActParsAddOnNone]
+                                                      ExprNormal(
+                                                        ExprOne(
+                                                          TermOne(
+                                                            FactorDesignator(
+                                                              Designator(
+                                                               niz
+                                                                AddOns(
+                                                                  NoAddOns(
+                                                                  ) [NoAddOns]
+                                                                  DesignatorAddOn(
+                                                                    ExprNormal(
+                                                                      ExprOne(
+                                                                        TermOne(
+                                                                          FactorNumber(
+                                                                           1
+                                                                          ) [FactorNumber]
+                                                                        ) [TermOne]
+                                                                      ) [ExprOne]
+                                                                    ) [ExprNormal]
+                                                                  ) [DesignatorAddOn]
+                                                                ) [AddOns]
+                                                              ) [Designator]
+                                                            ) [FactorDesignator]
+                                                          ) [TermOne]
+                                                        ) [ExprOne]
+                                                      ) [ExprNormal]
+                                                    ) [ActParsAddOnMany]
+                                                  ) [ActParsHas]
+                                                ) [OptActPars]
+                                              ) [FactorDesActPar]
+                                            ) [TermOne]
+                                          ) [ExprOne]
+                                        ) [ExprNormal]
+                                        ActParsAddOnMany(
+                                          ActParsAddOnNone(
+                                          ) [ActParsAddOnNone]
+                                          ExprNormal(
+                                            ExprOne(
+                                              TermOne(
+                                                FactorDesignator(
+                                                  Designator(
+                                                   niz
+                                                    AddOns(
+                                                      NoAddOns(
+                                                      ) [NoAddOns]
+                                                      DesignatorAddOn(
+                                                        ExprNormal(
+                                                          ExprOne(
+                                                            TermOne(
+                                                              FactorNumber(
+                                                               2
+                                                              ) [FactorNumber]
+                                                            ) [TermOne]
+                                                          ) [ExprOne]
+                                                        ) [ExprNormal]
+                                                      ) [DesignatorAddOn]
+                                                    ) [AddOns]
+                                                  ) [Designator]
+                                                ) [FactorDesignator]
+                                              ) [TermOne]
+                                            ) [ExprOne]
+                                          ) [ExprNormal]
+                                        ) [ActParsAddOnMany]
+                                      ) [ActParsHas]
+                                    ) [OptActPars]
+                                  ) [FactorDesActPar]
+                                ) [TermOne]
+                              ) [ExprOne]
+                            ) [ExprNormal]
+                          ) [StatementPrint]
+                        ) [StatementsMany]
+                        StatementPrint(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorDesignator(
+                                  Designator(
+                                   eol
+                                    NoAddOns(
+                                    ) [NoAddOns]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [StatementPrint]
+                      ) [StatementsMany]
+                      StatementPrint(
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorDesActPar(
+                                Designator(
+                                 inkrement
+                                  NoAddOns(
+                                  ) [NoAddOns]
+                                ) [Designator]
+                                OptActPars(
+                                  ActParsHas(
+                                    ExprNormal(
+                                      ExprOne(
+                                        TermOne(
+                                          FactorDesignator(
+                                            Designator(
+                                             niz
+                                              AddOns(
+                                                NoAddOns(
+                                                ) [NoAddOns]
+                                                DesignatorAddOn(
+                                                  ExprNormal(
+                                                    ExprOne(
+                                                      TermOne(
+                                                        FactorNumber(
+                                                         2
+                                                        ) [FactorNumber]
+                                                      ) [TermOne]
+                                                    ) [ExprOne]
+                                                  ) [ExprNormal]
+                                                ) [DesignatorAddOn]
+                                              ) [AddOns]
+                                            ) [Designator]
+                                          ) [FactorDesignator]
+                                        ) [TermOne]
+                                      ) [ExprOne]
+                                    ) [ExprNormal]
+                                    ActParsAddOnMany(
+                                      ActParsAddOnNone(
+                                      ) [ActParsAddOnNone]
+                                      ExprNormal(
+                                        ExprOne(
+                                          TermOne(
+                                            FactorNumber(
+                                             2
+                                            ) [FactorNumber]
+                                          ) [TermOne]
+                                        ) [ExprOne]
+                                      ) [ExprNormal]
+                                    ) [ActParsAddOnMany]
+                                  ) [ActParsHas]
+                                ) [OptActPars]
+                              ) [FactorDesActPar]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                      ) [StatementPrint]
+                    ) [StatementsMany]
+                    StatementDesignator(
+                      DesignatorStatementIs(
+                        Designator(
+                         a
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorNumber(
+                               3
+                              ) [FactorNumber]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                      ) [DesignatorStatementIs]
+                    ) [StatementDesignator]
+                  ) [StatementsMany]
+                  StatementDesignator(
+                    DesignatorStatementIs(
+                      Designator(
+                       i
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                      ExprNormal(
+                        ExprOne(
+                          TermOne(
+                            FactorNumber(
+                             0
+                            ) [FactorNumber]
+                          ) [TermOne]
+                        ) [ExprOne]
+                      ) [ExprNormal]
+                    ) [DesignatorStatementIs]
+                  ) [StatementDesignator]
+                ) [StatementsMany]
+                StatementWhile(
+                  WhileBegin(
+                  ) [WhileBegin]
+                  WhileCondition(
+                    ConditionOne(
+                      CondTermOne(
+                        CondFactTwo(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorDesignator(
+                                  Designator(
+                                   i
+                                    NoAddOns(
+                                    ) [NoAddOns]
+                                  ) [Designator]
+                                ) [FactorDesignator]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                          RelopLT(
+                          ) [RelopLT]
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [CondFactTwo]
+                      ) [CondTermOne]
+                    ) [ConditionOne]
+                  ) [WhileCondition]
+                  StatementStatement(
+                    StatementsMany(
+                      StatementOne(
+                        StatementDesignator(
+                          DesignatorStatementIs(
+                            Designator(
+                             niz
+                              AddOns(
+                                NoAddOns(
+                                ) [NoAddOns]
+                                DesignatorAddOn(
+                                  ExprNormal(
+                                    ExprOne(
+                                      TermOne(
+                                        FactorDesignator(
+                                          Designator(
+                                           i
+                                            NoAddOns(
+                                            ) [NoAddOns]
+                                          ) [Designator]
+                                        ) [FactorDesignator]
+                                      ) [TermOne]
+                                    ) [ExprOne]
+                                  ) [ExprNormal]
+                                ) [DesignatorAddOn]
+                              ) [AddOns]
+                            ) [Designator]
+                            ExprNormal(
+                              ExprOne(
+                                TermMany(
+                                  TermMany(
+                                    TermOne(
+                                      FactorDesignator(
+                                        Designator(
+                                         niz
+                                          AddOns(
+                                            NoAddOns(
+                                            ) [NoAddOns]
+                                            DesignatorAddOn(
+                                              ExprNormal(
+                                                ExprOne(
+                                                  TermOne(
+                                                    FactorDesignator(
+                                                      Designator(
+                                                       i
+                                                        NoAddOns(
+                                                        ) [NoAddOns]
+                                                      ) [Designator]
+                                                    ) [FactorDesignator]
+                                                  ) [TermOne]
+                                                ) [ExprOne]
+                                              ) [ExprNormal]
+                                            ) [DesignatorAddOn]
+                                          ) [AddOns]
+                                        ) [Designator]
+                                      ) [FactorDesignator]
+                                    ) [TermOne]
+                                    MulopM(
+                                    ) [MulopM]
+                                    FactorNumber(
+                                     2
+                                    ) [FactorNumber]
+                                  ) [TermMany]
+                                  MulopM(
+                                  ) [MulopM]
+                                  FactorDesignator(
+                                    Designator(
+                                     a
+                                      NoAddOns(
+                                      ) [NoAddOns]
+                                    ) [Designator]
+                                  ) [FactorDesignator]
+                                ) [TermMany]
+                              ) [ExprOne]
+                            ) [ExprNormal]
+                          ) [DesignatorStatementIs]
+                        ) [StatementDesignator]
+                      ) [StatementOne]
+                      StatementDesignator(
+                        DesignatorStatementIncr(
+                          Designator(
+                           i
+                            NoAddOns(
+                            ) [NoAddOns]
+                          ) [Designator]
+                        ) [DesignatorStatementIncr]
+                      ) [StatementDesignator]
+                    ) [StatementsMany]
+                  ) [StatementStatement]
+                  WhileEnd(
+                  ) [WhileEnd]
+                ) [StatementWhile]
+              ) [StatementsMany]
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   niz
+                    AddOns(
+                      NoAddOns(
+                      ) [NoAddOns]
+                      DesignatorAddOn(
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorNumber(
+                               1
+                              ) [FactorNumber]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                      ) [DesignatorAddOn]
+                    ) [AddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNumber(
+                         6
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementsMany]
+            StatementForEach(
+              ForEachBegin(
+                Designator(
+                 niz
+                  NoAddOns(
+                  ) [NoAddOns]
+                ) [Designator]
+                Designator(
+                 curr
+                  NoAddOns(
+                  ) [NoAddOns]
+                ) [Designator]
+              ) [ForEachBegin]
+              StatementPrint(
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         curr
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [StatementPrint]
+              ForEachEnd(
+              ) [ForEachEnd]
+            ) [StatementForEach]
+          ) [StatementsMany]
+          StatementDesignator(
+            DesignatorStatementFindAndReplace(
+              Designator(
+               niz2
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              Designator(
+               niz
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              FindAndReplaceBegin(
+              ) [FindAndReplaceBegin]
+              ExprNormal(
+                ExprMany(
+                  ExprOne(
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         jedan
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                  ) [ExprOne]
+                  AddopP(
+                  ) [AddopP]
+                  TermOne(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprMany]
+              ) [ExprNormal]
+              Designator(
+               curr
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprOne(
+                  TermMany(
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         curr
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                    MulopM(
+                    ) [MulopM]
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [TermMany]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [DesignatorStatementFindAndReplace]
+          ) [StatementDesignator]
+        ) [StatementsMany]
+        StatementForEach(
+          ForEachBegin(
+            Designator(
+             niz2
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            Designator(
+             curr
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+          ) [ForEachBegin]
+          StatementPrint(
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorDesignator(
+                    Designator(
+                     curr
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [StatementPrint]
+          ForEachEnd(
+          ) [ForEachEnd]
+        ) [StatementForEach]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListMany]
+) [Program]
+INFO  21:10:00,125 - ===================================
+INFO  21:10:00,127 - Hello Var i na liniji 7
+INFO  21:10:00,128 - Hello Var ibool na liniji 8
+INFO  21:10:00,128 - Hello Var niz2 na liniji 10
+INFO  21:10:00,128 - Hello Var niz na liniji 12
+INFO  21:10:00,128 - Hello Var a na liniji 13
+INFO  21:10:00,128 - Hello Var curr na liniji 13
+INFO  21:10:00,128 - Obradjuje se funckijasum na liniji 17
+INFO  21:10:00,128 - Hello Var z na liniji 17
+INFO  21:10:00,128 - Hello Var d na liniji 17
+INFO  21:10:00,128 - 1
+INFO  21:10:00,128 - 1
+INFO  21:10:00,128 - Obradjuje se funckijainkrement na liniji 23
+INFO  21:10:00,128 - Hello Var a na liniji 23
+INFO  21:10:00,129 - Hello Var inc na liniji 23
+INFO  21:10:00,129 - Hello Var pom na liniji 24
+INFO  21:10:00,129 - usao condTermOne na liniji 26
+INFO  21:10:00,129 - 1 na liniji 26
+INFO  21:10:00,129 - usao condOne na liniji 26
+INFO  21:10:00,129 - 1 na liniji 26
+INFO  21:10:00,129 - usao condTermOne na liniji 27
+INFO  21:10:00,129 - 1 na liniji 27
+INFO  21:10:00,129 - usao condOne na liniji 27
+INFO  21:10:00,129 - 1 na liniji 27
+INFO  21:10:00,129 - usao actParsAddOnMany na liniji 13
+INFO  21:10:00,129 - 1 na liniji 13
+INFO  21:10:00,129 - usao ActParsHas na liniji 29
+INFO  21:10:00,129 - 1 na liniji 29
+INFO  21:10:00,129 - Obradjuje se funckijaverify na liniji 32
+INFO  21:10:00,129 - Obradjuje se funckijamain na liniji 37
+INFO  21:10:00,129 - usao condTermOne na liniji 40
+INFO  21:10:00,129 - 1 na liniji 40
+INFO  21:10:00,129 - usao condOne na liniji 40
+INFO  21:10:00,129 - 1 na liniji 40
+INFO  21:10:00,129 - usaoWhile
+INFO  21:10:00,129 - usao condTermOne na liniji 45
+INFO  21:10:00,129 - 1 na liniji 45
+INFO  21:10:00,129 - usao condOne na liniji 45
+INFO  21:10:00,129 - 1 na liniji 45
+INFO  21:10:00,129 - usao condTermOne na liniji 46
+INFO  21:10:00,129 - 1 na liniji 46
+INFO  21:10:00,129 - usao condOne na liniji 46
+INFO  21:10:00,129 - 1 na liniji 46
+INFO  21:10:00,129 - izaasaoWhile na liniji 45
+INFO  21:10:00,129 - 5 na liniji 49
+INFO  21:10:00,129 - usao condTermOne na liniji 49
+INFO  21:10:00,129 - 5 na liniji 49
+INFO  21:10:00,129 - usao condOne na liniji 49
+INFO  21:10:00,129 - 5 na liniji 49
+INFO  21:10:00,130 - usao condTermOne na liniji 50
+INFO  21:10:00,130 - 1 na liniji 50
+INFO  21:10:00,130 - usao condOne na liniji 50
+INFO  21:10:00,130 - 1 na liniji 50
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - usao actParsAddOnMany na liniji 20
+INFO  21:10:00,130 - 3 na liniji 20
+INFO  21:10:00,130 - usao ActParsHas na liniji 58
+INFO  21:10:00,130 - 3 na liniji 58
+ERROR 21:10:00,130 - Greska: Lose prosledjeni parametri! dsAct na liniji 58
+ERROR 21:10:00,130 - Greska: Lose prosledjeni parametri! dsAct na liniji 58
+INFO  21:10:00,130 - 1
+INFO  21:10:00,130 - 1
+INFO  21:10:00,130 - usao ActParsNone
+INFO  21:10:00,130 - 5 na liniji 59
+INFO  21:10:00,130 - usao condTermOne na liniji 59
+INFO  21:10:00,130 - 5 na liniji 59
+INFO  21:10:00,130 - niz
+INFO  21:10:00,130 - usao condTermOne na liniji 59
+INFO  21:10:00,130 - 3 na liniji 59
+INFO  21:10:00,130 - usao condOne na liniji 59
+INFO  21:10:00,130 - 3 na liniji 59
+INFO  21:10:00,130 - 5 na liniji 59
+INFO  21:10:00,130 - 3 na liniji 59
+ERROR 21:10:00,130 - Greska: Tipovi nisu jednaki!ConditionMany na liniji 59
+INFO  21:10:00,130 - usao ActParsHas na liniji 59
+INFO  21:10:00,130 - 2 na liniji 59
+INFO  21:10:00,130 - usao ActParsHas na liniji 60
+INFO  21:10:00,130 - 2 na liniji 60
+INFO  21:10:00,130 - usaoWhile
+INFO  21:10:00,130 - usao condTermOne na liniji 64
+INFO  21:10:00,130 - 1 na liniji 64
+INFO  21:10:00,130 - usao condOne na liniji 64
+INFO  21:10:00,130 - 1 na liniji 64
+INFO  21:10:00,130 - usao condTermOne na liniji 65
+INFO  21:10:00,130 - 1 na liniji 65
+INFO  21:10:00,130 - usao condOne na liniji 65
+INFO  21:10:00,130 - 1 na liniji 65
+INFO  21:10:00,130 - usao condTermOne na liniji 70
+INFO  21:10:00,130 - 1 na liniji 70
+INFO  21:10:00,130 - usao condOne na liniji 70
+INFO  21:10:00,130 - 1 na liniji 70
+INFO  21:10:00,130 - usao actParsAddOnMany na liniji 17
+INFO  21:10:00,130 - 1 na liniji 17
+INFO  21:10:00,130 - usao ActParsHas na liniji 71
+INFO  21:10:00,130 - 1 na liniji 71
+INFO  21:10:00,131 - izaasaoWhile na liniji 64
+INFO  21:10:00,131 - usao ActParsNone
+INFO  21:10:00,131 - 5 na liniji 74
+INFO  21:10:00,131 - usao condTermOne na liniji 74
+INFO  21:10:00,131 - 5 na liniji 74
+INFO  21:10:00,131 - usao condOne na liniji 74
+INFO  21:10:00,131 - 5 na liniji 74
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - usao actParsAddOnMany na liniji 21
+INFO  21:10:00,131 - 3 na liniji 21
+INFO  21:10:00,131 - usao ActParsHas na liniji 88
+INFO  21:10:00,131 - 3 na liniji 88
+ERROR 21:10:00,131 - Greska: Lose prosledjeni parametri! dsAct na liniji 88
+ERROR 21:10:00,131 - Greska: Lose prosledjeni parametri! dsAct na liniji 88
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - usao actParsAddOnMany na liniji 30
+INFO  21:10:00,131 - 3 na liniji 30
+INFO  21:10:00,131 - usao ActParsHas na liniji 88
+INFO  21:10:00,131 - 1 na liniji 88
+ERROR 21:10:00,131 - Greska: Lose prosledjeni parametri! dsAct na liniji 88
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - usao actParsAddOnMany na liniji 23
+INFO  21:10:00,131 - 1 na liniji 23
+INFO  21:10:00,131 - usao ActParsHas na liniji 91
+INFO  21:10:00,131 - 3 na liniji 91
+ERROR 21:10:00,131 - Greska: Lose prosledjeni parametri! dsAct na liniji 91
+INFO  21:10:00,131 - usaoWhile
+INFO  21:10:00,131 - usao condTermOne na liniji 95
+INFO  21:10:00,131 - 1 na liniji 95
+INFO  21:10:00,131 - usao condOne na liniji 95
+INFO  21:10:00,131 - 1 na liniji 95
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - izaasaoWhile na liniji 95
+INFO  21:10:00,131 - niz
+INFO  21:10:00,131 - usaoForeach na liniji 100
+INFO  21:10:00,131 - 1
+INFO  21:10:00,131 - 1
+INFO  21:10:00,132 - usaoForeach na liniji 102
+INFO  21:10:00,135 - 2
+INFO  21:10:00,135 - 2
+INFO  21:10:00,135 - 2
+INFO  21:10:00,135 - 3
+INFO  21:10:00,135 - sum
+INFO  21:10:00,135 - 0
+INFO  21:10:00,135 - 0
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - sum
+INFO  21:10:00,136 - verify
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - ord
+INFO  21:10:00,136 - ord
+INFO  21:10:00,136 - inkrement
+INFO  21:10:00,136 - verify
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - sum
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - sum
+INFO  21:10:00,136 - USAO2
+INFO  21:10:00,136 - inkrement
+INFO  21:10:00,136 - USAO2
