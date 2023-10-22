@@ -1,0 +1,47 @@
+INFO  20:39:54,502 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  20:39:54,513 - #2 program
+INFO  20:39:54,513 - #18 MJProgram
+INFO  20:39:54,513 - #3 const
+INFO  20:39:54,514 - #18 int
+INFO  20:39:54,514 - #18 u
+INFO  20:39:54,515 - #11 =
+INFO  20:39:54,515 - #17 23
+INFO  20:39:54,515 - #14 ,
+INFO  20:39:54,516 - #18 n
+INFO  20:39:54,516 - #11 =
+INFO  20:39:54,516 - #17 44
+INFO  20:39:54,516 - #6 ;
+INFO  20:39:54,517 - #3 const
+INFO  20:39:54,518 - #18 char
+INFO  20:39:54,519 - #18 k
+INFO  20:39:54,519 - #11 =
+INFO  20:39:54,519 - #20 a
+INFO  20:39:54,519 - #14 ,
+INFO  20:39:54,520 - #18 l
+INFO  20:39:54,520 - #11 =
+INFO  20:39:54,520 - #20 v
+INFO  20:39:54,520 - #6 ;
+INFO  20:39:54,521 - #18 int
+INFO  20:39:54,521 - #18 a
+INFO  20:39:54,521 - #10 [
+INFO  20:39:54,521 - #9 ]
+INFO  20:39:54,521 - #10 [
+INFO  20:39:54,521 - #9 ]
+INFO  20:39:54,521 - #14 ,
+INFO  20:39:54,522 - #18 b
+INFO  20:39:54,522 - #14 ,
+INFO  20:39:54,522 - #18 c
+INFO  20:39:54,522 - #10 [
+INFO  20:39:54,522 - #9 ]
+INFO  20:39:54,522 - #6 ;
+INFO  20:39:54,523 - #18 char
+INFO  20:39:54,524 - #18 x
+INFO  20:39:54,524 - #14 ,
+INFO  20:39:54,524 - #18 y
+INFO  20:39:54,524 - #6 ;
+INFO  20:39:54,524 - #4 {
+INFO  20:39:54,524 - #18 intghffghj
+INFO  20:39:54,524 - #5 }
+ERROR 20:39:54,524 - 
+Sintaksna greska na liniji 8
+ERROR 20:39:54,525 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

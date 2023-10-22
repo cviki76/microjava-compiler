@@ -1,0 +1,221 @@
+INFO  04:49:34,654 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  04:49:34,678 - #2 program
+INFO  04:49:34,678 - #44 MJProgram
+INFO  04:49:34,678 - #44 int
+INFO  04:49:34,678 - #44 x
+INFO  04:49:34,679 - #6 ;
+INFO  04:49:34,679 - #44 int
+INFO  04:49:34,680 - #44 y
+INFO  04:49:34,680 - #6 ;
+INFO  04:49:34,680 - #4 {
+INFO  04:49:34,680 - #44 int
+INFO  04:49:34,680 - #44 k
+INFO  04:49:34,680 - #7 (
+INFO  04:49:34,680 - #8 )
+INFO  04:49:34,680 - #44 int
+INFO  04:49:34,681 - #44 c
+INFO  04:49:34,681 - #6 ;
+INFO  04:49:34,681 - #4 {
+INFO  04:49:34,681 - #44 c
+INFO  04:49:34,681 - #11 =
+INFO  04:49:34,681 - #43 2
+INFO  04:49:34,681 - #6 ;
+INFO  04:49:34,682 - #12 return
+INFO  04:49:34,682 - #44 c
+INFO  04:49:34,683 - #13 +
+INFO  04:49:34,683 - #43 2
+INFO  04:49:34,683 - #6 ;
+INFO  04:49:34,683 - #5 }
+INFO  04:49:34,683 - #44 int
+INFO  04:49:34,684 - #44 main
+INFO  04:49:34,684 - #7 (
+INFO  04:49:34,684 - #8 )
+INFO  04:49:34,684 - #4 {
+INFO  04:49:34,684 - #16 print
+INFO  04:49:34,684 - #7 (
+INFO  04:49:34,685 - #46 w
+INFO  04:49:34,685 - #8 )
+INFO  04:49:34,685 - #6 ;
+INFO  04:49:34,685 - #16 print
+INFO  04:49:34,685 - #7 (
+INFO  04:49:34,685 - #43 2
+INFO  04:49:34,685 - #8 )
+INFO  04:49:34,685 - #6 ;
+INFO  04:49:34,685 - #12 return
+INFO  04:49:34,685 - #43 1
+INFO  04:49:34,685 - #6 ;
+INFO  04:49:34,685 - #5 }
+INFO  04:49:34,686 - #5 }
+INFO  04:49:34,692 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          OneIdent(
+            IdentOptionsElem(
+             x
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListMany(
+    MethodDeclListOne(
+      MethodDecl(
+        MethodTypeNameType(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeNameType]
+        FormParamsNone(
+        ) [FormParamsNone]
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 c
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        StatementsMany(
+          StatementOne(
+            StatementDesignator(
+              DesignatorStatementIs(
+                Designator(
+                 c
+                  NoAddOns(
+                  ) [NoAddOns]
+                ) [Designator]
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [DesignatorStatementIs]
+            ) [StatementDesignator]
+          ) [StatementOne]
+          StatementReturnExpr(
+            ExprNormal(
+              ExprMany(
+                ExprOne(
+                  TermOne(
+                    FactorDesignator(
+                      Designator(
+                       c
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermOne]
+                ) [ExprOne]
+                AddopP(
+                ) [AddopP]
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprMany]
+            ) [ExprNormal]
+          ) [StatementReturnExpr]
+        ) [StatementsMany]
+      ) [MethodDecl]
+    ) [MethodDeclListOne]
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementOne(
+            StatementPrint(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorChar(
+                     w
+                    ) [FactorChar]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+              NumConstOptNone(
+              ) [NumConstOptNone]
+            ) [StatementPrint]
+          ) [StatementOne]
+          StatementPrint(
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+            NumConstOptNone(
+            ) [NumConstOptNone]
+          ) [StatementPrint]
+        ) [StatementsMany]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListMany]
+) [Program]
+INFO  04:49:34,693 - ===================================
+INFO  04:49:34,695 - Hello Var x na liniji 2
+INFO  04:49:34,695 - Hello Var y na liniji 2
+INFO  04:49:34,696 - Obradjuje se funckijak na liniji 5
+INFO  04:49:34,696 - Hello Var c na liniji 6
+INFO  04:49:34,696 - Obradjuje se funckijamain na liniji 12
+INFO  04:49:34,698 - Usao na liniji 12

@@ -1,0 +1,209 @@
+INFO  22:09:01,919 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  22:09:01,934 - #2 program
+INFO  22:09:01,935 - #41 MJProgram
+INFO  22:09:01,935 - #3 const
+INFO  22:09:01,935 - #41 int
+INFO  22:09:01,935 - #41 u
+INFO  22:09:01,935 - #11 =
+INFO  22:09:01,936 - #40 23
+INFO  22:09:01,936 - #15 ,
+INFO  22:09:01,936 - #41 n
+INFO  22:09:01,936 - #11 =
+INFO  22:09:01,936 - #40 44
+INFO  22:09:01,936 - #6 ;
+INFO  22:09:01,936 - #3 const
+INFO  22:09:01,937 - #41 char
+INFO  22:09:01,937 - #41 k
+INFO  22:09:01,937 - #11 =
+INFO  22:09:01,937 - #43 a
+INFO  22:09:01,937 - #15 ,
+INFO  22:09:01,937 - #41 l
+INFO  22:09:01,938 - #11 =
+INFO  22:09:01,938 - #43 v
+INFO  22:09:01,938 - #6 ;
+INFO  22:09:01,938 - #41 int
+INFO  22:09:01,938 - #41 a
+INFO  22:09:01,938 - #10 [
+INFO  22:09:01,938 - #9 ]
+INFO  22:09:01,938 - #10 [
+INFO  22:09:01,938 - #9 ]
+INFO  22:09:01,938 - #15 ,
+INFO  22:09:01,939 - #41 b
+INFO  22:09:01,939 - #15 ,
+INFO  22:09:01,939 - #41 c
+INFO  22:09:01,939 - #10 [
+INFO  22:09:01,939 - #9 ]
+INFO  22:09:01,939 - #6 ;
+INFO  22:09:01,939 - #41 char
+INFO  22:09:01,940 - #41 x
+INFO  22:09:01,940 - #6 ;
+INFO  22:09:01,940 - #4 {
+INFO  22:09:01,940 - #41 int
+INFO  22:09:01,940 - #41 main
+INFO  22:09:01,940 - #7 (
+INFO  22:09:01,940 - #41 int
+INFO  22:09:01,940 - #41 a
+INFO  22:09:01,940 - #8 )
+INFO  22:09:01,940 - #4 {
+INFO  22:09:01,940 - #41 a
+INFO  22:09:01,940 - #5 }
+INFO  22:09:01,941 - #17 void
+INFO  22:09:01,941 - #41 k
+INFO  22:09:01,942 - #7 (
+INFO  22:09:01,942 - #41 char
+INFO  22:09:01,942 - #41 c
+INFO  22:09:01,942 - #10 [
+INFO  22:09:01,942 - #9 ]
+INFO  22:09:01,942 - #15 ,
+INFO  22:09:01,942 - #41 int
+INFO  22:09:01,942 - #41 b
+INFO  22:09:01,942 - #8 )
+INFO  22:09:01,942 - #4 {
+INFO  22:09:01,942 - #41 vvv
+INFO  22:09:01,942 - #5 }
+INFO  22:09:01,942 - #5 }
+INFO  22:09:01,943 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdentDerived1(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdentDerived1]
+                ) [ConstIdentOne]
+                ConstIdentDerived1(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdentDerived1(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentOne]
+              ConstIdentDerived1(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdentDerived1]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListMany(
+    MethodDeclListOne(
+      MethodDecl(
+        ReyTypeNormal(
+          Type(
+           int
+          ) [Type]
+        ) [ReyTypeNormal]
+       main
+        FormParamsOne(
+          FormParElem(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParElem]
+        ) [FormParamsOne]
+        DesignatorDerived1(
+         a
+          NoAddOns(
+          ) [NoAddOns]
+        ) [DesignatorDerived1]
+      ) [MethodDecl]
+    ) [MethodDeclListOne]
+    MethodDecl(
+      RetTypeVoid(
+      ) [RetTypeVoid]
+     k
+      FormParamsMany(
+        FormParamsOne(
+          FormParArray(
+            Type(
+             char
+            ) [Type]
+           c
+          ) [FormParArray]
+        ) [FormParamsOne]
+        FormParElem(
+          Type(
+           int
+          ) [Type]
+         b
+        ) [FormParElem]
+      ) [FormParamsMany]
+      DesignatorDerived1(
+       vvv
+        NoAddOns(
+        ) [NoAddOns]
+      ) [DesignatorDerived1]
+    ) [MethodDecl]
+  ) [MethodDeclListMany]
+) [Program]
+INFO  22:09:01,944 - ===================================

@@ -1,0 +1,204 @@
+INFO  23:13:06,880 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  23:13:06,904 - #2 program
+INFO  23:13:06,904 - #44 MJProgram
+INFO  23:13:06,904 - #44 int
+INFO  23:13:06,905 - #44 x
+INFO  23:13:06,905 - #6 ;
+INFO  23:13:06,906 - #4 {
+INFO  23:13:06,906 - #44 int
+INFO  23:13:06,906 - #44 main
+INFO  23:13:06,906 - #7 (
+INFO  23:13:06,906 - #8 )
+INFO  23:13:06,907 - #44 int
+INFO  23:13:06,907 - #44 arr
+INFO  23:13:06,907 - #10 [
+INFO  23:13:06,907 - #9 ]
+INFO  23:13:06,907 - #6 ;
+INFO  23:13:06,907 - #44 int
+INFO  23:13:06,907 - #44 x
+INFO  23:13:06,907 - #6 ;
+INFO  23:13:06,907 - #4 {
+INFO  23:13:06,907 - #44 arr
+INFO  23:13:06,907 - #10 [
+INFO  23:13:06,908 - #43 1
+INFO  23:13:06,908 - #9 ]
+INFO  23:13:06,909 - #11 =
+INFO  23:13:06,909 - #43 3
+INFO  23:13:06,909 - #6 ;
+INFO  23:13:06,910 - #44 x
+INFO  23:13:06,910 - #11 =
+INFO  23:13:06,910 - #44 arr
+INFO  23:13:06,910 - #10 [
+INFO  23:13:06,910 - #43 1
+INFO  23:13:06,910 - #9 ]
+INFO  23:13:06,910 - #13 +
+INFO  23:13:06,910 - #43 2
+INFO  23:13:06,911 - #6 ;
+INFO  23:13:06,911 - #12 return
+INFO  23:13:06,911 - #43 1
+INFO  23:13:06,911 - #6 ;
+INFO  23:13:06,911 - #5 }
+INFO  23:13:06,911 - #5 }
+INFO  23:13:06,918 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsArray(
+                 arr
+                ) [IdentOptionsArray]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementOne(
+            StatementDesignator(
+              DesignatorStatementIs(
+                Designator(
+                 arr
+                  AddOns(
+                    NoAddOns(
+                    ) [NoAddOns]
+                    DesignatorAddOn(
+                      ExprNormal(
+                        ExprOne(
+                          TermOne(
+                            FactorNumber(
+                             1
+                            ) [FactorNumber]
+                          ) [TermOne]
+                        ) [ExprOne]
+                      ) [ExprNormal]
+                    ) [DesignatorAddOn]
+                  ) [AddOns]
+                ) [Designator]
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [DesignatorStatementIs]
+            ) [StatementDesignator]
+          ) [StatementOne]
+          StatementDesignator(
+            DesignatorStatementIs(
+              Designator(
+               x
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprMany(
+                  ExprOne(
+                    TermOne(
+                      FactorDesignator(
+                        Designator(
+                         arr
+                          AddOns(
+                            NoAddOns(
+                            ) [NoAddOns]
+                            DesignatorAddOn(
+                              ExprNormal(
+                                ExprOne(
+                                  TermOne(
+                                    FactorNumber(
+                                     1
+                                    ) [FactorNumber]
+                                  ) [TermOne]
+                                ) [ExprOne]
+                              ) [ExprNormal]
+                            ) [DesignatorAddOn]
+                          ) [AddOns]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermOne]
+                  ) [ExprOne]
+                  AddopP(
+                  ) [AddopP]
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprMany]
+              ) [ExprNormal]
+            ) [DesignatorStatementIs]
+          ) [StatementDesignator]
+        ) [StatementsMany]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  23:13:06,919 - ===================================
+INFO  23:13:06,921 - Hello Var x na liniji 2
+INFO  23:13:06,921 - Obradjuje se funckijamain na liniji 4
+INFO  23:13:06,921 - Hello Var arr na liniji 5
+INFO  23:13:06,921 - Hello Var x na liniji 6
+INFO  23:13:06,922 - arr
+INFO  23:13:06,922 - arr
+ERROR 23:13:06,922 - Greska: Term ili ExprList nije celobrojan! exprMany na liniji 10

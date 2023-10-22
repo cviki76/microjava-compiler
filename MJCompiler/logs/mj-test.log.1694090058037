@@ -1,0 +1,106 @@
+INFO  14:34:08,765 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  14:34:08,788 - #2 program
+INFO  14:34:08,789 - #42 MJProgram
+INFO  14:34:08,789 - #3 const
+INFO  14:34:08,789 - #42 char
+INFO  14:34:08,789 - #42 b
+INFO  14:34:08,790 - #11 =
+INFO  14:34:08,790 - #41 1
+INFO  14:34:08,790 - #6 ;
+INFO  14:34:08,790 - #4 {
+INFO  14:34:08,791 - #17 void
+INFO  14:34:08,791 - #42 main
+INFO  14:34:08,791 - #7 (
+INFO  14:34:08,791 - #42 int
+INFO  14:34:08,791 - #42 a
+INFO  14:34:08,791 - #8 )
+INFO  14:34:08,791 - #42 int
+INFO  14:34:08,792 - #42 x
+INFO  14:34:08,792 - #6 ;
+INFO  14:34:08,792 - #4 {
+INFO  14:34:08,792 - #42 x
+INFO  14:34:08,793 - #11 =
+INFO  14:34:08,793 - #41 1
+INFO  14:34:08,829 - #6 ;
+INFO  14:34:08,830 - #5 }
+INFO  14:34:08,830 - #5 }
+INFO  14:34:08,837 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived2(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstIdentOne(
+          ConstIdent(
+           b
+            ConstValueNumber(
+             1
+            ) [ConstValueNumber]
+          ) [ConstIdent]
+        ) [ConstIdentOne]
+      ) [ConstDecl]
+    ) [OneDeclDerived2]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsOne(
+        FormParElem(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [FormParElem]
+      ) [FormParamsOne]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  14:34:08,837 - ===================================
+ERROR 14:34:08,839 - Greska: Tipovi nisu ekvivalentni ! na liniji 2
+INFO  14:34:08,840 - Obradjuje se funckijamain na liniji 4
+INFO  14:34:08,840 - Hello Var a na liniji 4
+INFO  14:34:08,840 - Hello Var x na liniji 5

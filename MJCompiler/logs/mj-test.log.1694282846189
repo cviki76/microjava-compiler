@@ -1,0 +1,563 @@
+INFO  20:07:02,380 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  20:07:02,405 - #2 program
+INFO  20:07:02,406 - #44 MJProgram
+INFO  20:07:02,406 - #3 const
+INFO  20:07:02,406 - #44 int
+INFO  20:07:02,406 - #44 u
+INFO  20:07:02,407 - #11 =
+INFO  20:07:02,407 - #43 23
+INFO  20:07:02,407 - #15 ,
+INFO  20:07:02,407 - #44 n
+INFO  20:07:02,408 - #11 =
+INFO  20:07:02,408 - #43 44
+INFO  20:07:02,408 - #6 ;
+INFO  20:07:02,408 - #3 const
+INFO  20:07:02,408 - #44 char
+INFO  20:07:02,408 - #44 k
+INFO  20:07:02,408 - #11 =
+INFO  20:07:02,409 - #46 a
+INFO  20:07:02,409 - #15 ,
+INFO  20:07:02,409 - #44 l
+INFO  20:07:02,409 - #11 =
+INFO  20:07:02,409 - #46 v
+INFO  20:07:02,409 - #6 ;
+INFO  20:07:02,410 - #44 int
+INFO  20:07:02,410 - #44 a
+INFO  20:07:02,410 - #10 [
+INFO  20:07:02,410 - #9 ]
+INFO  20:07:02,410 - #10 [
+INFO  20:07:02,410 - #9 ]
+INFO  20:07:02,410 - #15 ,
+INFO  20:07:02,410 - #44 b
+INFO  20:07:02,410 - #15 ,
+INFO  20:07:02,410 - #44 c
+INFO  20:07:02,410 - #10 [
+INFO  20:07:02,410 - #9 ]
+INFO  20:07:02,411 - #6 ;
+INFO  20:07:02,411 - #44 char
+INFO  20:07:02,411 - #44 x
+INFO  20:07:02,411 - #6 ;
+INFO  20:07:02,411 - #4 {
+INFO  20:07:02,411 - #44 int
+INFO  20:07:02,411 - #44 func
+INFO  20:07:02,411 - #7 (
+INFO  20:07:02,411 - #8 )
+INFO  20:07:02,412 - #44 int
+INFO  20:07:02,412 - #44 uu
+INFO  20:07:02,412 - #6 ;
+INFO  20:07:02,412 - #4 {
+INFO  20:07:02,412 - #44 uu
+INFO  20:07:02,412 - #11 =
+INFO  20:07:02,413 - #43 3
+INFO  20:07:02,413 - #6 ;
+INFO  20:07:02,413 - #16 print
+INFO  20:07:02,414 - #7 (
+INFO  20:07:02,414 - #44 uu
+INFO  20:07:02,414 - #8 )
+INFO  20:07:02,414 - #6 ;
+INFO  20:07:02,414 - #12 return
+INFO  20:07:02,414 - #44 uu
+INFO  20:07:02,414 - #13 +
+INFO  20:07:02,414 - #43 2
+INFO  20:07:02,415 - #6 ;
+INFO  20:07:02,415 - #5 }
+INFO  20:07:02,415 - #44 int
+INFO  20:07:02,416 - #44 main
+INFO  20:07:02,416 - #7 (
+INFO  20:07:02,416 - #8 )
+INFO  20:07:02,416 - #44 int
+INFO  20:07:02,416 - #44 w
+INFO  20:07:02,417 - #6 ;
+INFO  20:07:02,417 - #3 const
+INFO  20:07:02,417 - #44 int
+INFO  20:07:02,417 - #44 i
+INFO  20:07:02,417 - #11 =
+INFO  20:07:02,417 - #43 4
+INFO  20:07:02,417 - #6 ;
+INFO  20:07:02,418 - #44 int
+INFO  20:07:02,418 - #44 arr
+INFO  20:07:02,418 - #10 [
+INFO  20:07:02,418 - #9 ]
+INFO  20:07:02,418 - #6 ;
+INFO  20:07:02,418 - #4 {
+INFO  20:07:02,418 - #44 arr
+INFO  20:07:02,418 - #11 =
+INFO  20:07:02,418 - #19 new
+INFO  20:07:02,418 - #44 int
+INFO  20:07:02,418 - #10 [
+INFO  20:07:02,418 - #43 20
+INFO  20:07:02,418 - #9 ]
+INFO  20:07:02,418 - #6 ;
+INFO  20:07:02,419 - #44 arr
+INFO  20:07:02,419 - #10 [
+INFO  20:07:02,419 - #43 1
+INFO  20:07:02,419 - #9 ]
+INFO  20:07:02,419 - #11 =
+INFO  20:07:02,419 - #43 8
+INFO  20:07:02,419 - #6 ;
+INFO  20:07:02,420 - #44 arr
+INFO  20:07:02,420 - #10 [
+INFO  20:07:02,420 - #43 2
+INFO  20:07:02,420 - #9 ]
+INFO  20:07:02,420 - #11 =
+INFO  20:07:02,420 - #43 3
+INFO  20:07:02,420 - #6 ;
+INFO  20:07:02,420 - #16 print
+INFO  20:07:02,420 - #7 (
+INFO  20:07:02,420 - #44 arr
+INFO  20:07:02,420 - #10 [
+INFO  20:07:02,420 - #43 1
+INFO  20:07:02,420 - #9 ]
+INFO  20:07:02,420 - #8 )
+INFO  20:07:02,420 - #6 ;
+INFO  20:07:02,420 - #16 print
+INFO  20:07:02,420 - #7 (
+INFO  20:07:02,420 - #44 arr
+INFO  20:07:02,420 - #10 [
+INFO  20:07:02,420 - #43 2
+INFO  20:07:02,420 - #9 ]
+INFO  20:07:02,421 - #8 )
+INFO  20:07:02,421 - #6 ;
+INFO  20:07:02,421 - #12 return
+INFO  20:07:02,421 - #43 1
+INFO  20:07:02,421 - #6 ;
+INFO  20:07:02,421 - #5 }
+INFO  20:07:02,421 - #5 }
+INFO  20:07:02,426 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdent(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdent]
+                ) [ConstIdentOne]
+                ConstIdent(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdent]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdent(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdent]
+              ) [ConstIdentOne]
+              ConstIdent(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdent]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListMany(
+    MethodDeclListOne(
+      MethodDecl(
+        MethodTypeNameType(
+          Type(
+           int
+          ) [Type]
+         func
+        ) [MethodTypeNameType]
+        FormParamsNone(
+        ) [FormParamsNone]
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 uu
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        StatementsMany(
+          StatementsMany(
+            StatementOne(
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   uu
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementOne]
+            StatementPrint(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorDesignator(
+                      Designator(
+                       uu
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+              NumConstOptNone(
+              ) [NumConstOptNone]
+            ) [StatementPrint]
+          ) [StatementsMany]
+          StatementReturnExpr(
+            ExprNormal(
+              ExprMany(
+                ExprOne(
+                  TermOne(
+                    FactorDesignator(
+                      Designator(
+                       uu
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermOne]
+                ) [ExprOne]
+                AddopP(
+                ) [AddopP]
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprMany]
+            ) [ExprNormal]
+          ) [StatementReturnExpr]
+        ) [StatementsMany]
+      ) [MethodDecl]
+    ) [MethodDeclListOne]
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsElem(
+                   w
+                  ) [IdentOptionsElem]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentOne(
+                ConstIdent(
+                 i
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [ConstIdent]
+              ) [ConstIdentOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsArray(
+               arr
+              ) [IdentOptionsArray]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementsMany(
+            StatementsMany(
+              StatementsMany(
+                StatementOne(
+                  StatementDesignator(
+                    DesignatorStatementIs(
+                      Designator(
+                       arr
+                        NoAddOns(
+                        ) [NoAddOns]
+                      ) [Designator]
+                      ExprNormal(
+                        ExprOne(
+                          TermOne(
+                            FactorNewExpr(
+                              Type(
+                               int
+                              ) [Type]
+                              FactorNew(
+                                ExprNormal(
+                                  ExprOne(
+                                    TermOne(
+                                      FactorNumber(
+                                       20
+                                      ) [FactorNumber]
+                                    ) [TermOne]
+                                  ) [ExprOne]
+                                ) [ExprNormal]
+                              ) [FactorNew]
+                            ) [FactorNewExpr]
+                          ) [TermOne]
+                        ) [ExprOne]
+                      ) [ExprNormal]
+                    ) [DesignatorStatementIs]
+                  ) [StatementDesignator]
+                ) [StatementOne]
+                StatementDesignator(
+                  DesignatorStatementIs(
+                    Designator(
+                     arr
+                      AddOns(
+                        NoAddOns(
+                        ) [NoAddOns]
+                        DesignatorAddOn(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorNumber(
+                                 1
+                                ) [FactorNumber]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [DesignatorAddOn]
+                      ) [AddOns]
+                    ) [Designator]
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           8
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [DesignatorStatementIs]
+                ) [StatementDesignator]
+              ) [StatementsMany]
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   arr
+                    AddOns(
+                      NoAddOns(
+                      ) [NoAddOns]
+                      DesignatorAddOn(
+                        ExprNormal(
+                          ExprOne(
+                            TermOne(
+                              FactorNumber(
+                               2
+                              ) [FactorNumber]
+                            ) [TermOne]
+                          ) [ExprOne]
+                        ) [ExprNormal]
+                      ) [DesignatorAddOn]
+                    ) [AddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementsMany]
+            StatementPrint(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorDesignator(
+                      Designator(
+                       arr
+                        AddOns(
+                          NoAddOns(
+                          ) [NoAddOns]
+                          DesignatorAddOn(
+                            ExprNormal(
+                              ExprOne(
+                                TermOne(
+                                  FactorNumber(
+                                   1
+                                  ) [FactorNumber]
+                                ) [TermOne]
+                              ) [ExprOne]
+                            ) [ExprNormal]
+                          ) [DesignatorAddOn]
+                        ) [AddOns]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+              NumConstOptNone(
+              ) [NumConstOptNone]
+            ) [StatementPrint]
+          ) [StatementsMany]
+          StatementPrint(
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorDesignator(
+                    Designator(
+                     arr
+                      AddOns(
+                        NoAddOns(
+                        ) [NoAddOns]
+                        DesignatorAddOn(
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorNumber(
+                                 2
+                                ) [FactorNumber]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [DesignatorAddOn]
+                      ) [AddOns]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+            NumConstOptNone(
+            ) [NumConstOptNone]
+          ) [StatementPrint]
+        ) [StatementsMany]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListMany]
+) [Program]
+INFO  20:07:02,427 - ===================================
+INFO  20:07:02,429 - Hello Vara na liniji 4
+INFO  20:07:02,429 - Hello Var b na liniji 4
+INFO  20:07:02,429 - Hello Var c na liniji 4
+INFO  20:07:02,429 - Hello Var x na liniji 5
+INFO  20:07:02,430 - Obradjuje se funckijafunc na liniji 8
+INFO  20:07:02,430 - Hello Var uu na liniji 9
+INFO  20:07:02,430 - Obradjuje se funckijamain na liniji 17
+INFO  20:07:02,430 - Hello Var w na liniji 18
+INFO  20:07:02,430 - Hello Var arr na liniji 20
+INFO  20:07:02,433 - 0
+INFO  20:07:02,433 - 1
+INFO  20:07:02,433 - Usao na liniji 17
+INFO  20:07:02,433 - 0
+INFO  20:07:02,433 - 3

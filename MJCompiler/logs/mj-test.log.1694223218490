@@ -1,0 +1,234 @@
+INFO  03:33:19,655 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  03:33:19,682 - #2 program
+INFO  03:33:19,682 - #44 MJProgram
+INFO  03:33:19,682 - #3 const
+INFO  03:33:19,683 - #44 int
+INFO  03:33:19,683 - #44 u
+INFO  03:33:19,684 - #11 =
+INFO  03:33:19,684 - #43 23
+INFO  03:33:19,684 - #15 ,
+INFO  03:33:19,684 - #44 n
+INFO  03:33:19,684 - #11 =
+INFO  03:33:19,685 - #43 44
+INFO  03:33:19,685 - #6 ;
+INFO  03:33:19,685 - #3 const
+INFO  03:33:19,685 - #44 char
+INFO  03:33:19,685 - #44 k
+INFO  03:33:19,686 - #11 =
+INFO  03:33:19,686 - #46 a
+INFO  03:33:19,686 - #15 ,
+INFO  03:33:19,686 - #44 l
+INFO  03:33:19,686 - #11 =
+INFO  03:33:19,686 - #46 v
+INFO  03:33:19,686 - #6 ;
+INFO  03:33:19,687 - #44 int
+INFO  03:33:19,687 - #44 a
+INFO  03:33:19,687 - #10 [
+INFO  03:33:19,687 - #9 ]
+INFO  03:33:19,687 - #10 [
+INFO  03:33:19,687 - #9 ]
+INFO  03:33:19,687 - #15 ,
+INFO  03:33:19,687 - #44 b
+INFO  03:33:19,687 - #15 ,
+INFO  03:33:19,688 - #44 c
+INFO  03:33:19,688 - #10 [
+INFO  03:33:19,688 - #9 ]
+INFO  03:33:19,688 - #6 ;
+INFO  03:33:19,688 - #44 char
+INFO  03:33:19,688 - #44 x
+INFO  03:33:19,689 - #6 ;
+INFO  03:33:19,689 - #4 {
+INFO  03:33:19,689 - #44 int
+INFO  03:33:19,689 - #44 main
+INFO  03:33:19,689 - #7 (
+INFO  03:33:19,689 - #44 int
+INFO  03:33:19,689 - #44 a
+INFO  03:33:19,689 - #8 )
+INFO  03:33:19,689 - #44 int
+INFO  03:33:19,689 - #44 a
+INFO  03:33:19,689 - #6 ;
+INFO  03:33:19,690 - #3 const
+INFO  03:33:19,690 - #44 int
+INFO  03:33:19,690 - #44 i
+INFO  03:33:19,690 - #11 =
+INFO  03:33:19,690 - #43 4
+INFO  03:33:19,690 - #6 ;
+INFO  03:33:19,690 - #4 {
+INFO  03:33:19,690 - #16 print
+INFO  03:33:19,690 - #7 (
+INFO  03:33:19,690 - #43 1
+INFO  03:33:19,690 - #8 )
+INFO  03:33:19,691 - #6 ;
+INFO  03:33:19,691 - #5 }
+INFO  03:33:19,691 - #5 }
+INFO  03:33:19,699 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdent(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdent]
+                ) [ConstIdentOne]
+                ConstIdent(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdent]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdent(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdent]
+              ) [ConstIdentOne]
+              ConstIdent(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdent]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsOne(
+        FormParElem(
+          Type(
+           int
+          ) [Type]
+         a
+        ) [FormParElem]
+      ) [FormParamsOne]
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 a
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstIdentOne(
+              ConstIdent(
+               i
+                ConstValueNumber(
+                 4
+                ) [ConstValueNumber]
+              ) [ConstIdent]
+            ) [ConstIdentOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      StatementOne(
+        StatementPrint(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+          NumConstOptNone(
+          ) [NumConstOptNone]
+        ) [StatementPrint]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  03:33:19,699 - ===================================
+INFO  03:33:19,702 - Hello Vara na liniji 4
+INFO  03:33:19,702 - Hello Var b na liniji 4
+INFO  03:33:19,702 - Hello Var c na liniji 4
+INFO  03:33:19,703 - Hello Var x na liniji 5
+INFO  03:33:19,704 - Obradjuje se funckijamain na liniji 7
+INFO  03:33:19,704 - Hello Var a na liniji 7
+INFO  03:33:19,704 - Hello Var a na liniji 8
+ERROR 03:33:19,704 - Nije pronadjena return naredba na liniji 7
+ERROR 03:33:19,704 - Main ne postoji! na liniji 1

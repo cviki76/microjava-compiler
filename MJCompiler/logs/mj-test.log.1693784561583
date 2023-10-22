@@ -1,0 +1,38 @@
+INFO  01:42:21,098 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  01:42:21,104 - #2 program
+INFO  01:42:21,104 - #15 MJProgram
+INFO  01:42:21,104 - #15 char
+INFO  01:42:21,105 - #15 x
+INFO  01:42:21,105 - #11 ,
+INFO  01:42:21,105 - #15 y
+INFO  01:42:21,105 - #5 ;
+INFO  01:42:21,105 - #3 {
+INFO  01:42:21,106 - #15 Hello
+INFO  01:42:21,106 - #4 }
+INFO  01:42:21,107 - Program(
+ MJProgram
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        IdentListOneAndMore(
+          OneIdent(
+           x
+          ) [OneIdent]
+         y
+        ) [IdentListOneAndMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclList(
+   Hello
+  ) [MethodDeclList]
+) [Program]
+INFO  01:42:21,107 - ===================================
+INFO  01:42:21,108 - Ide2
+INFO  01:42:21,108 - Ide1
+INFO  01:42:21,108 - Radi Program

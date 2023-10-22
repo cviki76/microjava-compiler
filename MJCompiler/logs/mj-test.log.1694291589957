@@ -1,0 +1,178 @@
+INFO  22:31:34,272 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  22:31:34,298 - #2 program
+INFO  22:31:34,298 - #44 MJProgram
+INFO  22:31:34,298 - #3 const
+INFO  22:31:34,299 - #44 int
+INFO  22:31:34,299 - #44 h
+INFO  22:31:34,300 - #11 =
+INFO  22:31:34,300 - #43 0
+INFO  22:31:34,300 - #6 ;
+INFO  22:31:34,301 - #44 int
+INFO  22:31:34,301 - #44 j
+INFO  22:31:34,301 - #6 ;
+INFO  22:31:34,301 - #4 {
+INFO  22:31:34,302 - #17 void
+INFO  22:31:34,302 - #44 main
+INFO  22:31:34,302 - #7 (
+INFO  22:31:34,302 - #8 )
+INFO  22:31:34,302 - #44 int
+INFO  22:31:34,303 - #44 arr
+INFO  22:31:34,303 - #10 [
+INFO  22:31:34,303 - #9 ]
+INFO  22:31:34,303 - #6 ;
+INFO  22:31:34,303 - #44 int
+INFO  22:31:34,303 - #44 y
+INFO  22:31:34,303 - #6 ;
+INFO  22:31:34,303 - #44 int
+INFO  22:31:34,304 - #44 x
+INFO  22:31:34,304 - #6 ;
+INFO  22:31:34,304 - #4 {
+INFO  22:31:34,304 - #44 y
+INFO  22:31:34,304 - #11 =
+INFO  22:31:34,304 - #43 2
+INFO  22:31:34,304 - #6 ;
+INFO  22:31:34,305 - #16 print
+INFO  22:31:34,305 - #7 (
+INFO  22:31:34,305 - #44 y
+INFO  22:31:34,305 - #8 )
+INFO  22:31:34,306 - #6 ;
+INFO  22:31:34,306 - #5 }
+INFO  22:31:34,306 - #5 }
+INFO  22:31:34,313 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      OneDeclDerived2(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstIdentOne(
+            ConstIdent(
+             h
+              ConstValueNumber(
+               0
+              ) [ConstValueNumber]
+            ) [ConstIdent]
+          ) [ConstIdentOne]
+        ) [ConstDecl]
+      ) [OneDeclDerived2]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           j
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsArray(
+                   arr
+                  ) [IdentOptionsArray]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 y
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementOne(
+          StatementDesignator(
+            DesignatorStatementIs(
+              Designator(
+               y
+                NoAddOns(
+                ) [NoAddOns]
+              ) [Designator]
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+            ) [DesignatorStatementIs]
+          ) [StatementDesignator]
+        ) [StatementOne]
+        StatementPrint(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorDesignator(
+                  Designator(
+                   y
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                ) [FactorDesignator]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+          NumConstOptNone(
+          ) [NumConstOptNone]
+        ) [StatementPrint]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  22:31:34,314 - ===================================
+INFO  22:31:34,316 - Hello Var j na liniji 3
+INFO  22:31:34,317 - Obradjuje se funckijamain na liniji 5
+INFO  22:31:34,317 - Hello Var arr na liniji 6
+INFO  22:31:34,317 - Hello Var y na liniji 7
+INFO  22:31:34,317 - Hello Var x na liniji 8
+INFO  22:31:34,320 - SSSSSSSSSSSSSSSS
+INFO  22:31:34,320 - xxxxxxxxxxxxxxx

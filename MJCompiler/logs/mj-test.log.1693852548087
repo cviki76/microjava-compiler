@@ -1,0 +1,146 @@
+INFO  20:34:09,778 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  20:34:09,792 - #2 program
+INFO  20:34:09,792 - #18 MJProgram
+INFO  20:34:09,792 - #3 const
+INFO  20:34:09,793 - #18 int
+INFO  20:34:09,793 - #18 u
+INFO  20:34:09,794 - #11 =
+INFO  20:34:09,794 - #17 23
+INFO  20:34:09,794 - #14 ,
+INFO  20:34:09,794 - #18 n
+INFO  20:34:09,795 - #11 =
+INFO  20:34:09,795 - #17 44
+INFO  20:34:09,795 - #6 ;
+INFO  20:34:09,795 - #3 const
+INFO  20:34:09,796 - #18 char
+INFO  20:34:09,796 - #18 k
+INFO  20:34:09,796 - #11 =
+INFO  20:34:09,797 - #20 a
+INFO  20:34:09,797 - #14 ,
+INFO  20:34:09,797 - #18 l
+INFO  20:34:09,797 - #11 =
+INFO  20:34:09,797 - #20 v
+INFO  20:34:09,797 - #6 ;
+INFO  20:34:09,799 - #18 int
+INFO  20:34:09,799 - #18 a
+INFO  20:34:09,799 - #10 [
+INFO  20:34:09,800 - #9 ]
+INFO  20:34:09,800 - #10 [
+INFO  20:34:09,800 - #9 ]
+INFO  20:34:09,800 - #14 ,
+INFO  20:34:09,800 - #18 b
+INFO  20:34:09,800 - #14 ,
+INFO  20:34:09,800 - #18 c
+INFO  20:34:09,800 - #10 [
+INFO  20:34:09,800 - #9 ]
+INFO  20:34:09,800 - #6 ;
+INFO  20:34:09,801 - #18 char
+INFO  20:34:09,802 - #18 x
+INFO  20:34:09,802 - #14 ,
+INFO  20:34:09,802 - #18 y
+INFO  20:34:09,802 - #6 ;
+INFO  20:34:09,802 - #4 {
+INFO  20:34:09,802 - #18 yyyy
+INFO  20:34:09,802 - #5 }
+INFO  20:34:09,804 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdentDerived1(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdentDerived1]
+                ) [ConstIdentOne]
+                ConstIdentDerived1(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdentDerived1(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentOne]
+              ConstIdentDerived1(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdentDerived1]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             x
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclList(
+   yyyy
+  ) [MethodDeclList]
+) [Program]
+INFO  20:34:09,805 - ===================================
