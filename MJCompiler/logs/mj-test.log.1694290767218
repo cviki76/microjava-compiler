@@ -1,0 +1,109 @@
+INFO  22:18:58,838 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  22:18:58,863 - #2 program
+INFO  22:18:58,863 - #44 MJProgram
+INFO  22:18:58,863 - #4 {
+INFO  22:18:58,864 - #44 int
+INFO  22:18:58,864 - #44 main
+INFO  22:18:58,864 - #7 (
+INFO  22:18:58,864 - #8 )
+INFO  22:18:58,865 - #44 int
+INFO  22:18:58,865 - #44 arr
+INFO  22:18:58,865 - #10 [
+INFO  22:18:58,865 - #9 ]
+INFO  22:18:58,865 - #6 ;
+INFO  22:18:58,865 - #44 int
+INFO  22:18:58,866 - #44 y
+INFO  22:18:58,866 - #6 ;
+INFO  22:18:58,866 - #44 int
+INFO  22:18:58,866 - #44 x
+INFO  22:18:58,866 - #6 ;
+INFO  22:18:58,866 - #4 {
+INFO  22:18:58,866 - #12 return
+INFO  22:18:58,866 - #43 1
+INFO  22:18:58,866 - #6 ;
+INFO  22:18:58,867 - #5 }
+INFO  22:18:58,867 - #5 }
+INFO  22:18:58,874 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDeclarationList(
+  ) [NoDeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsArray(
+                   arr
+                  ) [IdentOptionsArray]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 y
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  22:18:58,874 - ===================================
+INFO  22:18:58,877 - Obradjuje se funckijamain na liniji 3
+INFO  22:18:58,877 - Hello Var arr na liniji 4
+INFO  22:18:58,877 - Hello Var y na liniji 5
+INFO  22:18:58,877 - Hello Var x na liniji 6
+INFO  22:18:58,879 - Usao na liniji 3
+INFO  22:18:58,879 - 0
+INFO  22:18:58,880 - 3

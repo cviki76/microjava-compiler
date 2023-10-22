@@ -1,0 +1,111 @@
+INFO  13:29:38,210 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  13:29:38,239 - #2 program
+INFO  13:29:38,239 - #42 MJProgram
+INFO  13:29:38,239 - #42 int
+INFO  13:29:38,240 - #42 a
+INFO  13:29:38,240 - #6 ;
+INFO  13:29:38,240 - #42 int
+INFO  13:29:38,241 - #42 b
+INFO  13:29:38,241 - #6 ;
+INFO  13:29:38,241 - #4 {
+INFO  13:29:38,241 - #42 int
+INFO  13:29:38,241 - #42 main
+INFO  13:29:38,241 - #7 (
+INFO  13:29:38,241 - #8 )
+INFO  13:29:38,242 - #42 int
+INFO  13:29:38,242 - #42 x
+INFO  13:29:38,242 - #6 ;
+INFO  13:29:38,242 - #4 {
+INFO  13:29:38,242 - #42 x
+INFO  13:29:38,242 - #11 =
+INFO  13:29:38,243 - #41 2
+INFO  13:29:38,243 - #6 ;
+INFO  13:29:38,243 - #5 }
+INFO  13:29:38,243 - #5 }
+INFO  13:29:38,252 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           b
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  13:29:38,253 - ===================================
+INFO  13:29:38,255 - Helloint na liniji 2
+INFO  13:29:38,255 - Helloint na liniji 3
+INFO  13:29:38,255 - Helloint na liniji 6

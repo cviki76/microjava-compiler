@@ -1,0 +1,30 @@
+program MJProgram
+	const bool b = true;
+{
+
+		
+	int func(int a,char w,bool c)
+	char ww;
+	{
+		return 1;
+	}
+
+	void main()
+	int y;
+	bool u;
+	char cu;
+	char x[];
+	{
+		//b = false;
+		y = func(1,'c',true);
+		y = func(1,'c');
+		
+		u = x.findAny(3);
+		
+		x = x.findAndReplace(3,cu => 4);
+		
+		read(x[1]);
+		print(x[1]);
+	}	
+	
+}

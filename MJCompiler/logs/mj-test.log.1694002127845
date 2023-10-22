@@ -1,0 +1,112 @@
+INFO  14:07:39,958 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  14:07:39,982 - #2 program
+INFO  14:07:39,982 - #42 MJProgram
+INFO  14:07:39,982 - #42 int
+INFO  14:07:39,983 - #42 a
+INFO  14:07:39,983 - #6 ;
+INFO  14:07:39,983 - #42 char
+INFO  14:07:39,984 - #42 b
+INFO  14:07:39,984 - #6 ;
+INFO  14:07:39,984 - #4 {
+INFO  14:07:39,984 - #42 int
+INFO  14:07:39,984 - #42 main
+INFO  14:07:39,984 - #7 (
+INFO  14:07:39,984 - #8 )
+INFO  14:07:39,985 - #42 int
+INFO  14:07:39,985 - #42 x
+INFO  14:07:39,985 - #6 ;
+INFO  14:07:39,985 - #4 {
+INFO  14:07:39,985 - #42 x
+INFO  14:07:39,985 - #11 =
+INFO  14:07:39,986 - #41 2
+INFO  14:07:39,986 - #6 ;
+INFO  14:07:39,986 - #5 }
+INFO  14:07:39,986 - #5 }
+INFO  14:07:39,992 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          OneIdent(
+            IdentOptionsElem(
+             a
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           b
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               x
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementDesignator(
+          DesignatorStatementIs(
+            Designator(
+             x
+              NoAddOns(
+              ) [NoAddOns]
+            ) [Designator]
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+          ) [DesignatorStatementIs]
+        ) [StatementDesignator]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  14:07:39,992 - ===================================
+INFO  14:07:39,994 - Helloa na liniji 2
+INFO  14:07:39,994 - Hellob na liniji 3
+INFO  14:07:39,994 - Obradjuje se funckijamain na liniji 5
+INFO  14:07:39,994 - Hellox na liniji 6

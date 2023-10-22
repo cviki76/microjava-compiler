@@ -1,0 +1,186 @@
+INFO  21:11:36,140 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  21:11:36,149 - #2 program
+INFO  21:11:36,149 - #18 MJProgram
+INFO  21:11:36,149 - #3 const
+INFO  21:11:36,150 - #18 int
+INFO  21:11:36,150 - #18 u
+INFO  21:11:36,150 - #11 =
+INFO  21:11:36,150 - #17 23
+INFO  21:11:36,150 - #14 ,
+INFO  21:11:36,151 - #18 n
+INFO  21:11:36,151 - #11 =
+INFO  21:11:36,151 - #17 44
+INFO  21:11:36,151 - #6 ;
+INFO  21:11:36,151 - #3 const
+INFO  21:11:36,152 - #18 char
+INFO  21:11:36,152 - #18 k
+INFO  21:11:36,152 - #11 =
+INFO  21:11:36,152 - #20 a
+INFO  21:11:36,152 - #14 ,
+INFO  21:11:36,152 - #18 l
+INFO  21:11:36,152 - #11 =
+INFO  21:11:36,153 - #20 v
+INFO  21:11:36,153 - #6 ;
+INFO  21:11:36,153 - #18 int
+INFO  21:11:36,153 - #18 a
+INFO  21:11:36,153 - #10 [
+INFO  21:11:36,153 - #9 ]
+INFO  21:11:36,153 - #10 [
+INFO  21:11:36,153 - #9 ]
+INFO  21:11:36,153 - #14 ,
+INFO  21:11:36,153 - #18 b
+INFO  21:11:36,154 - #14 ,
+INFO  21:11:36,154 - #18 c
+INFO  21:11:36,154 - #10 [
+INFO  21:11:36,154 - #9 ]
+INFO  21:11:36,154 - #6 ;
+INFO  21:11:36,154 - #18 char
+INFO  21:11:36,155 - #18 x
+INFO  21:11:36,155 - #14 ,
+INFO  21:11:36,155 - #18 y
+INFO  21:11:36,155 - #6 ;
+INFO  21:11:36,155 - #4 {
+INFO  21:11:36,155 - #18 int
+INFO  21:11:36,155 - #18 main
+INFO  21:11:36,155 - #7 (
+INFO  21:11:36,155 - #18 xxx
+INFO  21:11:36,155 - #8 )
+INFO  21:11:36,155 - #4 {
+INFO  21:11:36,155 - #18 yyy
+INFO  21:11:36,155 - #5 }
+INFO  21:11:36,156 - #18 int
+INFO  21:11:36,156 - #18 k
+INFO  21:11:36,156 - #7 (
+INFO  21:11:36,156 - #18 uuu
+INFO  21:11:36,156 - #8 )
+INFO  21:11:36,157 - #4 {
+INFO  21:11:36,157 - #18 vvv
+INFO  21:11:36,157 - #5 }
+INFO  21:11:36,157 - #5 }
+INFO  21:11:36,158 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdentDerived1(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdentDerived1]
+                ) [ConstIdentOne]
+                ConstIdentDerived1(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdentDerived1(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdentDerived1]
+              ) [ConstIdentOne]
+              ConstIdentDerived1(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdentDerived1]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        IdentListOneOrMore(
+          OneIdent(
+            IdentOptionsElem(
+             x
+            ) [IdentOptionsElem]
+          ) [OneIdent]
+          IdentOptionsElem(
+           y
+          ) [IdentOptionsElem]
+        ) [IdentListOneOrMore]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListMany(
+    MethodDeclListOne(
+      MethodDecl(
+        Type(
+         int
+        ) [Type]
+       main
+        FormParams(
+         xxx
+        ) [FormParams]
+        Statements(
+         yyy
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclListOne]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     k
+      FormParams(
+       uuu
+      ) [FormParams]
+      Statements(
+       vvv
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclListMany]
+) [Program]
+INFO  21:11:36,158 - ===================================

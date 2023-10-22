@@ -1,0 +1,66 @@
+INFO  01:48:16,603 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  01:48:16,609 - #2 program
+INFO  01:48:16,609 - #15 MJProgram
+INFO  01:48:16,609 - #15 char
+INFO  01:48:16,609 - #15 x
+INFO  01:48:16,610 - #11 ,
+INFO  01:48:16,610 - #15 y
+INFO  01:48:16,610 - #11 ,
+INFO  01:48:16,610 - #15 b
+INFO  01:48:16,610 - #11 ,
+INFO  01:48:16,610 - #15 c
+INFO  01:48:16,610 - #5 ;
+INFO  01:48:16,610 - #15 int
+INFO  01:48:16,611 - #15 x
+INFO  01:48:16,611 - #5 ;
+INFO  01:48:16,611 - #3 {
+INFO  01:48:16,611 - #15 Hello
+INFO  01:48:16,611 - #4 }
+INFO  01:48:16,612 - Program(
+ MJProgram
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          IdentListOneAndMore(
+            IdentListOneAndMore(
+              IdentListOneAndMore(
+                OneIdent(
+                 x
+                ) [OneIdent]
+               y
+              ) [IdentListOneAndMore]
+             b
+            ) [IdentListOneAndMore]
+           c
+          ) [IdentListOneAndMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+         x
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclList(
+   Hello
+  ) [MethodDeclList]
+) [Program]
+INFO  01:48:16,612 - ===================================
+INFO  01:48:16,613 - Ide2
+INFO  01:48:16,613 - Ide1
+INFO  01:48:16,613 - Ide1
+INFO  01:48:16,613 - Ide1
+INFO  01:48:16,613 - Ide2
+INFO  01:48:16,613 - Radi Program

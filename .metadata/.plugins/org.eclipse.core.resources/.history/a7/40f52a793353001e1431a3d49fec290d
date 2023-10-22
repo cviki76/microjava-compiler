@@ -1,0 +1,34 @@
+// Test301
+
+program test301
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+	char niz[], niz2[], a, b;
+	char nizch[];
+	
+{
+	void main()	
+		int bodovi;
+		bool br;
+	{
+		
+		niz = new char [6];
+		
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[2] = 2;
+		niz[3] = 6;
+		niz[4] = 2;
+		niz[5] = 3;
+		
+		a = niz.max;
+				
+		print(a);
+			
+	}
+}
+
+

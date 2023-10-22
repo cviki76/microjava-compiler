@@ -1,0 +1,362 @@
+INFO  16:52:08,986 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  16:52:09,011 - #2 program
+INFO  16:52:09,012 - #44 MJProgram
+INFO  16:52:09,012 - #44 int
+INFO  16:52:09,012 - #44 x
+INFO  16:52:09,013 - #6 ;
+INFO  16:52:09,013 - #4 {
+INFO  16:52:09,013 - #17 void
+INFO  16:52:09,013 - #44 main
+INFO  16:52:09,014 - #7 (
+INFO  16:52:09,014 - #8 )
+INFO  16:52:09,014 - #44 int
+INFO  16:52:09,014 - #44 arr
+INFO  16:52:09,014 - #10 [
+INFO  16:52:09,014 - #9 ]
+INFO  16:52:09,014 - #6 ;
+INFO  16:52:09,014 - #44 int
+INFO  16:52:09,014 - #44 x
+INFO  16:52:09,014 - #6 ;
+INFO  16:52:09,015 - #44 int
+INFO  16:52:09,015 - #44 y
+INFO  16:52:09,015 - #6 ;
+INFO  16:52:09,015 - #44 bool
+INFO  16:52:09,015 - #44 y
+INFO  16:52:09,015 - #6 ;
+INFO  16:52:09,015 - #4 {
+INFO  16:52:09,015 - #44 y
+INFO  16:52:09,015 - #11 =
+INFO  16:52:09,016 - #43 0
+INFO  16:52:09,016 - #6 ;
+INFO  16:52:09,016 - #33 while
+INFO  16:52:09,017 - #7 (
+INFO  16:52:09,017 - #44 y
+INFO  16:52:09,017 - #23 <=
+INFO  16:52:09,017 - #43 1
+INFO  16:52:09,018 - #8 )
+INFO  16:52:09,018 - #4 {
+INFO  16:52:09,018 - #44 x
+INFO  16:52:09,018 - #11 =
+INFO  16:52:09,018 - #43 0
+INFO  16:52:09,019 - #6 ;
+INFO  16:52:09,019 - #33 while
+INFO  16:52:09,019 - #7 (
+INFO  16:52:09,019 - #44 x
+INFO  16:52:09,019 - #22 <
+INFO  16:52:09,019 - #43 10
+INFO  16:52:09,019 - #8 )
+INFO  16:52:09,019 - #4 {
+INFO  16:52:09,019 - #16 print
+INFO  16:52:09,019 - #7 (
+INFO  16:52:09,019 - #44 x
+INFO  16:52:09,019 - #8 )
+INFO  16:52:09,020 - #6 ;
+INFO  16:52:09,020 - #44 x
+INFO  16:52:09,020 - #40 ++
+INFO  16:52:09,020 - #6 ;
+INFO  16:52:09,020 - #5 }
+INFO  16:52:09,020 - #30 break
+INFO  16:52:09,021 - #6 ;
+INFO  16:52:09,021 - #44 y
+INFO  16:52:09,021 - #40 ++
+INFO  16:52:09,021 - #6 ;
+INFO  16:52:09,021 - #5 }
+INFO  16:52:09,021 - #16 print
+INFO  16:52:09,021 - #7 (
+INFO  16:52:09,022 - #46 a
+INFO  16:52:09,022 - #8 )
+INFO  16:52:09,022 - #6 ;
+INFO  16:52:09,022 - #5 }
+INFO  16:52:09,023 - #5 }
+INFO  16:52:09,030 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              NoDeclarationList(
+              ) [NoDeclarationList]
+              OneDeclDerived1(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  OneIdent(
+                    IdentOptionsArray(
+                     arr
+                    ) [IdentOptionsArray]
+                  ) [OneIdent]
+                ) [VarDecl]
+              ) [OneDeclDerived1]
+            ) [DeclarationList]
+            OneDeclDerived1(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                OneIdent(
+                  IdentOptionsElem(
+                   x
+                  ) [IdentOptionsElem]
+                ) [OneIdent]
+              ) [VarDecl]
+            ) [OneDeclDerived1]
+          ) [DeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 y
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               y
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementOne(
+            StatementDesignator(
+              DesignatorStatementIs(
+                Designator(
+                 y
+                  NoAddOns(
+                  ) [NoAddOns]
+                ) [Designator]
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorNumber(
+                       0
+                      ) [FactorNumber]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [DesignatorStatementIs]
+            ) [StatementDesignator]
+          ) [StatementOne]
+          StatementWhile(
+            WhileBegin(
+            ) [WhileBegin]
+            WhileCondition(
+              ConditionOne(
+                CondTermOne(
+                  CondFactTwo(
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorDesignator(
+                            Designator(
+                             y
+                              NoAddOns(
+                              ) [NoAddOns]
+                            ) [Designator]
+                          ) [FactorDesignator]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                    RelopLTE(
+                    ) [RelopLTE]
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [CondFactTwo]
+                ) [CondTermOne]
+              ) [ConditionOne]
+            ) [WhileCondition]
+            StatementStatement(
+              StatementsMany(
+                StatementsMany(
+                  StatementsMany(
+                    StatementOne(
+                      StatementDesignator(
+                        DesignatorStatementIs(
+                          Designator(
+                           x
+                            NoAddOns(
+                            ) [NoAddOns]
+                          ) [Designator]
+                          ExprNormal(
+                            ExprOne(
+                              TermOne(
+                                FactorNumber(
+                                 0
+                                ) [FactorNumber]
+                              ) [TermOne]
+                            ) [ExprOne]
+                          ) [ExprNormal]
+                        ) [DesignatorStatementIs]
+                      ) [StatementDesignator]
+                    ) [StatementOne]
+                    StatementWhile(
+                      WhileBegin(
+                      ) [WhileBegin]
+                      WhileCondition(
+                        ConditionOne(
+                          CondTermOne(
+                            CondFactTwo(
+                              ExprNormal(
+                                ExprOne(
+                                  TermOne(
+                                    FactorDesignator(
+                                      Designator(
+                                       x
+                                        NoAddOns(
+                                        ) [NoAddOns]
+                                      ) [Designator]
+                                    ) [FactorDesignator]
+                                  ) [TermOne]
+                                ) [ExprOne]
+                              ) [ExprNormal]
+                              RelopLT(
+                              ) [RelopLT]
+                              ExprNormal(
+                                ExprOne(
+                                  TermOne(
+                                    FactorNumber(
+                                     10
+                                    ) [FactorNumber]
+                                  ) [TermOne]
+                                ) [ExprOne]
+                              ) [ExprNormal]
+                            ) [CondFactTwo]
+                          ) [CondTermOne]
+                        ) [ConditionOne]
+                      ) [WhileCondition]
+                      StatementStatement(
+                        StatementsMany(
+                          StatementOne(
+                            StatementPrint(
+                              ExprNormal(
+                                ExprOne(
+                                  TermOne(
+                                    FactorDesignator(
+                                      Designator(
+                                       x
+                                        NoAddOns(
+                                        ) [NoAddOns]
+                                      ) [Designator]
+                                    ) [FactorDesignator]
+                                  ) [TermOne]
+                                ) [ExprOne]
+                              ) [ExprNormal]
+                              NumConstOptNone(
+                              ) [NumConstOptNone]
+                            ) [StatementPrint]
+                          ) [StatementOne]
+                          StatementDesignator(
+                            DesignatorStatementIncr(
+                              Designator(
+                               x
+                                NoAddOns(
+                                ) [NoAddOns]
+                              ) [Designator]
+                            ) [DesignatorStatementIncr]
+                          ) [StatementDesignator]
+                        ) [StatementsMany]
+                      ) [StatementStatement]
+                      WhileEnd(
+                      ) [WhileEnd]
+                    ) [StatementWhile]
+                  ) [StatementsMany]
+                  StatementBreak(
+                  ) [StatementBreak]
+                ) [StatementsMany]
+                StatementDesignator(
+                  DesignatorStatementIncr(
+                    Designator(
+                     y
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                  ) [DesignatorStatementIncr]
+                ) [StatementDesignator]
+              ) [StatementsMany]
+            ) [StatementStatement]
+            WhileEnd(
+            ) [WhileEnd]
+          ) [StatementWhile]
+        ) [StatementsMany]
+        StatementPrint(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorChar(
+                 a
+                ) [FactorChar]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+          NumConstOptNone(
+          ) [NumConstOptNone]
+        ) [StatementPrint]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  16:52:09,030 - ===================================
+INFO  16:52:09,032 - Hello Var x na liniji 2
+INFO  16:52:09,033 - Obradjuje se funckijamain na liniji 4
+INFO  16:52:09,033 - Hello Var arr na liniji 5
+INFO  16:52:09,033 - Hello Var x na liniji 6
+INFO  16:52:09,033 - Hello Var y na liniji 7
+INFO  16:52:09,033 - Hello Var y na liniji 8
+INFO  16:52:09,033 - usaoWhile
+INFO  16:52:09,033 - usao condTermOne na liniji 14
+INFO  16:52:09,033 - 1 na liniji 14
+INFO  16:52:09,033 - usao condOne na liniji 14
+INFO  16:52:09,033 - 1 na liniji 14
+INFO  16:52:09,033 - usaoWhile
+INFO  16:52:09,033 - usao condTermOne na liniji 18
+INFO  16:52:09,033 - 1 na liniji 18
+INFO  16:52:09,033 - usao condOne na liniji 18
+INFO  16:52:09,033 - 1 na liniji 18
+INFO  16:52:09,034 - izaasaoWhile na liniji 18
+ERROR 16:52:09,034 - Greska: Nismo u Foreach ili While!StatementBreak
+INFO  16:52:09,034 - izaasaoWhile na liniji 14

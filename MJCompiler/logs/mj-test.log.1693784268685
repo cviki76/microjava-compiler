@@ -1,0 +1,30 @@
+INFO  01:34:39,287 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program.mj
+INFO  01:34:39,295 - #2 program
+INFO  01:34:39,295 - #15 MJProgram
+INFO  01:34:39,295 - #15 char
+INFO  01:34:39,295 - #15 x
+INFO  01:34:39,296 - #5 ;
+INFO  01:34:39,296 - #3 {
+INFO  01:34:39,296 - #15 Hello
+INFO  01:34:39,296 - #4 }
+INFO  01:34:39,297 - Program1(
+ MJProgram
+  DeclList1(
+    NoDeclList1(
+    ) [NoDeclList1]
+    OneDeclDerived1(
+      VarDecl1(
+        Type(
+         char
+        ) [Type]
+        OneIdent1(
+         x
+        ) [OneIdent1]
+      ) [VarDecl1]
+    ) [OneDeclDerived1]
+  ) [DeclList1]
+  MethodDeclList(
+   Hello
+  ) [MethodDeclList]
+) [Program1]
+INFO  01:34:39,297 - ===================================

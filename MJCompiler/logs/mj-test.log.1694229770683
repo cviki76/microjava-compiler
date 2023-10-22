@@ -1,0 +1,290 @@
+INFO  05:10:38,138 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program3.mj
+INFO  05:10:38,163 - #2 program
+INFO  05:10:38,163 - #44 MJProgram
+INFO  05:10:38,163 - #3 const
+INFO  05:10:38,164 - #44 int
+INFO  05:10:38,164 - #44 u
+INFO  05:10:38,164 - #11 =
+INFO  05:10:38,164 - #43 23
+INFO  05:10:38,164 - #15 ,
+INFO  05:10:38,165 - #44 n
+INFO  05:10:38,165 - #11 =
+INFO  05:10:38,165 - #43 44
+INFO  05:10:38,165 - #6 ;
+INFO  05:10:38,165 - #3 const
+INFO  05:10:38,166 - #44 char
+INFO  05:10:38,166 - #44 k
+INFO  05:10:38,166 - #11 =
+INFO  05:10:38,166 - #46 a
+INFO  05:10:38,166 - #15 ,
+INFO  05:10:38,166 - #44 l
+INFO  05:10:38,166 - #11 =
+INFO  05:10:38,166 - #46 v
+INFO  05:10:38,166 - #6 ;
+INFO  05:10:38,167 - #44 int
+INFO  05:10:38,167 - #44 a
+INFO  05:10:38,167 - #10 [
+INFO  05:10:38,167 - #9 ]
+INFO  05:10:38,167 - #10 [
+INFO  05:10:38,167 - #9 ]
+INFO  05:10:38,167 - #15 ,
+INFO  05:10:38,167 - #44 b
+INFO  05:10:38,167 - #15 ,
+INFO  05:10:38,168 - #44 c
+INFO  05:10:38,168 - #10 [
+INFO  05:10:38,168 - #9 ]
+INFO  05:10:38,168 - #6 ;
+INFO  05:10:38,168 - #44 char
+INFO  05:10:38,168 - #44 x
+INFO  05:10:38,168 - #6 ;
+INFO  05:10:38,169 - #4 {
+INFO  05:10:38,169 - #44 int
+INFO  05:10:38,169 - #44 main
+INFO  05:10:38,169 - #7 (
+INFO  05:10:38,169 - #8 )
+INFO  05:10:38,169 - #44 int
+INFO  05:10:38,169 - #44 w
+INFO  05:10:38,169 - #6 ;
+INFO  05:10:38,169 - #3 const
+INFO  05:10:38,169 - #44 int
+INFO  05:10:38,169 - #44 i
+INFO  05:10:38,170 - #11 =
+INFO  05:10:38,170 - #43 4
+INFO  05:10:38,170 - #6 ;
+INFO  05:10:38,170 - #4 {
+INFO  05:10:38,170 - #44 w
+INFO  05:10:38,170 - #11 =
+INFO  05:10:38,171 - #43 3
+INFO  05:10:38,171 - #6 ;
+INFO  05:10:38,171 - #16 print
+INFO  05:10:38,171 - #7 (
+INFO  05:10:38,171 - #43 1
+INFO  05:10:38,171 - #8 )
+INFO  05:10:38,172 - #6 ;
+INFO  05:10:38,172 - #16 print
+INFO  05:10:38,172 - #7 (
+INFO  05:10:38,172 - #44 w
+INFO  05:10:38,172 - #8 )
+INFO  05:10:38,172 - #6 ;
+INFO  05:10:38,172 - #12 return
+INFO  05:10:38,173 - #43 1
+INFO  05:10:38,173 - #6 ;
+INFO  05:10:38,174 - #5 }
+INFO  05:10:38,174 - #5 }
+INFO  05:10:38,181 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived2(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdentMoreThanOne(
+                ConstIdentOne(
+                  ConstIdent(
+                   u
+                    ConstValueNumber(
+                     23
+                    ) [ConstValueNumber]
+                  ) [ConstIdent]
+                ) [ConstIdentOne]
+                ConstIdent(
+                 n
+                  ConstValueNumber(
+                   44
+                  ) [ConstValueNumber]
+                ) [ConstIdent]
+              ) [ConstIdentMoreThanOne]
+            ) [ConstDecl]
+          ) [OneDeclDerived2]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstIdentMoreThanOne(
+              ConstIdentOne(
+                ConstIdent(
+                 k
+                  ConstValueChar(
+                   a
+                  ) [ConstValueChar]
+                ) [ConstIdent]
+              ) [ConstIdentOne]
+              ConstIdent(
+               l
+                ConstValueChar(
+                 v
+                ) [ConstValueChar]
+              ) [ConstIdent]
+            ) [ConstIdentMoreThanOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      OneDeclDerived1(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          IdentListOneOrMore(
+            IdentListOneOrMore(
+              OneIdent(
+                IdentOptionsMatrix(
+                 a
+                ) [IdentOptionsMatrix]
+              ) [OneIdent]
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [IdentListOneOrMore]
+            IdentOptionsArray(
+             c
+            ) [IdentOptionsArray]
+          ) [IdentListOneOrMore]
+        ) [VarDecl]
+      ) [OneDeclDerived1]
+    ) [DeclarationList]
+    OneDeclDerived1(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        OneIdent(
+          IdentOptionsElem(
+           x
+          ) [IdentOptionsElem]
+        ) [OneIdent]
+      ) [VarDecl]
+    ) [OneDeclDerived1]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeNameType]
+      FormParamsNone(
+      ) [FormParamsNone]
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 w
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived2(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstIdentOne(
+              ConstIdent(
+               i
+                ConstValueNumber(
+                 4
+                ) [ConstValueNumber]
+              ) [ConstIdent]
+            ) [ConstIdentOne]
+          ) [ConstDecl]
+        ) [OneDeclDerived2]
+      ) [DeclarationList]
+      StatementsMany(
+        StatementsMany(
+          StatementsMany(
+            StatementOne(
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   w
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementOne]
+            StatementPrint(
+              ExprNormal(
+                ExprOne(
+                  TermOne(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermOne]
+                ) [ExprOne]
+              ) [ExprNormal]
+              NumConstOptNone(
+              ) [NumConstOptNone]
+            ) [StatementPrint]
+          ) [StatementsMany]
+          StatementPrint(
+            ExprNormal(
+              ExprOne(
+                TermOne(
+                  FactorDesignator(
+                    Designator(
+                     w
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermOne]
+              ) [ExprOne]
+            ) [ExprNormal]
+            NumConstOptNone(
+            ) [NumConstOptNone]
+          ) [StatementPrint]
+        ) [StatementsMany]
+        StatementReturnExpr(
+          ExprNormal(
+            ExprOne(
+              TermOne(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermOne]
+            ) [ExprOne]
+          ) [ExprNormal]
+        ) [StatementReturnExpr]
+      ) [StatementsMany]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  05:10:38,181 - ===================================
+INFO  05:10:38,183 - Hello Vara na liniji 4
+INFO  05:10:38,184 - Hello Var b na liniji 4
+INFO  05:10:38,184 - Hello Var c na liniji 4
+INFO  05:10:38,184 - Hello Var x na liniji 5
+INFO  05:10:38,184 - Obradjuje se funckijamain na liniji 7
+INFO  05:10:38,184 - Hello Var w na liniji 8
+INFO  05:10:38,187 - Usao na liniji 7
+INFO  05:10:38,187 - 0
+INFO  05:10:38,187 - 2

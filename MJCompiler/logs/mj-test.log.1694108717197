@@ -1,0 +1,216 @@
+INFO  19:44:59,962 - Compiling source file: F:\Desktop\PP1Project\MJCompiler\test\program2.mj
+INFO  19:44:59,987 - #2 program
+INFO  19:44:59,987 - #42 MJProgram
+INFO  19:44:59,987 - #3 const
+INFO  19:44:59,988 - #42 bool
+INFO  19:44:59,988 - #42 b
+INFO  19:44:59,988 - #11 =
+INFO  19:44:59,988 - #43 true
+INFO  19:44:59,988 - #6 ;
+INFO  19:44:59,989 - #4 {
+INFO  19:44:59,989 - #17 void
+INFO  19:44:59,989 - #42 main
+INFO  19:44:59,989 - #7 (
+INFO  19:44:59,989 - #42 bool
+INFO  19:44:59,990 - #42 a
+INFO  19:44:59,990 - #8 )
+INFO  19:44:59,990 - #42 int
+INFO  19:44:59,990 - #42 x
+INFO  19:44:59,990 - #6 ;
+INFO  19:44:59,990 - #42 bool
+INFO  19:44:59,991 - #42 b
+INFO  19:44:59,991 - #6 ;
+INFO  19:44:59,991 - #4 {
+INFO  19:44:59,991 - #26 if
+INFO  19:44:59,991 - #7 (
+INFO  19:44:59,991 - #42 a
+INFO  19:44:59,992 - #32 ||
+INFO  19:44:59,993 - #42 b
+INFO  19:44:59,993 - #8 )
+INFO  19:44:59,993 - #4 {
+INFO  19:44:59,993 - #42 x
+INFO  19:44:59,993 - #11 =
+INFO  19:44:59,994 - #41 1
+INFO  19:44:59,994 - #6 ;
+INFO  19:44:59,994 - #42 x
+INFO  19:44:59,994 - #11 =
+INFO  19:44:59,994 - #41 2
+INFO  19:44:59,994 - #6 ;
+INFO  19:44:59,994 - #5 }
+INFO  19:44:59,994 - #5 }
+INFO  19:44:59,994 - #5 }
+INFO  19:45:00,000 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarationList(
+    ) [NoDeclarationList]
+    OneDeclDerived2(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        ConstIdentOne(
+          ConstIdent(
+           b
+            ConstValueBool(
+             true
+            ) [ConstValueBool]
+          ) [ConstIdent]
+        ) [ConstIdentOne]
+      ) [ConstDecl]
+    ) [OneDeclDerived2]
+  ) [DeclarationList]
+  MethodDeclListOne(
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      FormParamsOne(
+        FormParElem(
+          Type(
+           bool
+          ) [Type]
+         a
+        ) [FormParElem]
+      ) [FormParamsOne]
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          OneDeclDerived1(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              OneIdent(
+                IdentOptionsElem(
+                 x
+                ) [IdentOptionsElem]
+              ) [OneIdent]
+            ) [VarDecl]
+          ) [OneDeclDerived1]
+        ) [DeclarationList]
+        OneDeclDerived1(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            OneIdent(
+              IdentOptionsElem(
+               b
+              ) [IdentOptionsElem]
+            ) [OneIdent]
+          ) [VarDecl]
+        ) [OneDeclDerived1]
+      ) [DeclarationList]
+      StatementOne(
+        StatementIf(
+          IfBegin(
+          ) [IfBegin]
+          ConditionMany(
+            CondTermOne(
+              CondFactOne(
+                ExprNormal(
+                  ExprOne(
+                    TermOne(
+                      FactorDesActPar(
+                        Designator(
+                         a
+                          NoAddOns(
+                          ) [NoAddOns]
+                        ) [Designator]
+                        OptActParsNone(
+                        ) [OptActParsNone]
+                      ) [FactorDesActPar]
+                    ) [TermOne]
+                  ) [ExprOne]
+                ) [ExprNormal]
+              ) [CondFactOne]
+            ) [CondTermOne]
+            ConditionOne(
+              CondTermOne(
+                CondFactOne(
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorDesActPar(
+                          Designator(
+                           b
+                            NoAddOns(
+                            ) [NoAddOns]
+                          ) [Designator]
+                          OptActParsNone(
+                          ) [OptActParsNone]
+                        ) [FactorDesActPar]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [CondFactOne]
+              ) [CondTermOne]
+            ) [ConditionOne]
+          ) [ConditionMany]
+          IfEnd(
+          ) [IfEnd]
+          StatementStatement(
+            StatementsMany(
+              StatementOne(
+                StatementDesignator(
+                  DesignatorStatementIs(
+                    Designator(
+                     x
+                      NoAddOns(
+                      ) [NoAddOns]
+                    ) [Designator]
+                    ExprNormal(
+                      ExprOne(
+                        TermOne(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                        ) [TermOne]
+                      ) [ExprOne]
+                    ) [ExprNormal]
+                  ) [DesignatorStatementIs]
+                ) [StatementDesignator]
+              ) [StatementOne]
+              StatementDesignator(
+                DesignatorStatementIs(
+                  Designator(
+                   x
+                    NoAddOns(
+                    ) [NoAddOns]
+                  ) [Designator]
+                  ExprNormal(
+                    ExprOne(
+                      TermOne(
+                        FactorNumber(
+                         2
+                        ) [FactorNumber]
+                      ) [TermOne]
+                    ) [ExprOne]
+                  ) [ExprNormal]
+                ) [DesignatorStatementIs]
+              ) [StatementDesignator]
+            ) [StatementsMany]
+          ) [StatementStatement]
+        ) [StatementIf]
+      ) [StatementOne]
+    ) [MethodDecl]
+  ) [MethodDeclListOne]
+) [Program]
+INFO  19:45:00,001 - ===================================
+INFO  19:45:00,004 - Obradjuje se funckijamain na liniji 4
+INFO  19:45:00,004 - Hello Var a na liniji 4
+INFO  19:45:00,004 - Hello Var x na liniji 5
+INFO  19:45:00,004 - Hello Var b na liniji 6
+INFO  19:45:00,004 - 5 na liniji 8
+INFO  19:45:00,004 - xd2 na liniji 8
+INFO  19:45:00,004 - 5 na liniji 8
+INFO  19:45:00,004 - 5 na liniji 8
+INFO  19:45:00,004 - xd2 na liniji 8
+INFO  19:45:00,004 - 5 na liniji 8
+INFO  19:45:00,005 - 5 na liniji 8
+INFO  19:45:00,005 - 5 na liniji 8
+INFO  19:45:00,005 - 5 na liniji 8
