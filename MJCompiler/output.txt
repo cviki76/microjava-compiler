@@ -1,2 +1,0 @@
-    5
-Completion took 1 ms
